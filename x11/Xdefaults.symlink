@@ -1,0 +1,20 @@
+URxvt*font: xft:Meslo LG S DZ:style=Regular:pixelsize=10
+URxvt*background: #000000
+URxvt*foreground: #FFFFFF
+URxvt*color0: #000000
+URxvt*color1: #E52222
+URxvt*color2: #A6E32D
+URxvt*color3: #FC951E
+URxvt*color4: #C48DFF
+URxvt*color5: #FA2573
+URxvt*color6: #67D9F0
+URxvt*color7: #F2F2F2
+
+URxvt*color8: #000000
+URxvt*color9: #E52222
+URxvt*color10: #A6E32D
+URxvt*color11: #FC951E
+URxvt*color12: #C48DFF
+URxvt*color13: #FA2573
+URxvt*color14: #67D9F0
+URxvt*color15: #F2F2F2

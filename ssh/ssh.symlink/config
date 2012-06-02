@@ -1,0 +1,292 @@
+ForwardAgent yes
+
+# My workstations
+
+Host h
+  Hostname home.veldthuis.com
+  User marten
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+
+Host w
+  HostName marten.rgoc.rug.nl
+  User marten
+
+Host s
+  Hostname 192.168.1.18
+  User marten
+
+# RGOc
+
+Host x0gateway
+  Hostname r0.rgoc.rug.nl
+  Port 995
+  User mveldthuis
+
+Host x1gateway
+  Hostname 129.125.147.99
+  Port 995
+  User vyatta
+
+Host x2gateway
+  Hostname 129.125.147.100
+  Port 995
+  User vyatta
+
+Host backup
+  ProxyCommand ssh veldthuis@rsync.rgoc.nl nc -w 1 127.0.0.1 873
+
+Host x0repo
+  ProxyCommand ssh x2gateway nc -w 1 10.10.42.100 22
+  User root
+
+Host x0git
+  Hostname git.roqua.nl
+  User git
+
+Host x0irc
+  ProxyCommand ssh x0gateway nc -w 1 10.10.10.201 22
+  User root
+
+Host x0ci
+  ProxyCommand ssh x0gateway nc -w 1 10.10.10.3 22
+  User marten
+
+Host git.roqua
+  Hostname localhost
+  Port 2205
+  User git
+
+#########################################################################
+# Applicatie machines
+#########################################################################
+Host x3backup
+  Hostname 10.20.200.11
+  User root
+
+Host x4logger
+  Hostname 10.20.200.21
+  User marten
+
+Host x4backup
+  Hostname 10.20.200.12
+  User root
+
+Host x3gateway
+  Hostname r3.rgoc.rug.nl
+  Port 995
+  User mveldthuis
+
+Host r5
+  Hostname r5.rgoc.rug.nl
+  Port 995
+  User mveldthuis
+
+Host x3mirth
+  Hostname 10.20.0.101
+  User root
+
+Host x3apache
+  Hostname 10.20.1.1
+  User root
+
+Host x4apache
+  Hostname 10.20.1.2
+  User root
+
+Host app_nieuw
+  Hostname 10.20.0.251
+  User deploy
+
+Host app_rgoc_1
+  Hostname 10.20.10.1
+  User deploy
+Host app_rgoc_2
+  Hostname 10.20.10.2
+  User deploy
+
+Host app_qubyadmin
+  Hostname 10.20.10.6
+  User deploy
+
+Host app_demo_1
+  Hostname 10.20.19.1
+  User deploy
+Host app_demo_2
+  Hostname 10.20.19.2
+  User deploy
+
+Host app_mckesson_1
+  Hostname 10.20.8.1
+  User deploy
+Host app_mckesson_2
+  Hostname 10.20.8.2
+  User deploy
+
+Host app_ucp_1
+  Hostname 10.20.11.1
+  User deploy
+Host app_ucp_2
+  Hostname 10.20.11.2
+  User deploy
+
+Host app_meerkanten_1
+  Hostname 10.20.12.1
+  User deploy
+Host app_meerkanten_2
+  Hostname 10.20.12.2
+  User deploy
+
+Host app_symfora_1
+  Hostname 10.20.13.1
+  User deploy
+Host app_symfora_2
+  Hostname 10.20.13.2
+  User deploy
+
+Host app_ggzdrenthe_1
+  Hostname 10.20.14.1
+  User deploy
+Host app_ggzdrenthe_2
+  Hostname 10.20.14.2
+  User deploy
+
+Host app_ggzfriesland_1
+  Hostname 10.20.15.1
+  User deploy
+Host app_ggzfriesland_2
+  Hostname 10.20.15.2
+  User deploy
+
+Host app_lentis_1
+  Hostname 10.20.16.1
+  User deploy
+Host app_lentis_2
+  Hostname 10.20.16.2
+  User deploy
+
+Host app_ggzoostbrabant_1
+  Hostname 10.20.17.1
+  User deploy
+Host app_ggzoostbrabant_2
+  Hostname 10.20.17.2
+  User deploy
+
+Host app_accare_1
+  Hostname 10.20.18.1
+  User deploy
+Host app_accare_2
+  Hostname 10.20.18.2
+  User deploy
+
+################################ STAGING
+#
+Host stag_demo_1
+  Hostname 10.10.19.1
+  User deploy
+Host stag_demo_2
+  Hostname 10.10.19.2
+  User deploy
+
+Host stag_rgoc_1
+  Hostname 10.10.10.1
+  User deploy
+Host stag_rgoc_2
+  Hostname 10.10.10.2
+  User deploy
+
+Host stag_mckesson_1
+  Hostname 10.10.8.1
+  User deploy
+Host stag_mckesson_2
+  Hostname 10.10.8.2
+  User deploy
+
+Host stag_ucp_1
+  Hostname 10.10.11.1
+  User deploy
+Host stag_ucp_2
+  Hostname 10.10.11.2
+  User deploy
+
+Host stag_meerkanten_1
+  Hostname 10.10.12.1
+  User deploy
+Host stag_meerkanten_2
+  Hostname 10.10.12.2
+  User deploy
+
+Host stag_symfora_1
+  Hostname 10.10.13.1
+  User deploy
+Host stag_symfora_2
+  Hostname 10.10.13.2
+  User deploy
+
+Host stag_ggzdrenthe_1
+  Hostname 10.10.14.1
+  User deploy
+Host stag_ggzdrenthe_2
+  Hostname 10.10.14.2
+  User deploy
+
+Host stag_ggzfriesland_1
+  Hostname 10.10.15.1
+  User deploy
+Host stag_ggzfriesland_2
+  Hostname 10.10.15.2
+  User deploy
+
+Host stag_lentis_1
+  Hostname 10.10.16.1
+  User deploy
+Host stag_lentis_2
+  Hostname 10.10.16.2
+  User deploy
+
+Host stag_ggzoostbrabant_1
+  Hostname 10.10.17.1
+  User deploy
+Host stag_ggzoostbrabant_2
+  Hostname 10.10.17.2
+  User deploy
+
+Host stag_accare_1
+  Hostname 10.10.18.1
+  User deploy
+Host stag_accare_2
+  Hostname 10.10.18.2
+  User deploy
+
+########################## DELL
+#
+Host dell_demo_1
+  ProxyCommand ssh r5 nc -w 1 10.20.19.1 22
+  User root
+
+Host dell_demo_2
+  ProxyCommand ssh r5 nc -w 1 10.20.19.2 22
+  User root
+
+
+# University
+
+Host uni
+HostName ssh.wing.rug.nl
+User csg2053
+
+Host fmf
+HostName fmf.nl
+User marten
+
+# Hosted services
+
+Host comox
+HostName comox.textdrive.com
+User mveldthuis
+
+Host ss
+HostName strongspace.com
+User txd-mv
+

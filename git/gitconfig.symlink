@@ -1,0 +1,68 @@
+[user]
+	name = Marten Veldthuis
+	email = marten@veldthuis.com
+
+[branch]
+  autosetuprebase = always
+
+[color]
+  ui = auto
+
+[cola]
+  savewindowsettings = true
+  fontui = Bitstream Vera Sans Mono,8,-1,5,50,0,0,0,0,0
+  fontdiff = Bitstream Vera Sans Mono,8,-1,5,50,0,0,0,0,0
+	geometry = 1680x973+1280,49
+
+[giggle]
+  compact-mode = true
+	main-window-maximized = true
+	main-window-geometry = 1072x947+0+25
+	main-window-view = HistoryView
+	file-view-hpane-position = 274
+	history-view-vpane-position = 409
+	file-view-vpane-position = 533
+
+[merge]
+	tool = threesome
+
+[mergetool "threesome"]
+  cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
+  trustExitCode = true
+
+[push]
+	default = tracking
+
+[alias]
+  ci = commit            ; this stuff is just shorter
+  st = status
+  co = checkout
+  di = diff
+  dc = diff --cached
+  aa = add --all
+  amend = commit --amend
+  div = divergence       ; git-divergence is a ~/bin script
+  ff = merge --ff-only   ; if you want to make sure it won't create a merge commit
+  noff = merge --no-ff   ; if you want to make sure it does  create a merge commit
+
+  ; stolen from https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
+  l = log --graph --abbrev-commit --date=relative
+  la = !git l --all
+  ;head = !git l -1
+  h = !git head
+  r = !git --no-pager l -20
+  ra = !git r --all
+
+; stolen from https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
+[format]
+  pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+
+[github]
+	user = marten
+	token = 0aa2459c409bc1088417be75b968eaeb
+
+[core]
+	excludesfile = /home/marten/.gitignore
+[pivotal]
+	api-token = fc8e283387ab0d7f9f5f72f9478d847c
+	full-name = Marten Veldthuis

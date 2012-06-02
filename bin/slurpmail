@@ -1,0 +1,19 @@
+#!/bin/sh
+
+
+# First check for new mail. Store this to notify later on.
+NOTMUCH_MESSAGES=`/usr/local/bin/notmuch new`
+NOTMUCH_HEAD=`echo $NOTMUCH_MESSAGES | head -1`
+NOTMUCH_REST=`echo $NOTMUCH_MESSAGES | sed '1d'`
+
+# Sync maildir flags with notmuch tags
+/home/marten/bin/notmuchsync -r
+
+# Add/remove tags
+/home/marten/bin/autotag
+
+# Sync notmuch tags to maildir flags
+/usr/local/bin/notmuch new
+/home/marten/bin/notmuchsync -s
+
+notify-send "$NOTMUCH_HEAD" "$NOTMUCH_REST"

@@ -1,0 +1,2 @@
+#!/bin/sh
+rl $HOME/bin/commit_messages.txt | head -1

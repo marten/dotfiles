@@ -1,0 +1,2 @@
+#!/bin/sh
+$HOME/rgoc/devop/switch_to/bin/switch_to $@

@@ -1,0 +1,74 @@
+#!/usr/bin/env ruby
+require 'rbconfig'
+require "rubygems"
+require 'net/http'
+require 'net/https'
+require 'uri'
+require 'json'
+File.open("/home/marten/rbconf", "w") { |file| file.puts RbConfig::CONFIG.inspect }
+
+email = "marten@veldthuis.com"
+pass  = "rdam4we1"
+
+uri_login  = URI.parse('https://irccloud.com/chat/login')
+uri_stream = URI.parse('https://irccloud.com/chat/stream')
+
+
+# do login to get session cookie:
+puts 'Logging in...'
+req = Net::HTTP::Post.new(uri_login.path)
+req.set_form_data({'email' => email, 'password' => pass })
+http = Net::HTTP.new(uri_login.host, uri_login.port)
+http.use_ssl = true
+res = http.start {|http| http.request(req) } 
+case res
+when Net::HTTPSuccess, Net::HTTPRedirection
+  session = res.response['set-cookie'].split(';')[0]
+else
+  res.error!
+end
+
+eob     = {}
+servers = {}
+buffers = {}
+buffer  = ''
+# start stream
+http = Net::HTTP.new(uri_stream.host, uri_stream.port)
+http.use_ssl = true
+http.request_get(uri_stream.path, {'cookie'=>session}) {|response|
+  response.read_body do |str|
+    buffer += str
+    lines = buffer.split("\n")
+    lines.each { |line|
+      begin
+      	STDOUT.sync = true
+        ev = JSON.parse line
+        STDERR.puts ev.inspect
+        # {"bid":83392,
+        # "eid":10,
+        # "type":"buffer_msg",
+        # "time":1314296055,
+        # "highlight":true,
+        # "from":"marten_",
+        # "msg":"marten: ping!",
+        # "chan":"#test",
+        # "cid":8643}
+        #
+        if ev['type'] == "buffer_msg"
+          next if ["#xkcd"].include?(ev['chan'])
+        	important =  (    ev['chan'] =~ /^#/ and ev['highlight'] == true) or 
+        	             (not ev['chan'] =~ /^#/ and ev['from'] != "marten")
+        	output  = []
+        	output << "^fg(yellow)^bg(red)" if important
+        	output << "#{ev['chan']} <#{ev['from']}> #{ev['msg']}"
+        	output << '^fg()^bg()' if important
+          puts output.join("")
+        end
+      rescue JSON::JSONError => e
+        buffer = line
+        next
+      end
+    }
+    buffer = ''
+  end
+}

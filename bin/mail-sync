@@ -1,0 +1,7 @@
+#!/bin/csh
+while ( 1 )
+  offlineimap |& tee -a ~/.offlineimaplog
+  echo "offlineimap exited; waiting 10 minutes before respawning." \
+     |& tee -a ~/offlineimaplog
+  sleep 600
+end

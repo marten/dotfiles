@@ -1,0 +1,66 @@
+### Options.  See zshoptions(1)
+
+# History commands are appended to the existing file instead of overwriting it.
+setopt append_history
+# Don't do menu completion
+setopt no_auto_menu
+# Show possible matches if completion can't figure out what to do.
+setopt auto_list
+# Commands without arguments will first try to resume suspended programs of the same name.
+setopt auto_resume
+# Puts more info in the history file
+setopt extended_history
+# Turns off C-S/C-Q flow control
+setopt no_flow_control
+# Sequential duplicate commands only get one history entry.
+setopt hist_ignore_dups
+# Do completion on <value> in foo=<value>
+setopt magic_equal_subst
+# Don't error if globbing fails; just leave the globbing chars in.
+setopt nonomatch
+# Don't bug me about it if I type 'rm *'.
+setopt rm_star_silent
+# Think about adding this.
+#setopt share_history
+# Don't overwrite files automatically
+setopt no_clobber
+# Use Emacs-style bindings.
+bindkey -e
+
+# These were added sometime after 3.0.6, based on empirical evidence.
+if [[ $ZSH_VERSION > 3.0.6 ]]; then
+    # Print hex numbers like 0x7F instead of 16#7F
+    setopt c_bases
+    # Only the newest of a set of duplicates (regardless of sequence) is saved to file.
+    setopt hist_save_no_dups
+    # Commands are added to the history file as they are entered.
+    setopt inc_append_history
+    # Use variable width columns for completion options
+    setopt list_packed
+    # print octal numbers like 037 instead of 8#37
+    setopt octal_zeroes
+fi
+
+### Parameters.  See zshparam(1)
+
+# Extensions to ignore for completion.
+FIGNORE=".o:~"
+# Where to save my command history
+HISTFILE=~/.zsh_history
+# Remember the last 500000 commands.
+HISTSIZE=5000000
+# Only ask if completion listing would scroll off screen
+LISTMAX=0
+# Check for logins/logouts every 5 minutes
+LOGCHECK=300
+# Never look at my mail spool.
+MAILCHECK=0
+# Give timing statistics for programs that take longer than a minute to run.
+REPORTTIME=60
+# Save the last 3000 commands.
+SAVEHIST=3000
+# Report on any log(in|out)s not from my username on systems that I administer.
+case `hostname` in tigger*|pooh*|robinson*)
+    WATCH=notme
+    WATCHFMT='%n %a %l from %m at %T.'
+esac

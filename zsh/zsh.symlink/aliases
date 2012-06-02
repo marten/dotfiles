@@ -1,0 +1,8 @@
+alias  ls='ls -FG'
+alias  em='/Applications/Emacs.app/Contents/MacOS/Emacs &'
+alias   e='emacsclient -n'
+alias ssh='/usr/bin/ssh'
+
+# git
+alias  g='git'
+alias  gp='git pull --rebase'

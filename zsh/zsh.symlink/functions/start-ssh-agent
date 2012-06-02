@@ -1,0 +1,11 @@
+# Check for the existence of an SSH agent.  If none, start one.
+if [[ "$UID" != 0 ]]; then
+  case `hostname` in
+    tigger*|pooh*)
+      ps -x | grep [s]sh-agent$ > /dev/null || { 
+        echo -n "Starting ssh-agent..."
+        ssh-agent > /dev/null
+        echo " done"
+      }
+  esac
+fi

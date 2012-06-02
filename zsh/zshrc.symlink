@@ -1,0 +1,49 @@
+autoload -U colors
+colors
+
+setopt promptsubst
+autoload -U promptinit
+promptinit
+prompt marten
+
+# Initialize completion support
+autoload -U compinit
+compinit -i -u
+
+# Automatically pushd
+setopt autopushd
+
+# Load all of the config files in ~/oh-my-zsh that end in .zsh
+# # TIP: Add files you don't want in git to .gitignore
+for config_file ($HOME/.zsh/lib/*.zsh) source $config_file
+
+export GEOLOQI_TOKEN="6d67-6079eaaa6955cb62838be656e36cd00398d7ec55"
+
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+export MAKEFLAGS="-j8"
+export EDITOR=vim
+
+# Setup autojump if we have it (https://github.com/joelthelion/autojump/wiki/)
+[[ -s /etc/profile.d/autojump.zsh ]]     && source /etc/profile.d/autojump.zsh
+if [ -f /usr/local/etc/autojump ]; then
+    . /usr/local/etc/autojump
+fi
+
+# Setup nvm if we have it
+[[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
+
+# Setup my own bin as the first place to look
+export PATH=$HOME/bin:$PATH
+
+alias ..='cd ..'
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+alias r='rails'
+alias rl='tail -n500 -f log/development.log'
+alias be='bundle exec'
+alias t='soundcheck'
+alias e=emacsclient
+
+function dburl() {
+  dropbox puburl ~/Dropbox/Public/$1.png | pbcopy
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+# Shows log and diffstat of pulled commits
+
+HEAD=$(git rev-parse HEAD)
+git pull "$@"
+git log $HEAD..

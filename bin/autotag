@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# Tag mail sent specifically to me (not through a list or bcc)
+notmuch tag +to-me                     to:marten@veldthuis.com and not tag:to-me
+notmuch tag +to-me                     to:m.veldthuis@rug.nl and not tag:to-me
+notmuch tag +to-me                     to:m.veldthuis@med.umcg.nl and not tag:to-me
+
+# Tag mail sent by me
+notmuch tag +sent                      from:marten@veldthuis.com and not tag:sent
+notmuch tag +sent                      from:marten@fmf.nl and not tag:sent
+notmuch tag +sent                      from:m.veldthuis@rug.nl and not tag:sent
+notmuch tag +sent                      from:m.veldthuis@med.umcg.nl and not tag:sent
+notmuch tag -inbox -unread             tag:sent and tag:inbox and tag:unread
+
+# My various mail addresses
+notmuch tag +rgoc                    \(to:med.umcg.nl or from:med.umcg.nl\) and not tag:rgoc
+notmuch tag +perio                     to:perio@fmf.nl and not tag:perio
+notmuch tag -inbox +roqua +exception   from:exception and to:roqua and tag:inbox and not tag:roqua and not tag:exception
+
+# Keep ignored threads out of my inbox
+notmuch tag -inbox                     tag:ignore and tag:inbox
+
+# Mailing lists
+notmuch tag +list +github              to:github@googlegroups.com      and not tag:github
+notmuch tag +list +notmuch             to:notmuch@notmuchmail.org      and not tag:notmuch
+notmuch tag +list +emacs -inbox        to:help-gnu-emacs@gnu.org       and not tag:emacs
+notmuch tag +list +jekyll              to:jekyll-rb@googlegroups.com   and not tag:jekyll
+notmuch tag +list +sup -inbox          to:sup-talk@rubyforge.org       or \
+                                       to:sup-devel@rubyforge.org      and not tag:sup
+notmuch tag +list +railsbridge         to:railsbridge@googlegroups.com and not tag:railsbridge
+notmuch tag +list +formtastic          to:formtastic@googlegroups.com  and not tag:formtastic
+notmuch tag +list +vcshome             to:vcs-home@lists.madduck.net   and not tag:vcshome

@@ -1,0 +1,3 @@
+#!/bin/sh
+java -Xmx1024M -Xms1024M -jar $HOME/bin/Minecraft.jar
+#java -jar $HOME/bin/MagicLauncher.jar

@@ -1,0 +1,45 @@
+#!/bin/sh
+#
+# Convert a PDF to another PDF. This effectively strips out a lot of
+# bogus stuff from most PDF files.
+
+gs=`which gs 2>/dev/null`
+if [ ! -x "$gs" ]; then
+    echo "Error: install ghostscript first" >&2
+    exit 1
+fi
+
+OPTS=""
+pdfver="1.2"
+while true; do
+    case "$1" in
+	--pdf-version)
+	    shift
+	    pdfver="$1"
+	    ;;
+	-?*) OPTS="$OPTS $1";;
+	*) break;;
+    esac
+    shift
+done
+
+if [ $# -eq 2 ]; then
+    outfile="$2"
+elif [ $# -eq 1 ]; then
+    outfile="`basename \"$1\" .pdf`.new.pdf"
+else
+    cat <<EOF >&2
+Usage: pdf2pdf [--pdf-version (1.2|1.3|1.4)] [gs-options ...] <input.pdf|-> [output.pdf|-]
+
+Converts a PDF from whatever PDF specification version it currently
+exists as to the one specified by \`--pdf-version'. Default: 1.2
+
+One side-effect of this conversion is the resulting document will have
+the no-printing and no-copying flags removed in the output document if
+they are set in the input document.
+EOF
+    exit 1
+fi
+
+exec "$gs" $OPTIONS -q -dNOPAUSE -dBATCH -dSAFER -sDEVICE=pdfwrite \
+    -dCompatibilityLevel="$pdfver" -sOutputFile="$outfile" -f "$1"

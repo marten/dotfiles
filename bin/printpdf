@@ -1,0 +1,4 @@
+#!/bin/sh
+a=$*
+pdf2ps $a $a.ps
+cat $a.ps | nc -q 3 129.125.183.99 9100

@@ -1,0 +1,22 @@
+{
+	"auto_upgrade_last_run": 1338744911,
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"Color Highlighter",
+		"Emacs-like Modelines",
+		"Git",
+		"Gitignore",
+		"LaTeXTools",
+		"Markdown Preview",
+		"Package Control",
+		"Ruby 1.9 Hash Converter",
+		"RubyTest",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Theme - Soda",
+		"Vintage Numbers",
+		"VintageEx"
+	]
+}

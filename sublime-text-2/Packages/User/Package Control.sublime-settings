@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1338744911,
+	"auto_upgrade_last_run": 1338798784,
 	"installed_packages":
 	[
 		"CoffeeScript",
@@ -7,6 +7,7 @@
 		"Emacs-like Modelines",
 		"Git",
 		"Gitignore",
+		"Haml",
 		"LaTeXTools",
 		"Markdown Preview",
 		"Package Control",

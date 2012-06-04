@@ -5,7 +5,11 @@
 	<key>name</key>
 	<string>Monokai</string>
 	<key>settings</key>
-	<array><dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_ffffffFF</string><key>settings</key><dict><key>background</key><string>#ffffffFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+	<array><dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_EEEEEEFF</string><key>settings</key><dict><key>background</key><string>#EEEEEEFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+<dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_ffffffFF</string><key>settings</key><dict><key>background</key><string>#ffffffFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+<dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_FFFFFFFF</string><key>settings</key><dict><key>background</key><string>#FFFFFFFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+<dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_E33F02FF</string><key>settings</key><dict><key>background</key><string>#E33F02FF</string><key>caret</key><string>#FFFFFFFF</string><key>foreground</key><string>#FFFFFFFF</string></dict></dict>
+<dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_ff0000FF</string><key>settings</key><dict><key>background</key><string>#ff0000FF</string><key>caret</key><string>#FFFFFFFF</string><key>foreground</key><string>#FFFFFFFF</string></dict></dict>
 
 		<dict>
 			<key>settings</key>

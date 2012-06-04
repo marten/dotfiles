@@ -4,10 +4,10 @@
 		"/home/marten/Dropbox/University/2012-Stage",
 		"/home/marten/Dropbox/University/2009-Afstuderen"
 	],
-	"last_window_id": 7,
+	"last_window_id": 9,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 1396.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -112,6 +112,8 @@
 			},
 			"file_history":
 			[
+				"/Users/marten/rgoc/roqua/.sass-cache/f6beff5732d45f8873309cf80aa015f01a8c346d/epd_area.css.scssc",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/notes.md",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/activedsl",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex\\chapter{Architecture}\\label{ch:architecture}",
@@ -119,7 +121,6 @@
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/results.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/quby-dsl.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
 				"/home/marten/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/marten/Dropbox/University/2012-Stage/report.md",
@@ -188,11 +189,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.5,
 					1.0
 				],
 				"rows":
@@ -212,6 +220,18 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"measinstanceindex",
+						"app/views/epd/meas_instances/index.html.haml"
+					],
+					[
+						"layoutsepda",
+						"app/views/layouts/epd_area.html.haml"
+					],
+					[
+						"epdarea",
+						".sass-cache/f6beff5732d45f8873309cf80aa015f01a8c346d/epd_area.css.scssc"
+					],
 					[
 						"disc",
 						"2009-Afstuderen/chapters/discussion.tex"
@@ -242,11 +262,11 @@
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 254.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 0.0
+		"new_window_width": 2560.0
 	},
 	"windows":
 	[
@@ -260,58 +280,50 @@
 			"buffers":
 			[
 				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/report.tex",
+					"file": "/Users/marten/rgoc/roqua/app/views/epd/meas_instances/index.html.haml",
 					"settings":
 					{
-						"buffer_size": 3434,
+						"buffer_size": 7790,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/problem.tex",
+					"file": "/Users/marten/rgoc/roqua/app/helpers/bootstrap_helper.rb",
 					"settings":
 					{
-						"buffer_size": 3006,
+						"buffer_size": 447,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex",
+					"file": "/Users/marten/rgoc/roqua/app/views/layouts/epd_area.html.haml",
 					"settings":
 					{
-						"buffer_size": 4661,
+						"buffer_size": 7034,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/intro.tex",
+					"file": "/Users/marten/rgoc/roqua/app/assets/stylesheets/epd_area.css.scss",
 					"settings":
 					{
-						"buffer_size": 2160,
+						"buffer_size": 516,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/notes.tex",
+					"file": "/Users/marten/rgoc/roqua/app/views/epd/meas_instances/_edit_in_dialog_row.html.haml",
 					"settings":
 					{
-						"buffer_size": 5450,
+						"buffer_size": 2731,
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
+					"file": "/Users/marten/rgoc/roqua/app/assets/javascripts/epd_area.js",
 					"settings":
 					{
-						"buffer_size": 5566,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
-					"settings":
-					{
-						"buffer_size": 6115,
+						"buffer_size": 416,
 						"line_ending": "Unix"
 					}
 				}
@@ -319,9 +331,13 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 87.0,
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"gitci",
 						"Git: Commit"
@@ -349,10 +365,6 @@
 					[
 						"gitstat",
 						"Git: Status"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"git",
@@ -412,6 +424,10 @@
 			},
 			"file_history":
 			[
+				"/Users/marten/rgoc/roqua/spec/helpers/bootstrap_helper_spec.rb",
+				"/Users/marten/rgoc/roqua/app/views/epd/meas_instances/_edit_in_dialog_row.html.haml",
+				"/Users/marten/rgoc/roqua/.sass-cache/f6beff5732d45f8873309cf80aa015f01a8c346d/epd_area.css.scssc",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/notes.md",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/activedsl",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex\\chapter{Architecture}\\label{ch:architecture}",
@@ -419,7 +435,6 @@
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/results.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/quby-dsl.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
 				"/home/marten/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/marten/Dropbox/University/2012-Stage/report.md",
@@ -471,26 +486,32 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "/Users/marten/rgoc/roqua"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 5,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/report.tex",
+							"file": "/Users/marten/rgoc/roqua/app/views/epd/meas_instances/index.html.haml",
 							"settings":
 							{
-								"buffer_size": 3434,
+								"buffer_size": 7790,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2263,
-										2263
+										3363,
+										3363
 									]
 								],
 								"settings":
@@ -535,7 +556,7 @@
 									},
 									"gjslint_ignore":
 									[
-										110
+										110.0
 									],
 									"gjslint_options":
 									[
@@ -561,7 +582,7 @@
 									],
 									"pyflakes_ignore_import_*": true,
 									"sublimelinter": true,
-									"sublimelinter_delay": 0,
+									"sublimelinter_delay": 0.0,
 									"sublimelinter_disable":
 									[
 									],
@@ -578,30 +599,30 @@
 										"Python Django": "python"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX Memoir.tmLanguage",
+									"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 510.0,
+								"translation.y": 722.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/problem.tex",
+							"file": "/Users/marten/rgoc/roqua/app/helpers/bootstrap_helper.rb",
 							"settings":
 							{
-								"buffer_size": 3006,
+								"buffer_size": 447,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										3006,
-										3006
+										442,
+										442
 									]
 								],
 								"settings":
@@ -646,7 +667,7 @@
 									},
 									"gjslint_ignore":
 									[
-										110
+										110.0
 									],
 									"gjslint_options":
 									[
@@ -672,7 +693,7 @@
 									],
 									"pyflakes_ignore_import_*": true,
 									"sublimelinter": true,
-									"sublimelinter_delay": 0,
+									"sublimelinter_delay": 0.0,
 									"sublimelinter_disable":
 									[
 									],
@@ -689,30 +710,34 @@
 										"Python Django": "python"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Ruby/Ruby.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
-						},
+						}
+					]
+				},
+				{
+					"selected": 2,
+					"sheets":
+					[
 						{
 							"buffer": 2,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex",
+							"file": "/Users/marten/rgoc/roqua/app/views/layouts/epd_area.html.haml",
 							"settings":
 							{
-								"buffer_size": 4661,
+								"buffer_size": 7034,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										148,
-										148
+										1218,
+										1218
 									]
 								],
 								"settings":
@@ -757,7 +782,7 @@
 									},
 									"gjslint_ignore":
 									[
-										110
+										110.0
 									],
 									"gjslint_options":
 									[
@@ -783,7 +808,7 @@
 									],
 									"pyflakes_ignore_import_*": true,
 									"sublimelinter": true,
-									"sublimelinter_delay": 0,
+									"sublimelinter_delay": 0.0,
 									"sublimelinter_disable":
 									[
 									],
@@ -800,7 +825,7 @@
 										"Python Django": "python"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+									"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
@@ -812,18 +837,18 @@
 						},
 						{
 							"buffer": 3,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/intro.tex",
+							"file": "/Users/marten/rgoc/roqua/app/assets/stylesheets/epd_area.css.scss",
 							"settings":
 							{
-								"buffer_size": 2160,
+								"buffer_size": 516,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										372,
-										372
+										373,
+										373
 									]
 								],
 								"settings":
@@ -868,7 +893,7 @@
 									},
 									"gjslint_ignore":
 									[
-										110
+										110.0
 									],
 									"gjslint_options":
 									[
@@ -894,7 +919,7 @@
 									],
 									"pyflakes_ignore_import_*": true,
 									"sublimelinter": true,
-									"sublimelinter_delay": 0,
+									"sublimelinter_delay": 0.0,
 									"sublimelinter_disable":
 									[
 									],
@@ -911,7 +936,7 @@
 										"Python Django": "python"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+									"syntax": "Packages/SCSS/SCSS.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -921,18 +946,18 @@
 						},
 						{
 							"buffer": 4,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/notes.tex",
+							"file": "/Users/marten/rgoc/roqua/app/views/epd/meas_instances/_edit_in_dialog_row.html.haml",
 							"settings":
 							{
-								"buffer_size": 5450,
+								"buffer_size": 2731,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										295,
+										295
 									]
 								],
 								"settings":
@@ -977,7 +1002,7 @@
 									},
 									"gjslint_ignore":
 									[
-										110
+										110.0
 									],
 									"gjslint_options":
 									[
@@ -1003,7 +1028,7 @@
 									],
 									"pyflakes_ignore_import_*": true,
 									"sublimelinter": true,
-									"sublimelinter_delay": 0,
+									"sublimelinter_delay": 0.0,
 									"sublimelinter_disable":
 									[
 									],
@@ -1020,7 +1045,7 @@
 										"Python Django": "python"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+									"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
 									"tab_size": 2,
 									"translate_tabs_to_spaces": true
 								},
@@ -1032,18 +1057,18 @@
 						},
 						{
 							"buffer": 5,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
+							"file": "/Users/marten/rgoc/roqua/app/assets/javascripts/epd_area.js",
 							"settings":
 							{
-								"buffer_size": 5566,
+								"buffer_size": 416,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1471,
-										1471
+										266,
+										266
 									]
 								],
 								"settings":
@@ -1088,7 +1113,7 @@
 									},
 									"gjslint_ignore":
 									[
-										110
+										110.0
 									],
 									"gjslint_options":
 									[
@@ -1114,7 +1139,7 @@
 									],
 									"pyflakes_ignore_import_*": true,
 									"sublimelinter": true,
-									"sublimelinter_delay": 0,
+									"sublimelinter_delay": 0.0,
 									"sublimelinter_disable":
 									[
 									],
@@ -1131,121 +1156,10 @@
 										"Python Django": "python"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 246.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
-							"settings":
-							{
-								"buffer_size": 6115,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4751,
-										4751
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 501.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -1270,11 +1184,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.5,
 					1.0
 				],
 				"rows":
@@ -1284,7 +1205,11 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "0,0,0,0,0,0,27,958,1170,1920,1200",
+			"output.tests":
+			{
+				"height": 112.0
+			},
+			"position": "0 0 2560 1418 0 0 2560 1418 ",
 			"replace":
 			{
 				"height": 0.0
@@ -1295,6 +1220,18 @@
 				"height": 0.0,
 				"selected_items":
 				[
+					[
+						"measinstanceindex",
+						"app/views/epd/meas_instances/index.html.haml"
+					],
+					[
+						"layoutsepda",
+						"app/views/layouts/epd_area.html.haml"
+					],
+					[
+						"epdarea",
+						".sass-cache/f6beff5732d45f8873309cf80aa015f01a8c346d/epd_area.css.scssc"
+					],
 					[
 						"disc",
 						"2009-Afstuderen/chapters/discussion.tex"
@@ -1325,11 +1262,11 @@
 			"show_minimap": true,
 			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 254.0,
 			"status_bar_visible": true,
-			"window_id": 3,
-			"workspace_name": "/home/marten/Documents/afstuderen.sublime-project"
+			"window_id": 8,
+			"workspace_name": ""
 		}
 	],
 	"workspaces":

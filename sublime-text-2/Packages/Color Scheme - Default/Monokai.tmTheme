@@ -5,7 +5,8 @@
 	<key>name</key>
 	<string>Monokai</string>
 	<key>settings</key>
-	<array>
+	<array><dict><key>name</key><string>mon_color</string><key>scope</key><string>mcol_ffffffFF</string><key>settings</key><dict><key>background</key><string>#ffffffFF</string><key>caret</key><string>#000000FF</string><key>foreground</key><string>#000000FF</string></dict></dict>
+
 		<dict>
 			<key>settings</key>
 			<dict>

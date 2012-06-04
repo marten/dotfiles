@@ -24,7 +24,7 @@
 	file-view-vpane-position = 533
 
 [merge]
-	tool = threesome
+	tool = opendiff
 
 [mergetool "threesome"]
   cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
@@ -52,6 +52,14 @@
   h = !git head
   r = !git --no-pager l -20
   ra = !git r --all
+	switch = !legit switch \"$@\"
+	branches = !legit branches
+	sprout = !legit sprout \"$@\"
+	unpublish = !legit unpublish \"$@\"
+	harvest = !legit harvest \"$@\"
+	sync = !legit sync \"$@\"
+	publish = !legit publish \"$@\"
+	graft = !legit graft \"$@\"
 
 ; stolen from https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
 [format]
@@ -66,3 +74,5 @@
 [pivotal]
 	api-token = fc8e283387ab0d7f9f5f72f9478d847c
 	full-name = Marten Veldthuis
+[mergetool "opendiff"]
+	cmd = opendiff

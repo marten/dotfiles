@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/${1:filename}.pdf}
+  \caption{${2:Caption}}
+  \label{fig:${3:label}}
+\end{figure}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>incl</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.latex</scope> -->
+</snippet>

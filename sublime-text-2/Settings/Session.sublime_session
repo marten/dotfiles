@@ -1,10 +1,11 @@
 {
 	"folder_history":
 	[
+		"/home/marten/prj/clojure-koans",
 		"/home/marten/Dropbox/University/2012-Stage",
 		"/home/marten/Dropbox/University/2009-Afstuderen"
 	],
-	"last_window_id": 8,
+	"last_window_id": 12,
 	"settings":
 	{
 		"new_window_height": 1143.0,
@@ -14,14 +15,46 @@
 			{
 				"selected_items":
 				[
+					[
+						"Questio",
+						"QuestionnaireBuilder"
+					],
+					[
+						"lst",
+						"lstlisting"
+					],
+					[
+						"questionnaire",
+						"questionnaire"
+					]
 				]
 			},
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 96.0,
 				"selected_items":
 				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"ruby",
+						"Set Syntax: Ruby"
+					],
+					[
+						"Snippet: figure",
+						"Snippet: Latex-Figure"
+					],
+					[
+						"Snippet: ",
+						"Snippet: Figure"
+					],
+					[
+						"markdown",
+						"Markdown Preview: current file in browser"
+					],
 					[
 						"gitci",
 						"Git: Commit"
@@ -51,10 +84,6 @@
 						"Git: Status"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"git",
 						"Git: Status"
 					],
@@ -73,10 +102,6 @@
 					[
 						"remove",
 						"Package Control: Remove Package"
-					],
-					[
-						"markdown",
-						"Markdown Preview: current file in browser"
 					],
 					[
 						"preview",
@@ -112,24 +137,71 @@
 			},
 			"file_history":
 			[
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/notes.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/intro.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
+				"/home/marten/mastersthesis/chapters/related.tex",
+				"/home/marten/mastersthesis/chapters/intro.tex",
+				"/home/marten/mastersthesis/chapters/semantic-model.tex",
+				"/home/marten/mastersthesis/chapters/results.tex",
+				"/home/marten/mastersthesis/chapters/discussion.tex",
+				"/home/marten/mastersthesis/library.bib",
+				"/home/marten/dotfiles/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+				"/home/marten/mastersthesis/watchr.rb",
+				"/home/marten/mastersthesis/Guardfile",
+				"/home/marten/mastersthesis/chapters/trial-documentation.tex",
+				"/home/marten/mastersthesis/chapters/ruby.tex",
+				"/home/marten/mastersthesis/chapters/trial-azm-source.tex",
+				"/home/marten/Dropbox/University/2010-ImageProcessing/labs/lab3.tex",
+				"/home/marten/mastersthesis/report.log",
+				"/home/marten/mastersthesis/chapters/quby-dsl.tex",
+				"/home/marten/mastersthesis/notes.tex",
+				"/home/marten/mastersthesis/shortdoc.tex",
+				"/home/marten/mastersthesis/chapters/activedsl.tex",
+				"/home/marten/mastersthesis/code/azm.rb",
+				"/home/marten/mastersthesis/checklist.md",
+				"/home/marten/rgoc/questionnaires/fios.rb",
+				"/home/marten/mastersthesis/chapters/architecture.tex",
+				"/home/marten/mastersthesis/chapters/expression-builders.tex",
+				"/home/marten/mastersthesis/code/phamalg.rb",
+				"/home/marten/dotfiles/sublime-text-2/Packages/User/Latex-LstInline.sublime-snippet",
+				"/home/marten/dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/marten/Documents/afstuderen.sublime-project",
+				"/home/marten/Dropbox/University/2012-Stage/images/qubyadmin.pdf",
+				"/home/marten/mastersthesis/chapters/ruby-dsls.tex",
+				"/home/marten/mastersthesis/papers.bib",
+				"/home/marten/rug/2012-Stage/report.tex",
+				"/home/marten/dotfiles/sublime-text-2/Packages/WordCount/WordCount.sublime-settings",
+				"/home/marten/rgoc/questionnaires/honos.rb",
+				"/home/marten/rgoc/questionnaires/raven_rom_azm.rb",
+				"/home/marten/rgoc/questionnaires/raven_phamalg.rb",
+				"/home/marten/rgoc/questionnaires/phamous_01_algemeen.rb",
+				"/home/marten/dotfiles/sublime-text-2/Packages/User/Latex-Figure.sublime-snippet",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/quby-dsl.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex",
+				"/media/Data/Dropbox/University/2009-Afstuderen/chapters/intro.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/semantic-model.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/intro.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/report.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/problem.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/checklist.md",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/results.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex",
+				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
+				"/media/Data/Dropbox/University/2011-UbiquitousComputing/report.tex",
+				"/media/Data/Dropbox/University/2012-Stage/source_dir/report.md",
+				"/media/Data/Dropbox/University/2012-Stage/report.tex",
+				"/media/Data/Dropbox/University/2012-Stage/template.html.erb",
+				"/media/Data/Dropbox/University/2012-Stage/Guardfile",
+				"/home/marten/Dropbox/University/2009-Afstuderen/library.bib",
+				"/media/Data/Dropbox/University/2012-Stage/report.md",
+				"/home/marten/Dropbox/University/2009-Afstuderen/notes.tex",
 				"/home/marten/Dropbox/University/2009-Afstuderen/notes.md",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/activedsl",
 				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex\\chapter{Architecture}\\label{ch:architecture}",
 				"/home/marten/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/results.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
 				"/home/marten/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 				"/home/marten/Dropbox/University/2012-Stage/report.md",
 				"/home/marten/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 				"/home/marten/.config/sublime-text-2/Packages/User/LaTeX Memoir.sublime-settings",
-				"/home/marten/Documents/afstuderen.sublime-project",
 				"/home/marten/Dropbox/Writings/Stageverslag.markdown",
 				"/home/marten/Dropbox/University/2009-Afstuderen/.gitignore",
 				"/home/marten/.config/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
@@ -152,6 +224,8 @@
 				"height": 0.0,
 				"where_history":
 				[
+					"/home/marten/mastersthesis/chapters",
+					""
 				]
 			},
 			"find_state":
@@ -159,15 +233,42 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"0.48",
+					"Laura",
+					"Dennis",
+					"Martha",
+					"Dennis",
+					"Laura",
+					"programmer",
+					"fluid",
+					"deursen",
+					"domain specific",
+					"DSD",
+					"question",
+					"textbf",
+					"fowler",
+					"todo",
+					"interdep",
+					"require",
+					"ch:problem",
+					"'",
+					"we",
+					"'",
 					"gitforde",
 					"build"
 				],
 				"highlight": true,
 				"in_selection": false,
-				"preserve_case": false,
+				"preserve_case": true,
 				"regex": false,
 				"replace_history":
 				[
+					"0.585",
+					"\\martha",
+					"\\dennis",
+					"\\laura",
+					"fluent",
+					"domain-specific"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -206,9 +307,13 @@
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 100.0
+			},
 			"replace":
 			{
-				"height": 0.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -217,12 +322,76 @@
 				"selected_items":
 				[
 					[
-						"rela",
-						"2009-Afstuderen/chapters/related.tex"
+						"seman",
+						"mastersthesis/chapters/semantic-model.tex"
+					],
+					[
+						"libr",
+						"mastersthesis/library.bib"
+					],
+					[
+						"disc",
+						"mastersthesis/chapters/discussion.tex"
+					],
+					[
+						"result",
+						"mastersthesis/chapters/results.tex"
+					],
+					[
+						"lib",
+						"mastersthesis/library.bib"
+					],
+					[
+						"intro",
+						"mastersthesis/chapters/intro.tex"
+					],
+					[
+						"relate",
+						"mastersthesis/chapters/related.tex"
+					],
+					[
+						"rub",
+						"mastersthesis/chapters/ruby.tex"
+					],
+					[
+						"ruby",
+						"mastersthesis/chapters/ruby.tex"
+					],
+					[
+						"pham",
+						"mastersthesis/code/phamalg.rb"
+					],
+					[
+						"semanti",
+						"mastersthesis/chapters/semantic-model.tex"
+					],
+					[
+						"libra",
+						"mastersthesis/library.bib"
 					],
 					[
 						"librar",
-						"2009-Afstuderen/library.bib"
+						"mastersthesis/library.bib"
+					],
+					[
+						"relat",
+						"mastersthesis/chapters/related.tex"
+					],
+					[
+						"discu",
+						"chapters/discussion.tex"
+					],
+					[
+						"arc",
+						"chapters/architecture.tex"
+					],
+					[
+						"related",
+						"chapters/related.tex"
+					],
+					[
+						"rela",
+						"2009-Afstuderen/chapters/related.tex"
 					],
 					[
 						"archi",
@@ -231,2248 +400,6 @@
 					[
 						"quby",
 						"2009-Afstuderen/chapters/quby-dsl.tex"
-					],
-					[
-						"disc",
-						"2009-Afstuderen/chapters/discussion.tex"
-					],
-					[
-						"rubydsl",
-						"2009-Afstuderen/chapters/ruby-dsls.tex"
-					],
-					[
-						"note",
-						"2009-Afstuderen/notes.tex"
-					],
-					[
-						"notes",
-						"2009-Afstuderen/notes.tex"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 500.0,
-				"selected_items":
-				[
-				],
-				"width": 380.0
-			},
-			"show_minimap": true,
-			"show_open_files": true,
-			"show_tabs": true,
-			"side_bar_visible": false,
-			"side_bar_width": 254.0,
-			"status_bar_visible": true
-		},
-		"new_window_width": 958.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/report.tex",
-					"settings":
-					{
-						"buffer_size": 3399,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
-					"settings":
-					{
-						"buffer_size": 10493,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/Dropbox/University/2009-Afstuderen/library.bib",
-					"settings":
-					{
-						"buffer_size": 18443,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 392.0,
-				"selected_items":
-				[
-					[
-						"gitci",
-						"Git: Commit"
-					],
-					[
-						"gitad",
-						"Git: Add..."
-					],
-					[
-						"gitcomm",
-						"Git: Commit"
-					],
-					[
-						"gitdiff",
-						"Git: Diff All"
-					],
-					[
-						"gitre",
-						"Git: Checkout Current File"
-					],
-					[
-						"gitadd",
-						"Git: Add..."
-					],
-					[
-						"gitstat",
-						"Git: Status"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"git",
-						"Git: Status"
-					],
-					[
-						"Package Control: install",
-						"Package Control: Install Package"
-					],
-					[
-						"mark",
-						"Markdown Preview: current file in browser"
-					],
-					[
-						"markdo",
-						"Markdown Preview: current file in Sublime Text"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"markdown",
-						"Markdown Preview: current file in browser"
-					],
-					[
-						"preview",
-						"Markdown Preview: current file in browser"
-					],
-					[
-						"Package Control: ",
-						"Package Control: Discover Packages"
-					],
-					[
-						"pref",
-						"Preferences: Browse Packages"
-					],
-					[
-						"packainstall",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 449.0
-			},
-			"console":
-			{
-				"height": 129.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/notes.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/intro.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/quby-dsl.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/problem.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/notes.md",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/activedsl",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex\\chapter{Architecture}\\label{ch:architecture}",
-				"/home/marten/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/results.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
-				"/home/marten/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-				"/home/marten/Dropbox/University/2012-Stage/report.md",
-				"/home/marten/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/marten/.config/sublime-text-2/Packages/User/LaTeX Memoir.sublime-settings",
-				"/home/marten/Documents/afstuderen.sublime-project",
-				"/home/marten/Dropbox/Writings/Stageverslag.markdown",
-				"/home/marten/Dropbox/University/2009-Afstuderen/.gitignore",
-				"/home/marten/.config/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX Memoir.tmLanguage",
-				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX.tmLanguage",
-				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX.tmLanguage.cache",
-				"/home/marten/.config/sublime-text-2/Packages/SublimeLinter/README.md",
-				"/home/marten/.config/sublime-text-2/Packages/Ruby/Ruby.sublime-build",
-				"/home/marten/.rbenv/shims/ruby",
-				"/home/marten/rgoc/quby_admin/Gemfile",
-				"/home/marten/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-				"/home/marten/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
-			],
-			"find":
-			{
-				"height": 35.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"gitforde",
-					"build"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"groups":
-			[
-				{
-					"selected": 1,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/report.tex",
-							"settings":
-							{
-								"buffer_size": 3399,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										941,
-										941
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX Memoir.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 527.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
-							"settings":
-							{
-								"buffer_size": 10493,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5848,
-										5848
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1068.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/marten/Dropbox/University/2009-Afstuderen/library.bib",
-							"settings":
-							{
-								"buffer_size": 18443,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										18158,
-										18175
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/LaTeX/Bibtex.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 6093.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 33.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"position": "0,0,0,0,0,0,27,958,1170,1920,1200",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-					[
-						"rela",
-						"2009-Afstuderen/chapters/related.tex"
-					],
-					[
-						"librar",
-						"2009-Afstuderen/library.bib"
-					],
-					[
-						"archi",
-						"2009-Afstuderen/chapters/architecture.tex"
-					],
-					[
-						"quby",
-						"2009-Afstuderen/chapters/quby-dsl.tex"
-					],
-					[
-						"disc",
-						"2009-Afstuderen/chapters/discussion.tex"
-					],
-					[
-						"rubydsl",
-						"2009-Afstuderen/chapters/ruby-dsls.tex"
-					],
-					[
-						"note",
-						"2009-Afstuderen/notes.tex"
-					],
-					[
-						"notes",
-						"2009-Afstuderen/notes.tex"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 500.0,
-				"selected_items":
-				[
-				],
-				"width": 380.0
-			},
-			"show_minimap": true,
-			"show_open_files": true,
-			"show_tabs": true,
-			"side_bar_visible": false,
-			"side_bar_width": 254.0,
-			"status_bar_visible": true,
-			"window_id": 3,
-			"workspace_name": "/home/marten/Documents/afstuderen.sublime-project"
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/home/marten/rgoc/roqua/app/views/epd/new_outcomes/_columns.html.haml",
-					"settings":
-					{
-						"buffer_size": 996,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd_area/new_outcomes.css.sass",
-					"settings":
-					{
-						"buffer_size": 601,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd_area.css.sass",
-					"settings":
-					{
-						"buffer_size": 723,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/views/layouts/epd_area.html.haml",
-					"settings":
-					{
-						"buffer_size": 7142,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd_area/navbar.css.sass",
-					"settings":
-					{
-						"buffer_size": 880,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/views/epd/meas_instances/_edit_in_dialog_row.html.haml",
-					"settings":
-					{
-						"buffer_size": 2697,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/helpers/navbar_helper.rb",
-					"settings":
-					{
-						"buffer_size": 1525,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/views/epd/meas_instances/_inline_button.html.haml",
-					"settings":
-					{
-						"buffer_size": 836,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/views/epd/new_outcomes/_questionnaire_row.html.haml",
-					"settings":
-					{
-						"buffer_size": 2001,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd/new_outcomes/local_style.css.sass",
-					"settings":
-					{
-						"buffer_size": 8320,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/marten/rgoc/roqua/app/assets/javascripts/epd_area/tooltip.coffee",
-					"settings":
-					{
-						"buffer_size": 270,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 392.0,
-				"selected_items":
-				[
-					[
-						"gitci",
-						"Git: Commit"
-					],
-					[
-						"gitad",
-						"Git: Add..."
-					],
-					[
-						"gitcomm",
-						"Git: Commit"
-					],
-					[
-						"gitdiff",
-						"Git: Diff All"
-					],
-					[
-						"gitre",
-						"Git: Checkout Current File"
-					],
-					[
-						"gitadd",
-						"Git: Add..."
-					],
-					[
-						"gitstat",
-						"Git: Status"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"git",
-						"Git: Status"
-					],
-					[
-						"Package Control: install",
-						"Package Control: Install Package"
-					],
-					[
-						"mark",
-						"Markdown Preview: current file in browser"
-					],
-					[
-						"markdo",
-						"Markdown Preview: current file in Sublime Text"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"markdown",
-						"Markdown Preview: current file in browser"
-					],
-					[
-						"preview",
-						"Markdown Preview: current file in browser"
-					],
-					[
-						"Package Control: ",
-						"Package Control: Discover Packages"
-					],
-					[
-						"pref",
-						"Preferences: Browse Packages"
-					],
-					[
-						"packainstall",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 449.0
-			},
-			"console":
-			{
-				"height": 129.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/home/marten/rgoc/roqua/app/assets/stylesheets/epd_area/navbar.css.sass",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/ruby-dsls.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/notes.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/intro.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/discussion.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/quby-dsl.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/problem.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/notes.md",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/activedsl",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/architecture.tex\\chapter{Architecture}\\label{ch:architecture}",
-				"/home/marten/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/results.tex",
-				"/home/marten/Dropbox/University/2009-Afstuderen/chapters/related.tex",
-				"/home/marten/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-				"/home/marten/Dropbox/University/2012-Stage/report.md",
-				"/home/marten/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-				"/home/marten/.config/sublime-text-2/Packages/User/LaTeX Memoir.sublime-settings",
-				"/home/marten/Documents/afstuderen.sublime-project",
-				"/home/marten/Dropbox/Writings/Stageverslag.markdown",
-				"/home/marten/Dropbox/University/2009-Afstuderen/.gitignore",
-				"/home/marten/.config/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX Memoir.tmLanguage",
-				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX.tmLanguage",
-				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX.tmLanguage.cache",
-				"/home/marten/.config/sublime-text-2/Packages/SublimeLinter/README.md",
-				"/home/marten/.config/sublime-text-2/Packages/Ruby/Ruby.sublime-build",
-				"/home/marten/.rbenv/shims/ruby",
-				"/home/marten/rgoc/quby_admin/Gemfile",
-				"/home/marten/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-				"/home/marten/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
-			],
-			"find":
-			{
-				"height": 35.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"data-",
-					"gitforde",
-					"build"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"folders":
-			[
-				{
-					"path": "/home/marten/rgoc/roqua"
-				}
-			],
-			"groups":
-			[
-				{
-					"selected": 7,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/home/marten/rgoc/roqua/app/views/epd/new_outcomes/_columns.html.haml",
-							"settings":
-							{
-								"buffer_size": 996,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										345,
-										345
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd_area/new_outcomes.css.sass",
-							"settings":
-							{
-								"buffer_size": 601,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										601,
-										601
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd_area.css.sass",
-							"settings":
-							{
-								"buffer_size": 723,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										445,
-										445
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/marten/rgoc/roqua/app/views/layouts/epd_area.html.haml",
-							"settings":
-							{
-								"buffer_size": 7142,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4942,
-										4942
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1350.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd_area/navbar.css.sass",
-							"settings":
-							{
-								"buffer_size": 880,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										271,
-										271
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/marten/rgoc/roqua/app/views/epd/meas_instances/_edit_in_dialog_row.html.haml",
-							"settings":
-							{
-								"buffer_size": 2697,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										239,
-										239
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 45.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/home/marten/rgoc/roqua/app/helpers/navbar_helper.rb",
-							"settings":
-							{
-								"buffer_size": 1525,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										344,
-										344
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Ruby/Ruby.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/home/marten/rgoc/roqua/app/views/epd/meas_instances/_inline_button.html.haml",
-							"settings":
-							{
-								"buffer_size": 836,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										623,
-										623
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 2,
-					"sheets":
-					[
-						{
-							"buffer": 8,
-							"file": "/home/marten/rgoc/roqua/app/views/epd/new_outcomes/_questionnaire_row.html.haml",
-							"settings":
-							{
-								"buffer_size": 2001,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1320,
-										1320
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"word_wrap": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 135.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"file": "/home/marten/rgoc/roqua/app/assets/stylesheets/epd/new_outcomes/local_style.css.sass",
-							"settings":
-							{
-								"buffer_size": 8320,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										4337,
-										4337
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3780.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 10,
-							"file": "/home/marten/rgoc/roqua/app/assets/javascripts/epd_area/tooltip.coffee",
-							"settings":
-							{
-								"buffer_size": 270,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										270,
-										270
-									]
-								],
-								"settings":
-								{
-									"annotations":
-									[
-										"TODO",
-										"README",
-										"FIXME"
-									],
-									"csslint_options":
-									{
-										"adjoining-classes": "warning",
-										"box-model": true,
-										"box-sizing": "warning",
-										"compatible-vendor-prefixes": "warning",
-										"display-property-grouping": true,
-										"duplicate-background-images": "warning",
-										"duplicate-properties": true,
-										"empty-rules": true,
-										"errors": true,
-										"fallback-colors": "warning",
-										"floats": "warning",
-										"font-faces": "warning",
-										"font-sizes": "warning",
-										"gradients": "warning",
-										"ids": "warning",
-										"import": "warning",
-										"important": "warning",
-										"known-properties": true,
-										"outline-none": "warning",
-										"overqualified-elements": "warning",
-										"qualified-headings": "warning",
-										"regex-selectors": "warning",
-										"rules-count": "warning",
-										"shorthand": "warning",
-										"text-indent": "warning",
-										"unique-headings": "warning",
-										"universal-selector": "warning",
-										"vendor-prefix": true,
-										"zero-units": "warning"
-									},
-									"gjslint_ignore":
-									[
-										110
-									],
-									"gjslint_options":
-									[
-									],
-									"javascript_linter": "jshint",
-									"jshint_options":
-									{
-										"browser": true,
-										"evil": true,
-										"regexdash": true,
-										"sub": true,
-										"trailing": true,
-										"wsh": true
-									},
-									"pep8": true,
-									"pep8_ignore":
-									[
-										"E501"
-									],
-									"perl_linter": "perlcritic",
-									"pyflakes_ignore":
-									[
-									],
-									"pyflakes_ignore_import_*": true,
-									"sublimelinter": true,
-									"sublimelinter_delay": 0,
-									"sublimelinter_disable":
-									[
-									],
-									"sublimelinter_executable_map":
-									{
-									},
-									"sublimelinter_fill_outlines": false,
-									"sublimelinter_gutter_marks": false,
-									"sublimelinter_notes": false,
-									"sublimelinter_objj_check_ascii": false,
-									"sublimelinter_popup_errors_on_save": false,
-									"sublimelinter_syntax_map":
-									{
-										"Python Django": "python"
-									},
-									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/CoffeeScript/Syntaxes/CoffeeScript.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 33.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					],
-					[
-						0,
-						1,
-						1,
-						2
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					0.725352112676,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"position": "0,0,0,0,0,0,27,1438,1170,1920,1200",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-					[
-						"inlinebutton",
-						"app/views/epd/meas_instances/_inline_button.html.haml"
-					],
-					[
-						"navbarh",
-						"app/helpers/navbar_helper.rb"
-					],
-					[
-						"epdareahaml",
-						"app/views/layouts/epd_area.html.haml"
-					],
-					[
-						"rela",
-						"2009-Afstuderen/chapters/related.tex"
-					],
-					[
-						"librar",
-						"2009-Afstuderen/library.bib"
-					],
-					[
-						"archi",
-						"2009-Afstuderen/chapters/architecture.tex"
-					],
-					[
-						"quby",
-						"2009-Afstuderen/chapters/quby-dsl.tex"
-					],
-					[
-						"disc",
-						"2009-Afstuderen/chapters/discussion.tex"
 					],
 					[
 						"rubydsl",
@@ -2501,18 +428,1011 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 254.0,
+			"side_bar_width": 217.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 958.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/marten/rgoc/quby/app/dsl/quby/questionnaire_dsl/questionnaire_builder.rb",
+					"settings":
+					{
+						"buffer_size": 2924,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/marten/rgoc/quby/app/dsl/quby/questionnaire_dsl/score_builder.rb",
+					"settings":
+					{
+						"buffer_size": 286,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/marten/dotfiles/sublime-text-2/Packages/Theme - Soda/README.md",
+					"settings":
+					{
+						"buffer_size": 4158,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/marten/dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 892,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/marten/rgoc/quby/app/models/quby/score_calculations.rb",
+					"settings":
+					{
+						"buffer_size": 769,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/marten/rgoc/quby/app/models/quby/score_calculator.rb",
+					"settings":
+					{
+						"buffer_size": 3132,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 80.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"packin",
+						"Package Control: Install Package"
+					],
+					[
+						"packinsta",
+						"Package Control: Install Package"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"ruby",
+						"RubyTest: Run Last Ruby Test"
+					],
+					[
+						"rub",
+						"RubyTest: Run All Ruby Tests"
+					],
+					[
+						"ru",
+						"RubyTest: Run Single Test"
+					],
+					[
+						"gitci",
+						"Git: Commit"
+					],
+					[
+						"gitad",
+						"Git: Add..."
+					],
+					[
+						"gitcomm",
+						"Git: Commit"
+					],
+					[
+						"gitdiff",
+						"Git: Diff All"
+					],
+					[
+						"gitre",
+						"Git: Checkout Current File"
+					],
+					[
+						"gitadd",
+						"Git: Add..."
+					],
+					[
+						"gitstat",
+						"Git: Status"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"Package Control: install",
+						"Package Control: Install Package"
+					],
+					[
+						"mark",
+						"Markdown Preview: current file in browser"
+					],
+					[
+						"markdo",
+						"Markdown Preview: current file in Sublime Text"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"markdown",
+						"Markdown Preview: current file in browser"
+					],
+					[
+						"preview",
+						"Markdown Preview: current file in browser"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Discover Packages"
+					],
+					[
+						"pref",
+						"Preferences: Browse Packages"
+					],
+					[
+						"packainstall",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 561.0
+			},
+			"console":
+			{
+				"height": 129.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/marten/dotfiles/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+				"/home/marten/rgoc/roqua/.rspec",
+				"/home/marten/rgoc/roqua/spec/models/answer_spec.rb",
+				"/home/marten/rgoc/roqua/app/models/answer.rb",
+				"/home/marten/.config/sublime-text-2/Packages/User/RubyTest.sublime-settings",
+				"/home/marten/rgoc/roqua/spec/logic/ip_filter_spec.rb",
+				"/home/marten/rgoc/roqua/app/logic/ip_filter.rb",
+				"/home/marten/rgoc/roqua/app/assets/javascripts/bootstrap-semaphore.coffee",
+				"/home/marten/rgoc/roqua/app/assets/javascripts/confirm_dialog_jqueryui.js",
+				"/home/marten/.config/sublime-text-2/Packages/RubyTest/README.md",
+				"/home/marten/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/marten/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+				"/home/marten/rgoc/roqua/app/controllers/application_controller.rb",
+				"/home/marten/.config/sublime-text-2/Packages/RubyTest/RubyTest.sublime-settings",
+				"/home/marten/.config/sublime-text-2/Packages/RubyTest/Default.sublime-commands",
+				"/home/marten/rgoc/roqua/TESTING.markdown",
+				"/home/marten/Documents/roqua.sublime-project",
+				"/home/marten/Dropbox/University/2012-Stage/report.md",
+				"/home/marten/.config/sublime-text-2/Packages/User/LaTeX Memoir.sublime-settings",
+				"/home/marten/Documents/afstuderen.sublime-project",
+				"/home/marten/Dropbox/Writings/Stageverslag.markdown",
+				"/home/marten/Dropbox/University/2009-Afstuderen/.gitignore",
+				"/home/marten/.config/sublime-text-2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX Memoir.tmLanguage",
+				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX.tmLanguage",
+				"/home/marten/.config/sublime-text-2/Packages/LaTeX/LaTeX.tmLanguage.cache",
+				"/home/marten/.config/sublime-text-2/Packages/SublimeLinter/README.md",
+				"/home/marten/.config/sublime-text-2/Packages/Ruby/Ruby.sublime-build",
+				"/home/marten/.rbenv/shims/ruby",
+				"/home/marten/rgoc/quby_admin/Gemfile",
+				"/home/marten/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+				"/home/marten/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"IpFilter",
+					"gitforde",
+					"build"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/marten/rgoc/quby/app/dsl/quby/questionnaire_dsl/questionnaire_builder.rb",
+							"settings":
+							{
+								"buffer_size": 2924,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"text-indent": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 728.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/marten/rgoc/quby/app/dsl/quby/questionnaire_dsl/score_builder.rb",
+							"settings":
+							{
+								"buffer_size": 286,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										37,
+										37
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"text-indent": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/marten/dotfiles/sublime-text-2/Packages/Theme - Soda/README.md",
+							"settings":
+							{
+								"buffer_size": 4158,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1208,
+										1208
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"text-indent": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/marten/dotfiles/sublime-text-2/Packages/User/Preferences.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 892,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										265,
+										265
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"text-indent": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/marten/rgoc/quby/app/models/quby/score_calculations.rb",
+							"settings":
+							{
+								"buffer_size": 769,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										688,
+										688
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"text-indent": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/marten/rgoc/quby/app/models/quby/score_calculator.rb",
+							"settings":
+							{
+								"buffer_size": 3132,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2358,
+										2358
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"text-indent": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 0,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": false,
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"Python Django": "python"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 33.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,0,0,0,445,27,1918,1170,1920,1200",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"rspec",
+						".rspec"
+					],
+					[
+						"answer",
+						"app/models/answer.rb"
+					],
+					[
+						"spec/models/ans",
+						"spec/models/answer_spec.rb"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 259.0,
 			"status_bar_visible": true,
-			"window_id": 8,
-			"workspace_name": ""
+			"window_id": 12,
+			"workspace_name": "/home/marten/Documents/roqua.sublime-project"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/home/marten/Documents/afstuderen.sublime-project",
-			"/home/marten/Documents/roqua.sublime-project"
+			"/home/marten/Documents/roqua.sublime-project",
+			"/home/marten/Documents/afstuderen.sublime-project"
 		]
 	}
 }

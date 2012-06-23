@@ -1,9 +1,11 @@
 {
-	"auto_upgrade_last_run": 1338798784,
+	"auto_upgrade_last_run": 1340475768,
 	"installed_packages":
 	[
+		"Alignment",
 		"CoffeeScript",
 		"Color Highlighter",
+		"DetectSyntax",
 		"Emacs-like Modelines",
 		"Git",
 		"Gitignore",
@@ -15,9 +17,12 @@
 		"RubyTest",
 		"SCSS",
 		"SideBarEnhancements",
+		"SideBarGit",
 		"SublimeLinter",
+		"Theme - Pseudo OSX",
 		"Theme - Soda",
 		"Vintage Numbers",
-		"VintageEx"
+		"VintageEx",
+		"WordCount"
 	]
 }

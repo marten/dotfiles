@@ -1,6 +1,65 @@
 {
+	"bold_folder_labels": true,
+	"theme": "Soda Light.sublime-theme",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		".tags*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.bbl",
+		"*.blg",
+		"*.glo",
+		"*.out",
+		"*.toc",
+		"*.aux"
+	],
+	"folder_exclude_patterns":
+	[
+		"data",
+		".git",
+		".svn",
+		".hg",
+		"CVS",
+		".sass-cache",
+		".bundle",
+		"bundle",
+		".rbx",
+		"bin",
+		"script",
+		"tmp"
+	],
 	"font_size": 9.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_words":
+	[
+		"Quby",
+		"constantize"
+	],
+	"rulers":
+	[
+		80
+	],
+	"spell_check": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"trin_trailing_white_space_on_save": true
 }

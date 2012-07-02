@@ -3,13 +3,14 @@
 set nocompatible
 
 filetype off
-set rtp+=~/.vim/vundle.git
+set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 let mapleader = ","
 let maplocalleader = "\\"
 
 " Vundle configuration, and config for each bundle {{{
+Bundle 'gmarik/vundle'
 Bundle 'git://github.com/MarcWeber/vim-addon-mw-utils.git'
 Bundle 'git://github.com/tomtom/tlib_vim.git'
 "Bundle 'git://github.com/MarcWeber/snipmate.vim.git'

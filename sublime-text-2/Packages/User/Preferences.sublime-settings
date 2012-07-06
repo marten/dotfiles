@@ -1,6 +1,5 @@
 {
 	"bold_folder_labels": true,
-	"theme": "Soda Light.sublime-theme",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"file_exclude_patterns":
 	[
@@ -46,9 +45,13 @@
 		"script",
 		"tmp"
 	],
-	"font_size": 9.0,
+	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"ignored_words":
 	[
 		"Quby",

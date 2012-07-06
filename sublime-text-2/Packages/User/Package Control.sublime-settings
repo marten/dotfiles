@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1340475768,
+	"auto_upgrade_last_run": 1341162944,
 	"installed_packages":
 	[
 		"Alignment",
@@ -18,9 +18,9 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SideBarGit",
+		"SublimeCodeIntel",
 		"SublimeLinter",
-		"Theme - Pseudo OSX",
-		"Theme - Soda",
+		"Terminal",
 		"Vintage Numbers",
 		"VintageEx",
 		"WordCount"

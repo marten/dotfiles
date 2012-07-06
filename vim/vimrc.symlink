@@ -10,28 +10,60 @@ let mapleader = ","
 let maplocalleader = "\\"
 
 " Vundle configuration, and config for each bundle {{{
-Bundle 'git://github.com/MarcWeber/vim-addon-mw-utils.git'
-Bundle 'git://github.com/tomtom/tlib_vim.git'
-"Bundle 'git://github.com/MarcWeber/snipmate.vim.git'
-"Bundle 'wincent/Command-T'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-repeat'
-Bundle 'ack.vim'
-Bundle 'Rename'
-Bundle 'sickill/vim-pasta'
-Bundle 'jgdavey/tslime.vim'
+  " Deps
+    Bundle 'gmarik/vundle'
+    Bundle 'git://github.com/MarcWeber/vim-addon-mw-utils.git'
+    Bundle 'git://github.com/tomtom/tlib_vim.git'
+  
+  " General
+    " Nice looking status line
+    Bundle 'Lokaltog/vim-powerline'
 
-" ctrl-p to jump between files
-Bundle "kien/ctrlp.vim"
-let g:ctrlp_user_command = {
-  \ 'types': {
-    \ 1: ['.git/', 'cd %s && git ls-files'],
-    \ },
-  \ 'fallback': 'find %s -type f'
-  \ }
+    " Change surrounding stuff (e.g. cs'" to change ' to ")
+    Bundle 'tpope/vim-surround'
 
+    " Better repeats with .
+    Bundle 'tpope/vim-repeat'
 
+    " Rename the current file and update buffer (:Rename)
+    Bundle 'Rename'
+
+    Bundle 'sickill/vim-pasta'
+    Bundle 'jgdavey/tslime.vim'
+
+    " ctrl-p to jump between files
+    Bundle "kien/ctrlp.vim"
+    let g:ctrlp_user_command = {
+      \ 'types': {
+        \ 1: ['.git/', 'cd %s && git ls-files'],
+        \ },
+      \ 'fallback': 'find %s -type f'
+      \ }
+
+  " General Programming
+    " Live syntax checking
+    Bundle 'scrooloose/syntastic'
+    Bundle 'tpope/vim-endwise'
+    Bundle 'tpope/vim-fugitive'
+
+    Bundle 'garbas/vim-snipmate' 
+    Bundle 'snipmate-snippets'
+
+  " Ruby
+    Bundle 'tpope/vim-rails'
+    Bundle 'tpope/vim-haml'
+
+  " JavaScript
+    Bundle 'jQuery'
+    Bundle 'kchmck/vim-coffee-script'
+
+  " Clojure
+    Bundle 'VimClojure'
+    let vimclojure#WantNailgun = 1
+    let vimclojure#UseErrorBuffer = 0
+    let vimclojure#SplitPos = "right"
+    let g:vimclojure#HighlightBuiltins = 1
+    let g:vimclojure#ParenRainbow = 1
 
 "Bundle 'The-NERD-tree'
 "nmap <leader>n :NERDTreeClose<CR>:NERDTreeToggle<CR>
@@ -50,27 +82,8 @@ Bundle 'The-NERD-Commenter'
 "nmap <leader>/ :call NERDComment(0, "invert")<cr>
 "vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
-"Bundle 'vim-scripts/YankRing.vim'
-"" map ,y to show the yankring
-"nmap <leader>y :YRShow<cr>
-"let g:yankring_replace_n_pkey = '<leader>['
-"let g:yankring_replace_n_nkey = '<leader>]'
-
 " Languages
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-endwise'
-Bundle 'jQuery'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/syntastic'
 Bundle 'sjl/threesome.vim'
-Bundle 'VimClojure'
-let vimclojure#WantNailgun = 1
-let vimclojure#UseErrorBuffer = 0
-let vimclojure#SplitPos = "right"
-let g:vimclojure#HighlightBuiltins = 1
-let g:vimclojure#ParenRainbow = 1
 
 " }}}
 
@@ -129,7 +142,7 @@ set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
                                 " which commands trigger auto-unfold
 " }}}
 
-" Editor layout {{{
+" Editor layout {{
 set termencoding=utf-8
 set encoding=utf-8
 set lazyredraw                  " don't update the display while executing macros

@@ -5,6 +5,7 @@ typeset -U fpath
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" && __rvm_project_rvmrc  # This loads RVM into a shell session.
 [[ -s /usr/local/lib/rvm ]]       && source /usr/local/lib/rvm       && __rvm_project_rvmrc
 
+
 # Setup PATH
 export PATH=/usr/local/Cellar/macvim/7.3-64/MacVim.app/Contents/MacOS:$PATH
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
@@ -14,3 +15,5 @@ export PATH=/var/lib/gems/1.8/bin:$PATH
 
 # Setup rbenv if we have it
 export PATH=$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH
+
+export PATH=$HOME/bin:$PATH

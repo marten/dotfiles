@@ -45,7 +45,11 @@
 		"script",
 		"tmp"
 	],
+<<<<<<< Updated upstream
 	"font_size": 9,
+=======
+	"font_size": 14.0,
+>>>>>>> Stashed changes
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

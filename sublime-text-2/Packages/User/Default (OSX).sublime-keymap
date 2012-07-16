@@ -1,2 +1,8 @@
 [
+  // run tests
+  {
+    "keys": ["super+r"],
+    "command": "run_tests",
+    "args": {"single": false}
+  }
 ]

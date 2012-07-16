@@ -99,11 +99,11 @@ Host app_nieuw
   Hostname 10.20.0.251
   User deploy
 
-Host app_rgoc_1
-  Hostname 10.20.10.1
+Host app_research_1
+  Hostname 10.20.20.1
   User deploy
-Host app_rgoc_2
-  Hostname 10.20.10.2
+Host app_research_2
+  Hostname 10.20.20.2
   User deploy
 
 Host app_qubyadmin

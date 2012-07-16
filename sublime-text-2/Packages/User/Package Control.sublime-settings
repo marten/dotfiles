@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
 	"auto_upgrade_last_run": 1341162944,
+=======
+	"auto_upgrade_last_run": 1342426239,
+>>>>>>> Stashed changes
 	"installed_packages":
 	[
 		"Alignment",

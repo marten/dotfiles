@@ -1,32 +1,8 @@
 {
-<<<<<<< Updated upstream
-	"auto_upgrade_last_run": 1341162944,
-=======
-	"auto_upgrade_last_run": 1342426239,
->>>>>>> Stashed changes
+	"auto_upgrade_last_run": 1342783870,
 	"installed_packages":
 	[
-		"Alignment",
-		"CoffeeScript",
-		"Color Highlighter",
-		"DetectSyntax",
-		"Emacs-like Modelines",
-		"Git",
-		"Gitignore",
-		"Haml",
-		"LaTeXTools",
-		"Markdown Preview",
-		"Package Control",
-		"Ruby 1.9 Hash Converter",
-		"RubyTest",
-		"SCSS",
 		"SideBarEnhancements",
-		"SideBarGit",
-		"SublimeCodeIntel",
-		"SublimeLinter",
-		"Terminal",
-		"Vintage Numbers",
-		"VintageEx",
-		"WordCount"
+		"Theme - Soda"
 	]
 }

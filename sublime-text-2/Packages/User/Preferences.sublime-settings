@@ -45,7 +45,7 @@
 		"script",
 		"tmp"
 	],
-	"font_size": 16.0,
+	"font_size": 10.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

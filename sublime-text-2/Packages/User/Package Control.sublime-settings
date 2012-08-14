@@ -1,8 +1,14 @@
 {
-	"auto_upgrade_last_run": 1343378961,
+	"auto_upgrade_last_run": 1344847697,
 	"installed_packages":
 	[
+		"CoffeeScript",
+		"DetectSyntax",
+		"Package Control",
+		"RubyTest",
+		"SCSS",
 		"SideBarEnhancements",
-		"Theme - Soda"
+		"Theme - Soda",
+		"Vintage Numbers"
 	]
 }

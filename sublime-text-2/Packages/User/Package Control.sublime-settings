@@ -1,9 +1,10 @@
 {
-	"auto_upgrade_last_run": 1344847697,
+	"auto_upgrade_last_run": 1350386451,
 	"installed_packages":
 	[
 		"CoffeeScript",
 		"DetectSyntax",
+		"LESS",
 		"Package Control",
 		"RubyTest",
 		"SCSS",

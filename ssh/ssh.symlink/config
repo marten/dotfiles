@@ -58,12 +58,17 @@ Host git.roqua
   Port 2205
   User git
 
+Host metrics
+  Hostname 10.20.250.1
+  User marten
+
 #########################################################################
 # Applicatie machines
 #########################################################################
 Host x3backup
+  #ProxyCommand ssh x3gateway nc -w 1 10.20.200.11
   Hostname 10.20.200.11
-  User root
+  User roquabackup
 
 Host x4logger
   Hostname 10.20.200.21
@@ -95,6 +100,30 @@ Host x4apache
   Hostname 10.20.1.2
   User root
 
+Host prod_mongo1
+  Hostname 10.20.0.21
+  User marten
+
+Host prod_mongo2
+  Hostname 10.20.0.22
+  User marten
+
+Host prod_mongo3
+  Hostname 10.20.0.23
+  User marten
+
+Host stag_mongo1
+  Hostname 10.10.0.21
+  User marten
+
+Host stag_mongo2
+  Hostname 10.10.0.22
+  User marten
+
+Host stag_mongo3
+  Hostname 10.10.0.23
+  User marten
+
 Host app_nieuw
   Hostname 10.20.0.251
   User deploy
@@ -104,6 +133,13 @@ Host app_research_1
   User deploy
 Host app_research_2
   Hostname 10.20.20.2
+  User deploy
+
+Host stag_research_1
+  Hostname 10.10.20.1
+  User deploy
+Host stag_research_2
+  Hostname 10.10.20.2
   User deploy
 
 Host app_qubyadmin

@@ -43,7 +43,7 @@
 		".rbx",
 		"tmp"
 	],
-	"font_size": 10.0,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -62,6 +62,6 @@
 	"spell_check": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"trin_trailing_white_space_on_save": true,
+	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true
 }

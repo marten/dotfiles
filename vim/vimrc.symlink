@@ -439,8 +439,8 @@ function! RunTests(filename)
     if match(a:filename, '\.feature$') != -1
         exec ":!bundle exec cucumber " . a:filename
     else
-        "exec ":!soundcheck " . a:filename
-        call Send_to_Tmux("soundcheck " . a:filename . "\n")
+        exec ":!soundcheck " . a:filename
+        "call Send_to_Tmux("soundcheck " . a:filename . "\n")
     end
 endfunction
 

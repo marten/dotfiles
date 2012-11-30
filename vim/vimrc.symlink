@@ -436,12 +436,14 @@ function! RunTests(filename)
 " Write the file and run tests for the given filename
     :w
     :silent !echo;echo;echo;echo;echo;echo;echo;echo;echo;echo
-    if match(a:filename, '\.feature$') != -1
-        exec ":!bundle exec cucumber " . a:filename
-    else
-        exec ":!soundcheck " . a:filename
-        "call Send_to_Tmux("soundcheck " . a:filename . "\n")
-    end
+    " Run tests directly in current terminal
+    exec ":!soundcheck " . a:filename
+    
+    " Or send them to a tmux instance
+    "call Send_to_Tmux("soundcheck " . a:filename . "\n")
+
+    " TODO: Write a switching function for this so I don't have to edit
+    " vimrc to switch.
 endfunction
 
 function! SetTestFile()

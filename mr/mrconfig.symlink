@@ -1,8 +1,16 @@
+[oversight/agent]
+checkout = git clone 'git@github.com:oversight/agent.git' 'agent'
+
+[oversight/docs]
+checkout = git clone 'git@github.com:oversight/docs.git' 'docs'
+
+
+
 [rgoc/roqua]
 checkout = git clone 'git@github.com:roqua/roqua.git' 'roqua'
 
 [rgoc/quby]
-checkout = git clone 'git@github.com:roqua/quby.git' 'quby'
+checkout = git clone 'git@github.com:roqua/quby_engine.git' 'quby'
 
 [rgoc/questionnaires]
 checkout = git clone 'git@github.com:roqua/questionnaires.git' 'questionnaires'

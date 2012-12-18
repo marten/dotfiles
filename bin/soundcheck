@@ -1,2 +1,0 @@
-#!/bin/sh
-ruby -I$HOME/prj/soundcheck/lib $HOME/prj/soundcheck/bin/soundcheck $*

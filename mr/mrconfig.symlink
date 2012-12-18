@@ -27,3 +27,5 @@ checkout = git clone 'git@github.com:roqua/sysop.git' 'sysop'
 [rgoc/devop]
 checkout = git clone 'git@github.com:roqua/devop.git' 'devop'
 
+[rgoc/chef]
+checkout = git clone 'git@github.com:roqua/chef.git' 'chef'

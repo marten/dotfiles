@@ -30,7 +30,7 @@ let maplocalleader = "\\"
 
     Bundle 'sickill/vim-pasta'
     Bundle 'jgdavey/tslime.vim'
-    Bundle 'jgdavey/vim-turbux'
+    "Bundle 'jgdavey/vim-turbux'
 
     " ctrl-p to jump between files
     Bundle "kien/ctrlp.vim"

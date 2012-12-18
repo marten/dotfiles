@@ -57,11 +57,26 @@
 	],
 	"rulers":
 	[
-		80
+		80,120
 	],
 	"spell_check": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_simple_full_screen": true
+	"use_simple_full_screen": true,
+
+  // Exiting the application with hot_exit enabled will cause it to close
+  // immediately without prompting. Unsaved modifications and open files will
+  // be preserved and restored when next starting.
+  //
+  // Closing a window with an associated project will also close the window
+  // without prompting, preserving unsaved changes in the workspace file
+  // alongside the project.
+  "hot_exit": false,
+
+  // remember_open_files makes the application start up with the last set of
+  // open files. Changing this to false will have no effect if hot_exit is
+  // true
+  "remember_open_files": false
+
 }

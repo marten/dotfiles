@@ -78,7 +78,7 @@ Host x0irc
   User root
 
 Host x0ci
-  ProxyCommand ssh x0gateway nc -w 1 10.10.10.3 22
+  Hostname 10.254.0.98
   User marten
 
 Host dell-chef

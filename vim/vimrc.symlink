@@ -392,8 +392,8 @@ autocmd filetype latex map ,c :w\|!rubber -d %<cr>
 "set history=1000
 
 "" highlight trailing whitespace  
-"set listchars=tab:▷⋅,trail:·,eol:$
-"nmap <silent> <leader>s :set nolist!<CR>
+set listchars=tab:▷⋅,trail:·,eol:$
+nmap <silent> <leader>s :set nolist!<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Stolen from https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
@@ -488,6 +488,15 @@ endfunction
 :command! PromoteToLet :call PromoteToLet()
 
 map <leader>p :call PromoteToLet()<cr>
+
+fun! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+
+autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 
 set winwidth=78
 "set winheight=5

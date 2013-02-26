@@ -32,3 +32,6 @@ checkout = git clone 'git@github.com:roqua/chef.git' 'chef'
 
 [rgoc/roqua-support]
 checkout = git clone 'git@github.com:roqua/roqua-support.git' 'roqua-support'
+
+[rgoc/authmac]
+checkout = git clone 'git@github.com:roqua/authmac.git' 'authmac'

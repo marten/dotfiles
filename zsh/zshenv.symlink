@@ -15,6 +15,8 @@ export PATH=/usr/local/git/bin:$PATH
 export PATH=/var/lib/gems/1.8/bin:$PATH
 export PATH=/opt/vagrant/bin:$PATH
 
+export ROQUA_ROOT=$HOME/rgoc/roqua
+
 # setup rvm if we have it
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" && __rvm_project_rvmrc  # This loads RVM into a shell session.
 [[ -s /usr/local/lib/rvm ]]       && source /usr/local/lib/rvm       && __rvm_project_rvmrc

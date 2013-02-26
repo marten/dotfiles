@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1350386451,
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"CoffeeScript",
@@ -10,6 +10,7 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"Theme - Soda",
+		"Tomorrow Color Schemes",
 		"Vintage Numbers"
 	]
 }

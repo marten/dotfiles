@@ -1,4 +1,5 @@
 ForwardAgent yes
+ServerAliveInterval 120
 
 # My workstations
 
@@ -13,7 +14,7 @@ Host w
   User marten
 
 Host s
-  Hostname 192.168.1.18
+  Hostname home.veldthuis.com
   User marten
 
 # RGOc
@@ -359,3 +360,52 @@ Host ss
 HostName strongspace.com
 User txd-mv
 
+
+# BEGIN ROQUA AUTO-GENERATED SSH CONFIG
+Host logstash
+Hostname 10.254.0.102
+Host testserver1
+Hostname 10.210.253.1
+Host testserver2
+Hostname 10.210.253.2
+Host bamboo
+Hostname 10.254.0.104
+Host prod-mysql1
+Hostname 10.220.2.11
+Host prod-mysql2
+Hostname 10.220.2.12
+Host prod-mongo1
+Hostname 10.220.3.11
+Host prod-mongo2
+Hostname 10.220.3.12
+Host prod-mongo3
+Hostname 10.220.3.13
+Host prod-web1
+Hostname 10.220.10.11
+Host prod-web2
+Hostname 10.220.10.12
+Host prod-web3
+Hostname 10.220.10.13
+Host prod-util1
+Hostname 10.220.11.11
+Host stag-mysql1
+Hostname 10.210.2.11
+Host stag-mysql2
+Hostname 10.210.2.12
+Host stag-mongo1
+Hostname 10.210.3.11
+Host stag-mongo2
+Hostname 10.210.3.12
+Host stag-mongo3
+Hostname 10.210.3.13
+Host stag-web1
+Hostname 10.210.10.11
+Host stag-web2
+Hostname 10.210.10.12
+Host stag-web3
+Hostname 10.210.10.13
+Host stag-util1
+Hostname 10.210.11.11
+Host stag-medo1
+Hostname 10.217.10.11
+# END ROQUA AUTO-GENERATED SSH CONFIG}

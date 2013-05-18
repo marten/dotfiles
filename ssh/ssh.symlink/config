@@ -368,8 +368,6 @@ Host testserver1
 Hostname 10.210.253.1
 Host testserver2
 Hostname 10.210.253.2
-Host bamboo
-Hostname 10.254.0.104
 Host prod-mysql1
 Hostname 10.220.2.11
 Host prod-mysql2

@@ -66,17 +66,17 @@ let maplocalleader = "\\"
     let g:vimclojure#HighlightBuiltins = 1
     let g:vimclojure#ParenRainbow = 1
 
-"Bundle 'The-NERD-tree'
-"nmap <leader>n :NERDTreeClose<CR>:NERDTreeToggle<CR>
-"nmap <leader>N :NERDTreeClose<CR>
-"let NERDTreeBookmarksFile=expand("$HOME/.vim/NERDTreeBookmarks") " Store the bookmarks file
-"let NERDTreeShowBookmarks=1                                      " Show the bookmarks table on startup
-"let NERDTreeShowFiles=1                                          " Show hidden files, too
-"let NERDTreeShowHidden=1
-"let NERDTreeQuitOnOpen=0                                         " Don't quit on opening files from the tree
-"let NERDTreeHighlightCursorline=1                                " Highlight the selected entry in the tree
-"let NERDTreeMouseMode=1                                          " Use a double click to fold/unfold directories and a double click to open files
-"let NERDTreeIgnore=[ '\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$', '\.o$', '\.so$', '\.egg$', '^\.git$' ] " Don't display these kinds of files
+    Bundle 'The-NERD-tree'
+    nmap <leader>n :NERDTreeClose<CR>:NERDTreeToggle<CR>
+    nmap <leader>N :NERDTreeClose<CR>
+    let NERDTreeBookmarksFile=expand("$HOME/.vim/NERDTreeBookmarks") " Store the bookmarks file
+    let NERDTreeShowBookmarks=1                                      " Show the bookmarks table on startup
+    let NERDTreeShowFiles=1                                          " Show hidden files, too
+    let NERDTreeShowHidden=1
+    let NERDTreeQuitOnOpen=0                                         " Don't quit on opening files from the tree
+    let NERDTreeHighlightCursorline=1                                " Highlight the selected entry in the tree
+    let NERDTreeMouseMode=1                                          " Use a double click to fold/unfold directories and a double click to open files
+    let NERDTreeIgnore=[ '\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$', '\.o$', '\.so$', '\.egg$', '^\.git$' ] " Don't display these kinds of files
 
 Bundle 'The-NERD-Commenter'
 "" ,/ to invert comment on the current line/selection

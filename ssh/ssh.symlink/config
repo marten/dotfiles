@@ -101,7 +101,7 @@ Host metrics
 #########################################################################
 Host x3backup
   #ProxyCommand ssh x3gateway nc -w 1 10.20.200.11
-  Hostname 10.20.200.11
+  Hostname 10.220.200.11
   User roquabackup
 
 Host x4logger

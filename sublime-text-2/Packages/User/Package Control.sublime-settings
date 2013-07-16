@@ -2,23 +2,35 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Alignment",
 		"All Autocomplete",
 		"CoffeeScript",
+		"Color Highlighter",
 		"DetectSyntax",
+		"Emacs-like Modelines",
 		"Gist",
+		"Git",
 		"GitGutter",
+		"Gitignore",
 		"Handlebars",
+		"LaTeXTools",
 		"LESS",
+		"Markdown Preview",
 		"Package Control",
 		"Print to HTML",
 		"RSpec",
 		"RuboCop",
+		"Ruby Hash Converter",
 		"RubyTest",
 		"SCSS",
 		"SideBarEnhancements",
+		"SideBarGit",
+		"SublimeLinter",
 		"Theme - Nexus",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
-		"Vintage Numbers"
+		"Vintage Numbers",
+		"VintageEx",
+		"WordCount"
 	]
 }

@@ -8,3 +8,4 @@
 --type-set=coffeescript=.coffee
 --type-set=markdown=.md,.markdown,.mdown
 --nosql
+--ignore-dir="i18n"

@@ -123,15 +123,15 @@ Host r5
   User mveldthuis
 
 Host x3mirth
-  Hostname 10.20.0.101
+  Hostname 10.220.0.101
   User root
 
 Host x3apache
-  Hostname 10.20.1.1
+  Hostname 10.220.1.1
   User root
 
 Host x4apache
-  Hostname 10.20.1.2
+  Hostname 10.220.1.2
   User root
 
 Host prod_mongo1
@@ -364,10 +364,18 @@ User txd-mv
 # BEGIN ROQUA AUTO-GENERATED SSH CONFIG
 Host logstash
 Hostname 10.254.0.102
+Host monitoring
+Hostname 10.254.0.103
 Host testserver1
 Hostname 10.210.253.1
 Host testserver2
 Hostname 10.210.253.2
+Host ns1
+Hostname 10.250.0.1
+Host ns2
+Hostname 10.250.0.2
+Host ns3
+Hostname 10.250.0.3
 Host prod-mysql1
 Hostname 10.220.2.11
 Host prod-mysql2
@@ -386,6 +394,22 @@ Host prod-web3
 Hostname 10.220.10.13
 Host prod-util1
 Hostname 10.220.11.11
+Host prod-lb1
+Hostname 10.220.1.3
+Host prod-lb2
+Hostname 10.220.1.4
+Host prod-medo1
+Hostname 10.227.10.11
+Host prod-medo2
+Hostname 10.227.10.12
+Host prod-psql1
+Hostname 10.220.4.11
+Host prod-psql2
+Hostname 10.220.4.11
+Host stag-lb1
+Hostname 10.210.1.1
+Host stag-lb2
+Hostname 10.210.1.2
 Host stag-mysql1
 Hostname 10.210.2.11
 Host stag-mysql2
@@ -396,6 +420,10 @@ Host stag-mongo2
 Hostname 10.210.3.12
 Host stag-mongo3
 Hostname 10.210.3.13
+Host stag-psql1
+Hostname 10.210.4.11
+Host stag-psql2
+Hostname 10.210.4.12
 Host stag-web1
 Hostname 10.210.10.11
 Host stag-web2
@@ -406,4 +434,6 @@ Host stag-util1
 Hostname 10.210.11.11
 Host stag-medo1
 Hostname 10.217.10.11
-# END ROQUA AUTO-GENERATED SSH CONFIG}
+Host stag-medo2
+Hostname 10.217.10.12
+# END ROQUA AUTO-GENERATED SSH CONFIG}}

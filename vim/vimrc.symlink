@@ -44,7 +44,6 @@ let maplocalleader = "\\"
   " General Programming
     " Live syntax checking
     Bundle 'scrooloose/syntastic'
-    let g:syntastic_ruby_checkers = ['mri', 'rubocop']
     Bundle 'tpope/vim-endwise'
     Bundle 'tpope/vim-fugitive'
 

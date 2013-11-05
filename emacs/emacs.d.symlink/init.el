@@ -2,23 +2,26 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 (require 'pallet)
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/init"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/emacs-powerline"))
 
 (cd "~/")
 
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/init"))
 (mapcar 'require
 	'(init-core
     ; init-theme
-    ; init-keys
+    init-keys
     init-ido
     init-autocomplete
     init-highlight-indentation
+    init-dash-at-point
     ; init-find-file-in-project
     ; init-projectile
-    ; init-powerline
+    init-powerline
 	  init-evil
     init-ruby
 	  ))
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

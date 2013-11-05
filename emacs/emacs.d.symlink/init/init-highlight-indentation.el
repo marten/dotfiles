@@ -1,8 +1,8 @@
- (require 'highlight-indentation)
- (add-hook 'enh-ruby-mode-hook
-           (lambda () (highlight-indentation-current-column-mode)))
+(require 'highlight-indentation)
 
- (add-hook 'coffee-mode-hook
-           (lambda () (highlight-indentation-current-column-mode)))
+(add-hook 'enh-ruby-mode-hook
+          (lambda () (highlight-indentation-current-column-mode)))
+(add-hook 'coffee-mode-hook
+          (lambda () (highlight-indentation-current-column-mode)))
 
 (provide 'init-highlight-indentation)

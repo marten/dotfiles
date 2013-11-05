@@ -1,1 +1,1 @@
-("~/rgoc/roqua/" "~/dotfiles/")
+("~/dotfiles/emacs/emacs.d.symlink/" "~/rgoc/roqua/" "~/dotfiles/")

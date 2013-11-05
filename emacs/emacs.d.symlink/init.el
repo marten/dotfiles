@@ -4,6 +4,7 @@
 (require 'pallet)
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/init"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/emacs-powerline"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/smartparens"))
 
 (cd "~/")
 

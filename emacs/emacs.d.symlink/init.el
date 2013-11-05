@@ -16,8 +16,9 @@
     init-highlight-indentation
     init-dash-at-point
     ; init-find-file-in-project
-    ; init-projectile
+    init-projectile
     init-powerline
+    init-smartparens
 	  init-evil
     init-ruby
 	  ))
@@ -35,4 +36,4 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:inherit nil :stipple nil :background "White" :foreground "Black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120 :width normal :foundry "nil" :family "Fira Mono OT")))))

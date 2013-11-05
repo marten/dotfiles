@@ -1,6 +1,7 @@
 (source "gnu" "http://elpa.gnu.org/packages/")
 (source "melpa" "http://melpa.milkbox.net/packages/")
 
+(depends-on "[cl-struct-package-desc grizzl (20130810 1902) Fuzzy Search Library & Completing Read [github] ((cl-lib (0 1))) tar melpa nil nil nil]")
 (depends-on "auto-complete")
 (depends-on "cask")
 (depends-on "dash")

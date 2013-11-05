@@ -17,8 +17,8 @@ export ROQUA_ROOT=$HOME/rgoc/roqua-deployer
 export RAILS_LOG_LEVEL="debug"
 
 # setup rvm if we have it
-#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" && __rvm_project_rvmrc  # This loads RVM into a shell session.
-#[[ -s /usr/local/lib/rvm ]]       && source /usr/local/lib/rvm       && __rvm_project_rvmrc
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" && __rvm_project_rvmrc  # This loads RVM into a shell session.
+[[ -s /usr/local/lib/rvm ]]       && source /usr/local/lib/rvm       && __rvm_project_rvmrc
 
 # Setup rbenv if we have it
 #export PATH=$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH

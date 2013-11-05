@@ -11,6 +11,7 @@ export PATH=/usr/local/mysql/bin:$PATH
 export PATH=/usr/local/git/bin:$PATH
 export PATH=/var/lib/gems/1.8/bin:$PATH
 export PATH=/opt/vagrant/bin:$PATH
+export PATH="$HOME/.cask/bin:$PATH"
 
 export ROQUA_ROOT=$HOME/rgoc/roqua-deployer
 export RAILS_LOG_LEVEL="debug"

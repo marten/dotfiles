@@ -12,6 +12,7 @@
     ; init-keys
     init-ido
     init-autocomplete
+    init-highlight-indentation
     ; init-find-file-in-project
     ; init-projectile
     ; init-powerline

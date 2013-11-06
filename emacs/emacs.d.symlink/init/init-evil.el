@@ -1,11 +1,13 @@
 (require 'evil)
-(require 'evil-leader)
+(evil-mode 1)
 
+(require 'evil-leader)
 (setq evil-leader/in-all-states t)
 (evil-leader/set-leader ",")
 (evil-leader/set-key "f" 'find-file-in-project)
 
-(evil-mode 1)
+(require 'evil-nerd-commenter)
+(evilnc-default-hotkeys)
 
 (define-key evil-normal-state-map "\C-d" 'evil-delete-char)
 (define-key evil-insert-state-map "\C-d" 'evil-delete-char)

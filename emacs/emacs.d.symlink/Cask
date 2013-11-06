@@ -9,6 +9,7 @@
 (depends-on "enh-ruby-mode")
 (depends-on "evil")
 (depends-on "evil-leader")
+(depends-on "evil-nerd-commenter")
 (depends-on "expand-region")
 (depends-on "grizzl")
 (depends-on "highlight-indentation")

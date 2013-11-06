@@ -21,4 +21,6 @@
 (push (expand-file-name "/usr/local/bin") exec-path)
 (push (expand-file-name "~/bin") exec-path)
 
+(desktop-save-mode 1)
+
 (provide 'init-core)

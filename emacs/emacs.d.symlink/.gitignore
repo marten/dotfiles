@@ -2,4 +2,5 @@ ac-comphist.dat
 .cask
 .emacs.desktop
 .emacs.desktop.lock
-./projectile.cache
+projectile.cache
+projectile-bookmarks.eld

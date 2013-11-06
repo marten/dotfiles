@@ -10,6 +10,7 @@
 (depends-on "evil")
 (depends-on "evil-leader")
 (depends-on "expand-region")
+(depends-on "grizzl")
 (depends-on "highlight-indentation")
 (depends-on "magit")
 (depends-on "multiple-cursors")

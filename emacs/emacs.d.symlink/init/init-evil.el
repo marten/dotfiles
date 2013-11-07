@@ -6,8 +6,8 @@
 (evil-leader/set-leader ",")
 (evil-leader/set-key "f" 'find-file-in-project)
 
-(require 'evil-nerd-commenter)
-(evilnc-default-hotkeys)
+;(require 'evil-nerd-commenter)
+;(evilnc-default-hotkeys)
 
 (define-key evil-normal-state-map "\C-d" 'evil-delete-char)
 (define-key evil-insert-state-map "\C-d" 'evil-delete-char)

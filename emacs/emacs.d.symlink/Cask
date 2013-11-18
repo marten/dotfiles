@@ -1,6 +1,7 @@
 (source "gnu" "http://elpa.gnu.org/packages/")
 (source "melpa" "http://melpa.milkbox.net/packages/")
 
+(depends-on "[cl-struct-package-desc coffee-mode (0 4 1 1) Major mode for CoffeeScript files nil single gnu nil ((:url . http://github.com/defunkt/coffee-mode)) nil]")
 (depends-on "auto-complete")
 (depends-on "cask")
 (depends-on "dash")

@@ -5,6 +5,7 @@ eval "$($HOME/rgoc/devop/rq/bin/rq init -)"
 
 # Setup PATH
 export PATH=/usr/local/Cellar/macvim/7.3-64/MacVim.app/Contents/MacOS:$PATH
+export PATH=/usr/local/share/python:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 export PATH=/usr/local/mysql/bin:$PATH

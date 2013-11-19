@@ -68,7 +68,9 @@
 
 [github]
 	user = marten
-	token = 0aa2459c409bc1088417be75b968eaeb
+	site = https://github.com
+	endpoint = https://api.github.com
+	oauth-token-file = ~/.github-oauth-token
 
 [core]
 	excludesfile = /Users/marten/.gitignore_global

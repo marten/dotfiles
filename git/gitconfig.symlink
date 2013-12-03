@@ -75,9 +75,6 @@
 [core]
 	excludesfile = /Users/marten/.gitignore_global
 	quotepath = false
-[pivotal]
-	api-token = fc8e283387ab0d7f9f5f72f9478d847c
-	full-name = Marten Veldthuis
 [mergetool "opendiff"]
 	cmd = opendiff
 [mergetool]

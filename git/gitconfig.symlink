@@ -64,13 +64,14 @@
 
 ; stolen from https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
 [format]
-  pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+  pretty=format:%C(yellow)%h  %Cgreen(%ad) %C(red)%d%Creset %s %C(bold blue)<%an>%Creset
 
 [github]
 	user = marten
 	site = https://github.com
 	endpoint = https://api.github.com
 	oauth-token-file = ~/.github-oauth-token
+	oauth-token = /Users/marten/.github-oauth-token
 
 [core]
 	excludesfile = /Users/marten/.gitignore_global

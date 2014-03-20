@@ -6,3 +6,4 @@ alias ssh='/usr/bin/ssh'
 # git
 alias  g='git'
 alias  gp='git pull --rebase'
+alias gti=git

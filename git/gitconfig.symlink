@@ -46,6 +46,9 @@
   noff = merge --no-ff   ; if you want to make sure it does  create a merge commit
   sha = log -1 --pretty=format:%H    ; the sha1 of the latest commit
 
+  ; typos
+  puhs = push
+
   ; stolen from https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
   l = log --graph --abbrev-commit --date=relative
   la = !git l --all
@@ -70,8 +73,7 @@
 	user = marten
 	site = https://github.com
 	endpoint = https://api.github.com
-	oauth-token-file = ~/.github-oauth-token
-	oauth-token = /Users/marten/.github-oauth-token
+	oauth-token-file = /Users/marten/.github-oauth-token
 
 [core]
 	excludesfile = /Users/marten/.gitignore_global
@@ -100,3 +102,6 @@
 	trustExitCode = true
 [git-up "rebase"]
 	log-hook = "echo \"CHANGES FOR $1\"; git log -p $1..$2"
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f

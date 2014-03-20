@@ -11,6 +11,7 @@ export PATH=/usr/local/git/bin:$PATH
 export PATH=/var/lib/gems/1.8/bin:$PATH
 export PATH=/opt/vagrant/bin:$PATH
 export PATH="$HOME/.cask/bin:$PATH"
+export PATH=$HOME/bin:$PATH
 
 export ROQUA_ROOT=$HOME/rgoc/roqua-deployer
 export RAILS_LOG_LEVEL="debug"
@@ -19,3 +20,4 @@ export PATH=$HOME/bin:$PATH
 
 [[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]] && source /usr/local/opt/chruby/share/chruby/chruby.sh
 [[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]   && source /usr/local/opt/chruby/share/chruby/auto.sh
+chruby ruby-2.1.0

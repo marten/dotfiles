@@ -25,7 +25,7 @@ fi
 [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
 
 # Setup my own bin as the first place to look
-export PATH=$HOME/bin:$PATH
+#export PATH=$HOME/bin:$PATH
 
 function dburl() {
   dropbox puburl ~/Dropbox/Public/$1.png | pbcopy

@@ -5,33 +5,35 @@ checkout = git clone 'git@github.com:oversight/agent.git' 'agent'
 checkout = git clone 'git@github.com:oversight/docs.git' 'docs'
 
 
-
+[rgoc/deployer]
+checkout = git clone 'git@github.com:roqua/deployer.git' 'deployer'
 [rgoc/roqua]
 checkout = git clone 'git@github.com:roqua/roqua.git' 'roqua'
-
 [rgoc/quby]
 checkout = git clone 'git@github.com:roqua/quby_engine.git' 'quby'
-
+[rgoc/core]
+checkout = git clone 'git@github.com:roqua/core.git' 'core'
+[rgoc/client_portal]
+checkout = git clone 'git@github.com:roqua/client_portal.git' 'client_portal'
 [rgoc/questionnaires]
 checkout = git clone 'git@github.com:roqua/questionnaires.git' 'questionnaires'
-
 [rgoc/patty]
 checkout = git clone 'git@github.com:roqua/patty.git' 'patty'
-
 [rgoc/quby_admin]
 checkout = git clone 'git@github.com:roqua/quby_admin.git' 'quby_admin'
-
 [rgoc/sysop]
 checkout = git clone 'git@github.com:roqua/sysop.git' 'sysop'
-
 [rgoc/devop]
 checkout = git clone 'git@github.com:roqua/devop.git' 'devop'
-
 [rgoc/chef]
 checkout = git clone 'git@github.com:roqua/chef.git' 'chef'
-
 [rgoc/roqua-support]
 checkout = git clone 'git@github.com:roqua/roqua-support.git' 'roqua-support'
-
 [rgoc/authmac]
 checkout = git clone 'git@github.com:roqua/authmac.git' 'authmac'
+[rgoc/medo]
+checkout = git clone 'git@github.com:roqua/medo.git' 'medo'
+[rgoc/healthy]
+checkout = git clone 'git@github.com:roqua/healthy.git' 'healthy'
+[rgoc/status]
+checkout = git clone 'git@github.com:roqua/status.git' 'status'

@@ -20,4 +20,4 @@ export PATH=$HOME/bin:$PATH
 
 [[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]] && source /usr/local/opt/chruby/share/chruby/chruby.sh
 [[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]   && source /usr/local/opt/chruby/share/chruby/auto.sh
-chruby ruby-2.1.0
+chruby ruby-2.1.1

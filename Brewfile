@@ -20,3 +20,5 @@ install phantomjs
 install mysql
 install mongodb
 install postgresql
+install mr
+install autojump

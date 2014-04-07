@@ -1,6 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -44,9 +45,8 @@
 		".rbx",
 		"tmp"
 	],
-	"font_size": 13.0,
+	"font_size": 15.0,
 	"highlight_line": true,
-	"ensure_newline_at_eof_on_save": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":

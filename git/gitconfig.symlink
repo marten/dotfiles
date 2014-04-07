@@ -101,7 +101,7 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [git-up "rebase"]
-	log-hook = "echo \"CHANGES FOR $1\"; git log -p $1..$2"
+	log-hook = "echo \"CHANGES FOR $1\"; git log $1..$2"
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f

@@ -1,3 +1,4 @@
-(require 'tomorrow-night-theme)
+(require-package 'monokai-theme)
+(load-theme 'monokai t)
 
 (provide 'init-theme)

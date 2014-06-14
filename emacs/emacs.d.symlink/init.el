@@ -1,31 +1,34 @@
 ;; Package management
-(require 'cask "~/.cask/cask.el")
-(cask-initialize)
-(require 'pallet)
+
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/init"))
+(require 'init-packages)
+
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/emacs-powerline"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/smartparens"))
 
-(load-theme 'monokai t)
-
 (cd "~/")
 
-(mapcar 'require
- 	'(init-core
-     ; init-theme
-     init-keys
-     init-ido
-     init-autocomplete
-     init-highlight-indentation
-     init-dash-at-point
-     ; init-find-file-in-project
-     init-projectile
-     init-powerline
-     init-smartparens
-     init-evil
-     init-ruby
- 	  ))
+; Necessities
+(require 'init-core)    ; Core setup
+(require 'init-util)    ; Provides utility functions
+(require 'init-theme)   ; Sets up the theme
+(require 'init-visuals) ; Hides mode-line clutter, sets up visual aspects of Emacs
+(require 'init-evil)    ; VI-emulation
 
+; Editor improvements
+(require 'init-powerline)
+(require 'init-ido)
+(require 'init-autocomplete)
+(require 'init-projectile)
+
+; Languages
+(require 'init-ruby)
+
+;init-keys
+;init-highlight-indentation
+;init-dash-at-point
+;; init-find-file-in-project
+;init-smartparens
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

@@ -7,3 +7,6 @@ alias ssh='/usr/bin/ssh'
 alias  g='git'
 alias  gp='git pull --rebase'
 alias gti=git
+
+# the silver searcher
+alias ag="ag --path-to-agignore=$HOME/.agignore"

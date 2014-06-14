@@ -385,7 +385,17 @@ Hostname 10.254.0.99
 Host opencpu
 Hostname 10.254.0.97
 Host qubyadmin
-Hostname 10.254.0.110
+Hostname 129.125.147.80
+Host test-mysql1
+Hostname 10.230.2.11
+Host test-mysql2
+Hostname 10.230.2.12
+Host test-psql1
+Hostname 10.230.4.11
+Host test-psql2
+Hostname 10.230.4.12
+Host test-mirth
+Hostname 10.230.11.100
 Host prod-lb1
 Hostname 10.220.1.3
 Host prod-lb2
@@ -420,13 +430,13 @@ Host prod-web3
 Hostname 10.220.10.13
 Host prod-util1
 Hostname 10.220.11.11
-Host prod-client-portal-web1
+Host prod-grip-web1
 Hostname 10.220.20.11
-Host prod-client-portal-web2
+Host prod-grip-web2
 Hostname 10.220.20.12
-Host prod-client-portal-web3
+Host prod-grip-web3
 Hostname 10.220.20.13
-Host prod-client-portal-util1
+Host prod-grip-util1
 Hostname 10.220.21.11
 Host prod-core-web1
 Hostname 10.220.30.11
@@ -441,7 +451,7 @@ Hostname 10.227.10.11
 Host prod-medo2
 Hostname 10.227.10.12
 Host mirth
-Hostname 10.220.0.101
+Hostname 10.220.11.100
 Host stag-lb1
 Hostname 10.210.1.1
 Host stag-lb2
@@ -464,9 +474,9 @@ Host stag-web1
 Hostname 10.210.10.11
 Host stag-web2
 Hostname 10.210.10.12
-Host stag-web3
+Host stag-rom-web3
 Hostname 10.210.10.13
-Host stag-util1
+Host stag-rom-util1
 Hostname 10.210.11.11
 Host stag-client-portal-web1
 Hostname 10.210.20.11
@@ -488,10 +498,6 @@ Host stag-medo-web1
 Hostname 10.210.40.11
 Host stag-medo-web2
 Hostname 10.210.40.12
-Host stag-medo-web3
-Hostname 10.210.40.13
-Host stag-medo-util1
-Hostname 10.210.41.11
 Host stag-opencpu1
 Hostname 10.210.50.11
-# END ROQUA AUTO-GENERATED SSH CONFIG}}}}
+# END ROQUA AUTO-GENERATED SSH CONFIG}}}}}}

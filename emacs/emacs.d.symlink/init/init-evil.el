@@ -1,13 +1,35 @@
+(setq evil-search-module 'evil-search)
+(setq evil-magic 'very-magic)
+
+(setq evil-emacs-state-cursor '("red" box))
+(setq evil-normal-state-cursor '("green" box))
+(setq evil-visual-state-cursor '("orange" box))
+(setq evil-insert-state-cursor '("red" bar))
+(setq evil-replace-state-cursor '("red" bar))
+(setq evil-operator-state-cursor '("red" hollow))
+
+(setq evilnc-hotkey-comment-operator "gc")
+
+(require-package 'evil)
+(require-package 'evil-leader)
+(require-package 'evil-numbers)
+(require-package 'evil-visualstar)
+(require-package 'evil-nerd-commenter)
+(require-package 'evil-indent-textobject)
+(require-package 'evil-matchit)
+(require-package 'evil-exchange)
+
 (require 'evil)
+(require 'evil-nerd-commenter)
+(require 'evil-indent-textobject)
+(require 'evil-visualstar)
+
 (evil-mode 1)
 
 (require 'evil-leader)
 (setq evil-leader/in-all-states t)
 (evil-leader/set-leader ",")
 (evil-leader/set-key "f" 'find-file-in-project)
-
-;(require 'evil-nerd-commenter)
-;(evilnc-default-hotkeys)
 
 (define-key evil-normal-state-map "\C-d" 'evil-delete-char)
 (define-key evil-insert-state-map "\C-d" 'evil-delete-char)

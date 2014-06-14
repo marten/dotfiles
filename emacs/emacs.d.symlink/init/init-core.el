@@ -20,9 +20,11 @@
 (setq show-trailing-whitespace t)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+; Manage the $PATH
 (push (expand-file-name "/usr/local/bin") exec-path)
 (push (expand-file-name "~/bin") exec-path)
 
+; Save and restore open files across quits and restarts
 (desktop-save-mode 1)
 
 (provide 'init-core)

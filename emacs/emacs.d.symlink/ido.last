@@ -1,0 +1,66 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/marten/rgoc/roqua/app/models/" . "data_export/")
+ ("/Users/marten/rgoc/hl7-gateway/app/" . "controllers/")
+ ("/Users/marten/rgoc/hl7-gateway/" . "app/")
+ ("/Users/marten/rgoc/roqua/app/" . "models/")
+ ("/Users/marten/rgoc/" . "hl7-gateway/")
+ ("/Users/marten/dotfiles/emacs/emacs.d.symlink/" . "init/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/marten/dotfiles/emacs/emacs.d.symlink/"
+ "/Users/marten/dotfiles/emacs/emacs.d.symlink/init/"
+ "/Users/marten/rgoc/roqua/app/models/data_export/"
+ "/Users/marten/rgoc/hl7-gateway/app/controllers/"
+ "/Users/marten/rgoc/roqua/app/models/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "init-multiple-cursors.el"
+ "init-visuals.el"
+ "init-core.el"
+ "init-projectile.el"
+ "csv_generator.rb"
+ "answer_details.rb"
+ "A19Controller.java"
+ "dossier.rb"
+ "init-autocomplete.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/marten/dotfiles/emacs/emacs.d.symlink/" (21404 42088 0 0) "vendor/" "recentf" "projectile.cache" "projectile-bookmarks.eld" "init.el" "init/" "ido.last" "eshell/" "elpa/" "Cask" "auto-save-list/" "ac-comphist.dat" ".projectile" ".mc-lists.el" ".gitignore" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+
+ ("/Users/marten/dotfiles/emacs/emacs.d.symlink/init/" (21404 42096 0 0) "init-visuals.el" "init-util.el" "init-theme.el" "init-smartparens.el" "init-ruby.el" "init-projectile.el" "init-powerline.el" "init-packages.el" "init-multiple-cursors.el" "init-keys.el" "init-ido.el" "init-highlight-indentation.el" "init-evil.el" "init-dash-at-point.el" "init-core.el" "init-autocomplete.el" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/models/data_export/" (21404 41453 0 0) "sorter.rb" "score_values.rb" "questionnaire_headers.rb" "questionnaire_data.rb" "non_response_serializer.rb" "non_response.rb" "formatter.rb" "data_file.rb" "csv_generator.rb" "codebook.rb" "answer_values.rb" "answer_details.rb" ".#csv_generator.rb" "../" "./")
+
+ ("/Users/marten/rgoc/hl7-gateway/app/controllers/" (21395 6857 0 0) "A19Controller.java" "../" "./")
+
+ ("/Users/marten/rgoc/hl7-gateway/app/" (21395 6857 0 0) "views/" "models/" "controllers/" "../" "./")
+
+ ("/Users/marten/rgoc/hl7-gateway/" (21395 6857 0 0) "test/" "target/" "README" "public/" "project/" "logs/" "conf/" "build.sbt" "app/" ".settings/" ".idea_modules/" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/models/" (21404 41145 0 0) "user/" "token.rb" "token/" "team.rb" "settings.rb" "service_health.rb" "role.rb" "respondent.rb" "reported_questionnaire.rb" "report_template.rb" "report.rb" "questionnaire.rb" "quby_proxy.rb" "protocol_subscription.rb" "protocol.rb" "professional.rb" "person.rb" "patty_patient.rb" "patty_identity.rb" "organization.rb" "organization/" "non_response.rb" "measurement.rb" "invitation.rb" "highcharts_json_cache.rb" "helpers.rb" "fill_out_task.rb" "fill_out_session.rb" "fill_out_request.rb" "export_version.rb" "export_conversion.rb" "email_bounce.rb" "dossier.rb" "data_export.rb" "data_export/" "auth_token.rb" "auth_nonce.rb" "answer.rb" "answer/" "action.rb" ".gitkeep" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/" (21403 642 0 0) "views/" "use_cases/" "serializers/" "presenters/" "models/" "mailers/" "logic/" "jobs/" "helpers/" "decorators/" "cron_jobs/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/" (21403 642 0 0) "vendor/" "TODO" "tmp/" "spec/" "script/" "rubocop-todo.yml" "rom_api/" "README.md" "Rakefile" "public/" "Procfile" "log/" "lib/" "Guardfile.local" "Guardfile" "Gemfile.lock" "Gemfile" "doc/" "db/" "config.ru" "config/" "circle.yml" "bin/" "app/" ".rubocop.yml" ".rspec" ".projectile" ".idea/" ".gitignore" ".git/" ".env" ".cane" "../" "./")
+
+ ("/Users/marten/rgoc/" (21376 29371 0 0) "sysop/" "status/" "roqua-support/" "roqua/" "questionnaires/" "quby_admin/" "quby/" "psyche_soc_recovery.rb" "patty/" "medo/" "hl7-gateway/" "healthy_server/" "healthy/" "grip/" "devop/" "developer/" "deployer/" "core/" "chef/" "authmac/" ".DS_Store" "../" "./")
+
+ ("/Users/marten/" (21404 40722 0 0) "unscaled/" "uni/" "tmp/" "talks/" "src/" "soapui-settings.xml" "rgoc/" "Public/" "Pictures/" "oversight/" "Music/" "Movies/" "Library/" "intellij-soapui-workspace.xml" "foo.swift" "foo.pyc" "foo.py" "Downloads/" "dotfiles/" "Documents/" "dev/" "Desktop/" "Books/" "bar.swift" "Applications/" ".zshrc" ".zshenv" ".zsh_history" ".zsh/" ".zcompdump" ".xsession" ".xmonad/" ".Xdefaults" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".sbt/" ".ruby-version" ".rubies/" ".pry_history" ".passenger/" ".npm/" ".mrconfig" ".matplotlib/" ".m2/" ".local/" ".lldb-swift-history" ".lesshst" ".keybase-installer/" ".keybase/" ".ivy2/" ".irbrc" ".ipython/" ".gvimrc" ".guard_history" ".gnupg/" ".gitignore_global" ".gitconfig" ".git-credential-cache/" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".chef/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".belastingdienst.nl/" ".bash_history" ".atom/" ".apdisk" ".agignore" ".ackrc" "../" "./")
+
+ ("/Users/marten/dotfiles/" (21298 57478 0 0) "zsh/" "xmonad/" "x11/" "vim/" "sublime-text-3/" "sublime-text-2/" "ssh/" "SHARPEN.md" "ruby/" "README.md" "Rakefile" "mr/" "irssi/" "git/" "emacs/" "Brewfile" "bin/" "ack/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/marten/dotfiles/emacs/" (21279 8666 0 0) "README.markdown" "emacs.d.symlink/" ".gitignore" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

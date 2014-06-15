@@ -396,6 +396,10 @@ Host test-psql2
 Hostname 10.230.4.12
 Host test-mirth
 Hostname 10.230.11.100
+Host test-lb1
+Hostname 10.230.1.3
+Host test-lb2
+Hostname 10.230.1.4
 Host prod-lb1
 Hostname 10.220.1.3
 Host prod-lb2
@@ -470,21 +474,21 @@ Host stag-postgres1
 Hostname 10.210.4.11
 Host stag-postgres2
 Hostname 10.210.4.12
-Host stag-web1
+Host stag-rom-web1
 Hostname 10.210.10.11
-Host stag-web2
+Host stag-rom-web2
 Hostname 10.210.10.12
 Host stag-rom-web3
 Hostname 10.210.10.13
 Host stag-rom-util1
 Hostname 10.210.11.11
-Host stag-client-portal-web1
+Host stag-grip-web1
 Hostname 10.210.20.11
-Host stag-client-portal-web2
+Host stag-grip-web2
 Hostname 10.210.20.12
-Host stag-client-portal-web3
+Host stag-grip-web3
 Hostname 10.210.20.13
-Host stag-client-portal-util1
+Host stag-grip-util1
 Hostname 10.210.21.11
 Host stag-core-web1
 Hostname 10.210.30.11
@@ -500,4 +504,14 @@ Host stag-medo-web2
 Hostname 10.210.40.12
 Host stag-opencpu1
 Hostname 10.210.50.11
-# END ROQUA AUTO-GENERATED SSH CONFIG}}}}}}
+Host stag-moodmapp-web1
+Hostname 10.210.60.11
+Host stag-moodmapp-web2
+Hostname 10.210.60.12
+Host stag-moodmapp-web3
+Hostname 10.210.60.13
+Host stag-moodmapp-util1
+Hostname 10.210.61.11
+Host stag-opencpu1
+Hostname 10.210.50.11
+# END ROQUA AUTO-GENERATED SSH CONFIG}}}}}

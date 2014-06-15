@@ -20,6 +20,7 @@
 (require 'init-ido)
 (require 'init-autocomplete)
 (require 'init-projectile)
+(require 'init-yasnippet)
 
 ; Languages
 (require 'init-ruby)

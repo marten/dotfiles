@@ -1,2 +1,5 @@
 guard
 exit
+lein
+brew search lein
+exit

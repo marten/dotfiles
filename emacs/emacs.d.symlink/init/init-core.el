@@ -20,6 +20,10 @@
 (setq show-trailing-whitespace t)
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
+; Write save backups to a global directory instead of polluting my disk
+(setq backup-directory-alist
+      (list (cons "." (expand-file-name "backup" user-emacs-directory))))
+
 ; Manage the $PATH
 (push (expand-file-name "/usr/local/bin") exec-path)
 (push (expand-file-name "~/bin") exec-path)

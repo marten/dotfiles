@@ -14,6 +14,7 @@
 (require 'init-theme)   ; Sets up the theme
 (require 'init-visuals) ; Hides mode-line clutter, sets up visual aspects of Emacs
 (require 'init-evil)    ; VI-emulation
+(require 'init-keys)
 
 ; Editor improvements
 (require 'init-powerline)
@@ -25,7 +26,6 @@
 ; Languages
 (require 'init-ruby)
 
-;init-keys
 ;init-highlight-indentation
 ;init-dash-at-point
 ;; init-find-file-in-project

@@ -2,62 +2,113 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/marten/.emacs.d/" . "init/")
+ ("/Users/marten/dotfiles/ssh/ssh.symlink/" . "ssh.symlink/")
+ ("/Users/marten/dotfiles/ssh/" . "ssh.symlink/")
+ ("/Users/marten/dotfiles/" . "ssh/")
+ ("/Users/marten/rgoc/roqua/app/controllers/" . "admin/")
+ ("/Users/marten/rgoc/roqua/" . "app/")
+ ("/Users/marten/" . ".emacs.d/")
  ("/Users/marten/rgoc/roqua/app/models/" . "data_export/")
  ("/Users/marten/rgoc/hl7-gateway/app/" . "controllers/")
  ("/Users/marten/rgoc/hl7-gateway/" . "app/")
- ("/Users/marten/rgoc/roqua/app/" . "models/")
- ("/Users/marten/rgoc/" . "hl7-gateway/")
+ ("/Users/marten/rgoc/roqua/app/" . "controllers/")
+ ("/Users/marten/rgoc/" . "roqua/")
  ("/Users/marten/dotfiles/emacs/emacs.d.symlink/" . "init/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/marten/.emacs.d/"
+ "/Users/marten/.emacs.d/init/"
+ "/Users/marten/dotfiles/ssh/"
  "/Users/marten/dotfiles/emacs/emacs.d.symlink/"
  "/Users/marten/dotfiles/emacs/emacs.d.symlink/init/"
+ "/Users/marten/rgoc/roqua/db/migrate/"
+ "/Users/marten/rgoc/roqua/app/controllers/admin/"
+ "/Users/marten/rgoc/roqua/app/cron_jobs/"
+ "/Users/marten/rgoc/roqua/app/models/"
  "/Users/marten/rgoc/roqua/app/models/data_export/"
  "/Users/marten/rgoc/hl7-gateway/app/controllers/"
- "/Users/marten/rgoc/roqua/app/models/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "init-framebufs.el"
+ ".gitignore"
  "init-multiple-cursors.el"
- "init-visuals.el"
- "init-core.el"
- "init-projectile.el"
- "csv_generator.rb"
- "answer_details.rb"
- "A19Controller.java"
- "dossier.rb"
- "init-autocomplete.el"
+ "init-ag.el"
+ "20140619150759_copy_more_settings_to_organizations.rb"
+ "settings_controller.rb"
+ "cron_job.rb"
+ "init-evil.el"
+ "init-keys.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/marten/dotfiles/emacs/emacs.d.symlink/" (21404 42088 0 0) "vendor/" "recentf" "projectile.cache" "projectile-bookmarks.eld" "init.el" "init/" "ido.last" "eshell/" "elpa/" "Cask" "auto-save-list/" "ac-comphist.dat" ".projectile" ".mc-lists.el" ".gitignore" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+ ("/Users/marten/.emacs.d/" (21414 39265 0 0) "vendor/" "snippets/" "recentf" "projectile.cache" "projectile-bookmarks.eld" "init.el" "init/" "ido.last" "eshell/" "elpa/" "Cask" "auto-save-list/" "ac-comphist.dat" ".projectile" ".mc-lists.el" ".gitignore" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
 
- ("/Users/marten/dotfiles/emacs/emacs.d.symlink/init/" (21404 42096 0 0) "init-visuals.el" "init-util.el" "init-theme.el" "init-smartparens.el" "init-ruby.el" "init-projectile.el" "init-powerline.el" "init-packages.el" "init-multiple-cursors.el" "init-keys.el" "init-ido.el" "init-highlight-indentation.el" "init-evil.el" "init-dash-at-point.el" "init-core.el" "init-autocomplete.el" "../" "./")
+ ("/Users/marten/.emacs.d/init/" (21414 39230 0 0) "init-yasnippet.el" "init-whitespace.el" "init-visuals.el" "init-util.el" "init-theme.el" "init-smartparens.el" "init-ruby.el" "init-projectile.el" "init-powerline.el" "init-packages.el" "init-keys.el" "init-ido.el" "init-highlight-indentation.el" "init-framebufs.el" "init-evil.el" "init-dash-at-point.el" "init-core.el" "init-autocomplete.el" "init-ag.el" "../" "./")
 
- ("/Users/marten/rgoc/roqua/app/models/data_export/" (21404 41453 0 0) "sorter.rb" "score_values.rb" "questionnaire_headers.rb" "questionnaire_data.rb" "non_response_serializer.rb" "non_response.rb" "formatter.rb" "data_file.rb" "csv_generator.rb" "codebook.rb" "answer_values.rb" "answer_details.rb" ".#csv_generator.rb" "../" "./")
+ ("/Users/marten/rgoc/roqua/app/models/" (21414 36101 0 0) "user/" "token.rb" "token/" "team.rb" "settings.rb" "service_health.rb" "role.rb" "respondent.rb" "reported_questionnaire.rb" "report_template.rb" "report.rb" "questionnaire.rb" "quby_proxy.rb" "protocol_subscription.rb" "protocol.rb" "professional.rb" "person.rb" "patty_patient.rb" "patty_identity.rb" "organization.rb" "organization/" "non_response.rb" "measurement.rb" "invitation.rb" "highcharts_json_cache.rb" "helpers.rb" "fill_out_task.rb" "fill_out_session.rb" "fill_out_request.rb" "export_version.rb" "export_conversion.rb" "email_bounce.rb" "dossier.rb" "data_export.rb" "data_export/" "auth_token.rb" "auth_nonce.rb" "answer.rb" "answer/" "action.rb" ".gitkeep" "../" "./")
 
- ("/Users/marten/rgoc/hl7-gateway/app/controllers/" (21395 6857 0 0) "A19Controller.java" "../" "./")
+ ("/Users/marten/rgoc/roqua/app/cron_jobs/" (21413 63752 0 0) "retrieve_sendgrid_bounces_and_invalid_emails.rb" "prepare_protocol_subscriptions.rb" "janitor_unsent_orus.rb" "cron_job.rb" "cleanup_missed_answer_callbacks.rb" "cleanup_expired_patient_details.rb" "cleanup_expired_fill_out_sessions.rb" "cleanup_expired_export_versions.rb" "cleanup_expired_auth_nonces.rb" "cleanup_expired_answers.rb" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/controllers/admin/" (21413 63986 0 0) "teams_controller.rb" "settings_controller.rb" "sessions_controller.rb" "report_templates_controller.rb" "protocols_controller.rb" "professionals_controller.rb" "preferences_controller.rb" "measurements_controller.rb" "invitations_controller.rb" "email_bounces_controller.rb" "data_exports_controller.rb" "dashboard_controller.rb" "auth_tokens_controller.rb" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/db/migrate/" (21413 64170 0 0) "20140620122813_copy_secrets_to_organization.rb" "20140620121345_organization_add_secrets.rb" "20140619150759_copy_more_settings_to_organizations.rb" "20140619094841_psyche_final_reminder2.rb" "20140618144534_regen42_ks.rb" "20140616152435_regen_ids_c.rb" "20140616140350_change_notes_column.rb" "20140616120202_regen_adhd_avl.rb" "20140616102133_add_organization_current_export_version.rb" "20140616080224_add_zero_or_deleted_at_column.rb" "20140612140306_copy_existing_settings_to_organization.rb" "20140612085703_alter_non_response_rename_values.rb" "20140611133146_fill_patty_patient_organization.rb" "20140610151923_link_answer_to_fill_out_request.rb" "20140610143742_create_fill_out_requests.rb" "20140604091202_expire_old_export_versions.rb" "20140604084246_add_expired_flag_to_export_versions.rb" "20140528120613_regen_scl90.rb" "20140527121300_non_response_at_not_null.rb" "20140526071044_add_non_response_at.rb" "20140522123223_add_answer_constraints.rb" "20140522122836_switcheroo_answer_remote_id.rb" "20140522120623_create_missing_quby_records.rb" "20140522074346_ucp_send_2013_intake_orus.rb" "20140521143419_ucp_send_2013_honos_orus.rb" "20140521122952_create_non_responses.rb" "20140521080144_ucp_send_2013_oq45_orus.rb" "20140520143603_remove_next_run_time.rb" "20140520141437_copy_old_quby_data_to_ar_repo.rb" "20140520141333_alter_answers_add_new_quby_id.rb" "20140520132823_add_quby_answers_table.rb" "20140520103051_ucp_send_oru_test.rb" "20140519133854_regen_idssr.rb" "20140518183922_restore_ucp_pending_answers.rb" "20140518183308_recover_ucp_answers.rb" "20140514134520_regenerate_edeq_kind.rb" "20140509143115_psyche_final_reminder.rb" "20140507130241_regenerate_adhd_avl.rb" "20140507101429_move_settings_to_organization.rb" "20140505083856_set_unique_constraint_on_orgs.rb" "20140501114324_add_foreign_key_relations.rb" "20140501113832_add_initial_organization.rb" "20140501112727_create_organizations.rb" "20140501093304_mongoid_app_settings_record_update.rb" "20140424115855_send_psyche_reminders5.rb" "20140418112011_regen_dass21_ubos_c.rb" "20140418112010_drop_values_cache.rb" "20140417153439_regenerate_idssr.rb" "20140417115200_resend_sf6_d.rb" "20140416115414_regen_hscl25.rb" "20140414150036_regenerate_ipov_tevr.rb" "20140414140605_regenerate_sra_sle_qidssr.rb" "20140414083728_regenerate_mansa_7.rb" "20140410095254_set_fill_out_session_secret.rb" "20140409095820_remove_expsampl2.rb" "20140407095055_add_team_id_and_quby_parameters_to_fill_out_sessions.rb" "20140402121240_fix_srs_slider_values_again.rb" "20140402085427_restore_interval_scheduler_subscriptions.rb" "20140401140540_enable_login_link_for_ggzfriesland.rb" "20140328124232_regenerate_ors_srs_variants.rb" "20140326142550_send_psyche_reminders4.rb" "20140320085711_change_polymorphic_patient_associations.rb" "20140312103644_add_report_calculation_key.rb" "20140310122126_send_psyche_reminders3.rb" "20140220133757_send_psyche_reminders2.rb" "20140219145621_regen_phamous_reports.rb" "20140219113046_rerender_phamous_reports_again.rb" "20140214110349_regenerate_spsy_eetstoornissen.rb" "20140205112539_fix_psyche_answer_order.rb" "20140204124055_send_psyche_reminders.rb" "20140203155407_add_index_on_epd_id_to_professionals.rb" "20140203154731_deduplicate_professionals.rb" "20140203144041_set_deleted_at_for_old_inactive_professionals.rb" "20140203144040_add_deleted_at_to_professionals.rb" "20140130084712_restore_and_export_serials.rb" "20140130084711_answers_labels_column.rb" "20140127152128_add_index_on_epd_id_to_patients.rb" "20140127152127_deduplicate_patients_once_more.rb" "20140127152124_set_deleted_at_for_old_inactive_patients.rb" "20140127152120_add_deleted_at_to_patients.rb" "20140127100058_rerender_phamous_reports.rb" "20140124102016_deduplicate_patients.rb" "20140123115045_regenerate_rand36_3.rb" "20140121112415_clear_noreply_address.rb" "20140120153041_add_pnr_report_2014.rb" "20140115123136_regenerate_edeq_outcomes.rb" "20140115122432_questionnaire_rename_start_v_21c_a1.rb" "20140114140522_fix_reminder_jobs.rb" "20140107151757_remove_legacy_complete_column.rb" "20140107085844_prepare_missed_automatic_measurements.rb" "20140106094948_ggzcentraal_prefill_old_miniscan_ids.rb" "20140106091602_patients_add_miniscan_id.rb" "20131224152310_associate_phamous_letters_with_native_original.rb" "20131224110000_add_fill_out_task_order_to_answers.rb" "20131223120341_add_foreign_keys.rb" "20131212121929_regen_edeq.rb" "20131209093819_convert_old_long_keys_to_shorter_prefixed_with_v.rb" "20131206133458_add_index_fill_out_tasks.rb" "20131205105447_drop_reminders_settings_scores_snippets_statusses_uploads_tables.rb" "20131205104839_drop_roles_table.rb" "20131205104707_drop_questionnaires_teams_table.rb" "20131205104604_drop_questionnaires_reports_table.rb" "20131205104446_drop_protocols_questionnaires_table.rb" "20131205104255_drop_projects_questionnaires_table.rb" "20131205103833_drop_outcomes_table.rb" "20131205103155_drop_meas_instances.rb" "20131205095320_merge_invitation_and_reports_rights.rb" "20131204143704_give_all_users_with_professionals_right_the_all_right.rb" "20131204131135_drop_table_owners_reports.rb" "20131204130637_remove_archived_outcome_description_owner_id_from_questionnaires.rb" "20131204124342_remove_template_archived_open_code_scheduled_start_date_duration_from_measurements.rb" "20131204123740_remove_template_archived_from_protocols.rb" "20131203103430_prepare_phamous_2014_report_templates.rb" "../" "./")
+
+ ("/Users/marten/dotfiles/emacs/emacs.d.symlink/init/" (21414 36708 0 0) "init-yasnippet.el" "init-whitespace.el" "init-visuals.el" "init-util.el" "init-theme.el" "init-smartparens.el" "init-ruby.el" "init-projectile.el" "init-powerline.el" "init-packages.el" "init-keys.el" "init-ido.el" "init-highlight-indentation.el" "init-evil.el" "init-dash-at-point.el" "init-core.el" "init-autocomplete.el" "init-ag.el" "../" "./")
+
+ ("/Users/marten/dotfiles/emacs/emacs.d.symlink/" (21414 36846 0 0) "vendor/" "snippets/" "recentf" "projectile.cache" "projectile-bookmarks.eld" "init.el" "init/" "ido.last" "eshell/" "elpa/" "Cask" "auto-save-list/" "ac-comphist.dat" ".projectile" ".mc-lists.el" ".gitignore" ".emacs.desktop.lock" ".emacs.desktop" "../" "./")
+
+ ("/Users/marten/dotfiles/ssh/" (21414 36784 0 0) "ssh.symlink/" ".gitignore" "../" "./")
+
+ ("/Users/marten/" (21414 36806 0 0) "unscaled/" "uni/" "tmp/" "talks/" "src/" "soapui-settings.xml" "rgoc/" "Public/" "Pictures/" "oversight/" "Music/" "Movies/" "Library/" "intellij-soapui-workspace.xml" "foo.swift" "foo.pyc" "foo.py" "Downloads/" "dotfiles/" "Documents/" "dev/" "Desktop/" "Books/" "bar.swift" "Applications/" ".zshrc" ".zshenv" ".zsh_history" ".zsh/" ".zcompdump" ".xsession" ".xmonad/" ".Xdefaults" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".sbt/" ".ruby-version" ".rubies/" ".pry_history" ".passenger/" ".npm/" ".mrconfig" ".matplotlib/" ".m2/" ".local/" ".lldb-swift-history" ".lesshst" ".lein/" ".keybase-installer/" ".keybase/" ".ivy2/" ".irbrc" ".ipython/" ".gvimrc" ".guard_history" ".gnupg/" ".gitignore_global" ".gitconfig" ".git-credential-cache/" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".chef/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".belastingdienst.nl/" ".bash_history" ".atom/" ".apdisk" ".agignore" ".adobe/" ".ackrc" "../" "./")
+
+ ("/Users/marten/dotfiles/ssh/ssh.symlink/ssh.symlink/" (21414 36708 0 0) "ssh.symlink/" "known_hosts" "id_rsa.pub" "id_rsa" "github_rsa.pub" "github_rsa" "config" "authorized_keys" "../" "./")
+
+ ("/Users/marten/dotfiles/ssh/ssh.symlink/" (21414 36708 0 0) "ssh.symlink/" "known_hosts" "id_rsa.pub" "id_rsa" "github_rsa.pub" "github_rsa" "config" "authorized_keys" "../" "./")
+
+ ("/Users/marten/dotfiles/" (21404 42235 0 0) "zsh/" "xmonad/" "x11/" "vim/" "sublime-text-3/" "sublime-text-2/" "ssh/" "SHARPEN.md" "ruby/" "README.md" "Rakefile" "mr/" "irssi/" "git/" "emacs/" "Brewfile" "bin/" "ack/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/views/" (21410 48105 0 0) "templating/" "system/" "sms/" "layouts/" "export/" "errors/" "epd/" "client/" "application/" "admin/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/views/templating/" (21279 10894 0 0) "partials/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/views/templating/partials/" (21279 10894 0 0) "system/" "questionnaire/" "outcome/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/views/templating/partials/outcome/" (21410 48105 0 0) "_scores.html.haml" "_multi_chart.html.haml" "_graphs.html.haml" "_answers.html.haml" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/db/" (21413 38183 0 0) "seeds.rb" "seeds/" "schema.rb" "questionnaires/" "migrate/" "hl7-examples/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/controllers/" (21413 37440 0 0) "highcharts_images_controller.rb" "fill_out_area_controller.rb" "fill_out/" "epd_area_controller.rb" "epd/" "client_area_controller.rb" "client/" "application_controller.rb" "api_area_controller.rb" "api/" "admin_area_controller.rb" "admin/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/use_cases/" (21413 63831 0 0) "use_case.rb" "updates_professional.rb" "subscribes_to_protocol.rb" "shows_preferences_pane.rb" "queries/" "prepares_measurement.rb" "prepares_fill_out_request.rb" "operation.rb" "interactors/" "generates_oru_schemas.rb" "finds_action_values.rb" "fill_out_sessions/" "downloads_data_export.rb" "commands/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/" (21410 48105 0 0) "views/" "use_cases/" "serializers/" "presenters/" "models/" "mailers/" "logic/" "jobs/" "helpers/" "decorators/" "cron_jobs/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/" (21413 37447 0 0) "vendor/" "TODO" "tmp/" "spec/" "script/" "rubocop-todo.yml" "rom_api/" "README.md" "Rakefile" "public/" "Procfile" "log/" "lib/" "Guardfile.local" "Guardfile" "Gemfile.lock" "Gemfile" "doc/" "db/" "config.ru" "config/" "circle.yml" "bin/" "app/" ".rubocop.yml" ".rspec" ".projectile" ".idea/" ".gitignore" ".git/" ".env" ".cane" "../" "./")
+
+ ("/Users/marten/rgoc/hl7-gateway/app/controllers/" (21404 41212 0 0) "A19Controller.java" "../" "./")
+
+ ("/Users/marten/rgoc/roqua/app/models/data_export/" (21413 37447 0 0) "sorter.rb" "score_values.rb" "questionnaire_headers.rb" "questionnaire_data.rb" "non_response_serializer.rb" "non_response.rb" "formatter.rb" "data_file.rb" "csv_generator.rb" "codebook.rb" "answer_values.rb" "answer_details.rb" "../" "./")
+
+ ("/Users/marten/rgoc/" (21405 44257 0 0) "sysop/" "status/" "roqua-support/" "roqua/" "questionnaires/" "quby_admin/" "quby/" "psyche_soc_recovery.rb" "patty/" "medo/" "hl7-gateway-clj/" "hl7-gateway/" "healthy_server/" "healthy/" "grip/" "devop/" "developer/" "deployer/" "core/" "chef/" "authmac/" ".DS_Store" "../" "./")
+
+ ("/Users/marten/rgoc/deployer/" (21353 8059 0 0) "README.md" "lib/" "Gemfile.lock" "Gemfile" "doc/" "Capfile.roqua" "Capfile.rookie" "Capfile.quby_admin" "Capfile.moodmapp" "Capfile.medo" "Capfile.grip" "Capfile.core" "bin/" "apps/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/marten/rgoc/deployer/lib/" (21325 35857 0 0) "deployer.rb" "deployer/" "capistrano/" "../" "./")
+
+ ("/Users/marten/rgoc/deployer/lib/capistrano/" (21280 29307 0 0) "tasks/" "../" "./")
+
+ ("/Users/marten/rgoc/deployer/lib/capistrano/tasks/" (21413 24133 0 0) "utility.rb" "symlinks.rb" "sidekiq.rb" "questionnaires.rb" "passenger.rb" "notify_flowdock.rb" "notify_airbrake.rb" "maintenance.rb" "logs.rb" "invoke.rb" "helpers.rb" "delayed_job.rb" "database.rb" "create_tag.rb" "cleanup.rb" "bundler.rb" "backups.rb" "assets_precompile_on_server.rb" "assets_from_s3.rb" "../" "./")
 
  ("/Users/marten/rgoc/hl7-gateway/app/" (21395 6857 0 0) "views/" "models/" "controllers/" "../" "./")
 
  ("/Users/marten/rgoc/hl7-gateway/" (21395 6857 0 0) "test/" "target/" "README" "public/" "project/" "logs/" "conf/" "build.sbt" "app/" ".settings/" ".idea_modules/" ".idea/" ".gitignore" ".git/" "../" "./")
-
- ("/Users/marten/rgoc/roqua/app/models/" (21404 41145 0 0) "user/" "token.rb" "token/" "team.rb" "settings.rb" "service_health.rb" "role.rb" "respondent.rb" "reported_questionnaire.rb" "report_template.rb" "report.rb" "questionnaire.rb" "quby_proxy.rb" "protocol_subscription.rb" "protocol.rb" "professional.rb" "person.rb" "patty_patient.rb" "patty_identity.rb" "organization.rb" "organization/" "non_response.rb" "measurement.rb" "invitation.rb" "highcharts_json_cache.rb" "helpers.rb" "fill_out_task.rb" "fill_out_session.rb" "fill_out_request.rb" "export_version.rb" "export_conversion.rb" "email_bounce.rb" "dossier.rb" "data_export.rb" "data_export/" "auth_token.rb" "auth_nonce.rb" "answer.rb" "answer/" "action.rb" ".gitkeep" "../" "./")
-
- ("/Users/marten/rgoc/roqua/app/" (21403 642 0 0) "views/" "use_cases/" "serializers/" "presenters/" "models/" "mailers/" "logic/" "jobs/" "helpers/" "decorators/" "cron_jobs/" "controllers/" "assets/" "../" "./")
-
- ("/Users/marten/rgoc/roqua/" (21403 642 0 0) "vendor/" "TODO" "tmp/" "spec/" "script/" "rubocop-todo.yml" "rom_api/" "README.md" "Rakefile" "public/" "Procfile" "log/" "lib/" "Guardfile.local" "Guardfile" "Gemfile.lock" "Gemfile" "doc/" "db/" "config.ru" "config/" "circle.yml" "bin/" "app/" ".rubocop.yml" ".rspec" ".projectile" ".idea/" ".gitignore" ".git/" ".env" ".cane" "../" "./")
-
- ("/Users/marten/rgoc/" (21376 29371 0 0) "sysop/" "status/" "roqua-support/" "roqua/" "questionnaires/" "quby_admin/" "quby/" "psyche_soc_recovery.rb" "patty/" "medo/" "hl7-gateway/" "healthy_server/" "healthy/" "grip/" "devop/" "developer/" "deployer/" "core/" "chef/" "authmac/" ".DS_Store" "../" "./")
-
- ("/Users/marten/" (21404 40722 0 0) "unscaled/" "uni/" "tmp/" "talks/" "src/" "soapui-settings.xml" "rgoc/" "Public/" "Pictures/" "oversight/" "Music/" "Movies/" "Library/" "intellij-soapui-workspace.xml" "foo.swift" "foo.pyc" "foo.py" "Downloads/" "dotfiles/" "Documents/" "dev/" "Desktop/" "Books/" "bar.swift" "Applications/" ".zshrc" ".zshenv" ".zsh_history" ".zsh/" ".zcompdump" ".xsession" ".xmonad/" ".Xdefaults" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".TemporaryItems/" ".subversion/" ".ssh/" ".sbt/" ".ruby-version" ".rubies/" ".pry_history" ".passenger/" ".npm/" ".mrconfig" ".matplotlib/" ".m2/" ".local/" ".lldb-swift-history" ".lesshst" ".keybase-installer/" ".keybase/" ".ivy2/" ".irbrc" ".ipython/" ".gvimrc" ".guard_history" ".gnupg/" ".gitignore_global" ".gitconfig" ".git-credential-cache/" ".gemrc" ".gem/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".chef/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".belastingdienst.nl/" ".bash_history" ".atom/" ".apdisk" ".agignore" ".ackrc" "../" "./")
-
- ("/Users/marten/dotfiles/" (21298 57478 0 0) "zsh/" "xmonad/" "x11/" "vim/" "sublime-text-3/" "sublime-text-2/" "ssh/" "SHARPEN.md" "ruby/" "README.md" "Rakefile" "mr/" "irssi/" "git/" "emacs/" "Brewfile" "bin/" "ack/" ".gitignore" ".git/" "../" "./")
 
  ("/Users/marten/dotfiles/emacs/" (21279 8666 0 0) "README.markdown" "emacs.d.symlink/" ".gitignore" "../" "./")
 )

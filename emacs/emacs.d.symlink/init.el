@@ -3,6 +3,7 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/init"))
 (require 'init-packages)
 
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/emacs-powerline"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/vendor/smartparens"))
 
@@ -22,6 +23,7 @@
 (require 'init-autocomplete)
 (require 'init-projectile)
 (require 'init-yasnippet)
+(require 'init-magit)
 
 ; Languages
 (require 'init-ruby)

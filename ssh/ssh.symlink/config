@@ -455,7 +455,7 @@ Hostname 10.227.10.11
 Host prod-medo2
 Hostname 10.227.10.12
 Host mirth
-Hostname 10.220.11.100
+Hostname 10.220.0.101
 Host stag-lb1
 Hostname 10.210.1.1
 Host stag-lb2

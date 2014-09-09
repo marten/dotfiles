@@ -27,6 +27,7 @@
 
 ; Languages
 (require 'init-ruby)
+(require 'init-coffee)
 
 ;init-highlight-indentation
 ;init-dash-at-point

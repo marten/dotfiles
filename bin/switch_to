@@ -1,2 +1,2 @@
 #!/bin/sh
-$HOME/rgoc/devop/switch_to/bin/switch_to $@
+$HOME/roqua/ops/switch_to/bin/switch_to $@

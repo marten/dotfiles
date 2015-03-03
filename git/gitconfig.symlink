@@ -1,6 +1,6 @@
 [user]
-	name = Marten Veldthuis
-	email = marten@veldthuis.com
+  name = Marten Veldthuis
+  email = marten@veldthuis.com
 
 [branch]
   autosetuprebase = always
@@ -31,7 +31,7 @@
   trustExitCode = true
 
 [push]
-	default = tracking
+	default = simple
 
 [alias]
   ci = commit            ; this stuff is just shorter
@@ -95,5 +95,10 @@
 [git-up "rebase"]
 	log-hook = "echo \"CHANGES FOR $1\"; git log $1..$2"
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true

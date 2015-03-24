@@ -66,6 +66,8 @@ let maplocalleader = "\\"
     let g:vimclojure#HighlightBuiltins = 1
     let g:vimclojure#ParenRainbow = 1
 
+    Bundle "tpope/vim-fireplace"
+
     Bundle 'The-NERD-tree'
     nmap <leader>n :NERDTreeClose<CR>:NERDTreeToggle<CR>
     nmap <leader>N :NERDTreeClose<CR>

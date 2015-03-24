@@ -24,9 +24,11 @@
 (require 'init-projectile)
 (require 'init-yasnippet)
 (require 'init-magit)
+(require 'init-project-explorer)
 
 ; Languages
 (require 'init-ruby)
+(require 'init-coffee)
 
 ;init-highlight-indentation
 ;init-dash-at-point

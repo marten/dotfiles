@@ -70,6 +70,10 @@ Host x0repo
   ProxyCommand ssh x2gateway nc -w 1 10.10.42.100 22
   User root
 
+
+Host vyatta-beheerlan
+  Hostname 129.125.147.11
+
 Host x0git
   Hostname git.roqua.nl
   User git
@@ -174,10 +178,6 @@ Host stag_research_1
   User deploy
 Host stag_research_2
   Hostname 10.10.20.2
-  User deploy
-
-Host app_qubyadmin
-  Hostname 10.20.10.6
   User deploy
 
 Host app_demo_1
@@ -376,6 +376,8 @@ Host produc-lb1
 Hostname 10.240.1.1
 Host produc-lb2
 Hostname 10.240.1.2
+Host produc-lbbackup
+Hostname 10.240.1.9
 Host produc-mysql1
 Hostname 10.240.2.11
 Host produc-mysql2
@@ -447,9 +449,11 @@ Hostname 129.125.147.96
 Host prod-r-gerritnet
 Hostname 129.125.147.111
 Host prod-lb1
-Hostname 10.220.1.3
+Hostname 10.220.1.1
 Host prod-lb2
-Hostname 10.220.1.4
+Hostname 10.220.1.2
+Host prod-lbbackup
+Hostname 10.220.1.9
 Host prod-mysql1
 Hostname 10.220.2.11
 Host prod-mysql2
@@ -506,6 +510,8 @@ Host prod-moodmapp-util1
 Hostname 10.220.61.11
 Host prod-opencpu1
 Hostname 10.220.50.11
+Host prod-opencpu2
+Hostname 10.220.50.12
 Host prod-nofunnoglory-web1
 Hostname 10.220.70.11
 Host prod-nofunnoglory-web2

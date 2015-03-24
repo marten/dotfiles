@@ -9,4 +9,9 @@
     `(eval-after-load ,feature
        '(progn ,@body))))
 
+(defun string/ends-with (s ending)
+  "return non-nil if string S ends with ENDING."
+  (let ((elength (length ending)))
+    (string= (substring s (- 0 elength)) ending)))
+
 (provide 'init-util)

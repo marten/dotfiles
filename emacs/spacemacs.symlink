@@ -99,6 +99,8 @@ before layers configuration."
    ;; specified with an installed package.
    ;; Not used for now.
    dotspacemacs-default-package-repository nil
+   ;; Enable RVM support
+   ruby-version-manager 'rvm
    ;; Enable Rails and HAML support
    ruby-enable-ruby-on-rails-support t
    )

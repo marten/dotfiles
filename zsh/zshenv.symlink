@@ -23,6 +23,6 @@ export LANG=en_US.UTF-8
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
-[[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]] && source /usr/local/opt/chruby/share/chruby/chruby.sh
-[[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]   && source /usr/local/opt/chruby/share/chruby/auto.sh
-chruby ruby-2.1.3
+#[[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]] && source /usr/local/opt/chruby/share/chruby/chruby.sh
+#[[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]   && source /usr/local/opt/chruby/share/chruby/auto.sh
+#chruby ruby-2.1.3

@@ -1,6 +1,6 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Bright (SL).tmTheme",
 	"detect_indentation": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -46,7 +46,7 @@
 		"tmp",
 		".idea"
 	],
-	"font_size": 14.0,
+	"font_size": 14,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -59,6 +59,7 @@
 		"Quby",
 		"constantize"
 	],
+	"index_files": true,
 	"remember_open_files": false,
 	"rulers":
 	[

@@ -1,5 +1,7 @@
 # Use Pry everywhere
-require "rubygems"
-require 'pry'
-Pry.start
-exit
+unless ENV['NOPRY']
+  require "rubygems"
+  require 'pry'
+  Pry.start
+  exit
+end

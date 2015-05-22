@@ -1,5 +1,5 @@
 # Changing/making/removing directory
-setopt auto_name_dirs
+#setopt auto_name_dirs # causes prompt to show env vars instead of path, disabled
 setopt auto_pushd
 setopt pushd_ignore_dups
 

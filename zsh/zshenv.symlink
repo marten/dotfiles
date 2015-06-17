@@ -23,6 +23,10 @@ export LANG=en_US.UTF-8
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/marten/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+
 #[[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]] && source /usr/local/opt/chruby/share/chruby/chruby.sh
 #[[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]   && source /usr/local/opt/chruby/share/chruby/auto.sh
 #chruby ruby-2.1.3

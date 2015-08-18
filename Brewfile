@@ -1,24 +1,13 @@
-tap 'phinze/cask'
-install brew-cask
-cask install iterm2
-cask install launchbar
-
-install libyaml
-install libxml2
-install libxslt
-install readline
-install openssl
-install openssl-osx-ca
-install chruby
-install ruby-install
-
-install vim
-install ssh-copy-id
-install the_silver_searcher
-install git
-install phantomjs
-install mysql
-install mongodb
-install postgresql
-install mr
-install autojump
+brew "libyaml"
+brew "libxml2"
+brew "libxslt"
+brew "readline"
+brew "openssl"
+brew "openssl-osx-ca"
+brew "vim"
+brew "ssh-copy-id"
+brew "the_silver_searcher"
+brew "git"
+brew "postgresql"
+brew "mr"
+brew "autojump"

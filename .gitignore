@@ -1,2 +1,5 @@
 .DS_Store
 *.pem
+config/direnv
+config/fish/fish_history
+config/fish/fishd.*

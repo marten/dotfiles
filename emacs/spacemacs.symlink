@@ -16,7 +16,6 @@
                                        my-whitespace
                                        osx
                                        clojure
-                                       erlang-elixir
                                        emacs-lisp
                                        (shell :variables shell-default-term-shell "/bin/zsh"))
    ;; A list of packages and/or extensions that will not be install and loaded.
@@ -40,6 +39,8 @@ before layers configuration."
    ;; If the value is nil then no banner is displayed.
    ;; dotspacemacs-startup-banner 'official
    dotspacemacs-startup-banner 'official
+   dotspacemacs-editing-style 'vim
+   dotspacemacs-emacs-leader-key "M-m"
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
@@ -111,8 +112,13 @@ before layers configuration."
    ruby-version-manager 'rvm
    ;; Enable Rails and HAML support
    ruby-enable-ruby-on-rails-support t
+   ;; NeoTree
+   neo-vc-integration nil
    )
   ;; User initialization goes here
+  ;;sp-highlight-pair-overlay nil
+  ;;sp-highlight-wrap-overlay nil
+  ;;sp-highlight-wrap-tag-overlay nil
   )
 
 (defun dotspacemacs/config ()

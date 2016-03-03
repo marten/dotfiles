@@ -10,6 +10,8 @@ export PATH=/usr/local/mysql/bin:$PATH
 export PATH=/usr/local/git/bin:$PATH
 export PATH=/var/lib/gems/1.8/bin:$PATH
 export PATH=/opt/vagrant/bin:$PATH
+export PATH=/usr/local/spark-1.5.1-bin-hadoop2.6/bin:$PATH
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export PATH="$HOME/.cask/bin:$PATH"
 export PATH=$HOME/bin:$PATH
 
@@ -22,11 +24,8 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
+export JAVA_HOME="$(/usr/libexec/java_home)"
 
 export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/marten/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
-
-#[[ -s "/usr/local/opt/chruby/share/chruby/chruby.sh" ]] && source /usr/local/opt/chruby/share/chruby/chruby.sh
-#[[ -s "/usr/local/opt/chruby/share/chruby/auto.sh" ]]   && source /usr/local/opt/chruby/share/chruby/auto.sh
-#chruby ruby-2.1.3

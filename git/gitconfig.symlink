@@ -45,6 +45,7 @@
   ff = merge --ff-only   ; if you want to make sure it won't create a merge commit
   noff = merge --no-ff   ; if you want to make sure it does  create a merge commit
   sha = log -1 --pretty=format:%H    ; the sha1 of the latest commit
+  standup = log --since '1 day ago' --oneline --author=Marten
 
   ; typos
   puhs = push
@@ -70,6 +71,8 @@
 [core]
 	excludesfile = /Users/marten/.gitignore_global
 	quotepath = false
+  pager = less -S
+
 [mergetool "opendiff"]
 	cmd = opendiff
 [mergetool]

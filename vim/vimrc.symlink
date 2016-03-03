@@ -1,6 +1,7 @@
 " Use vim settings, rather then vi settings (much better!)
 " This must be first, because it changes other options as a side effect.
 set nocompatible
+set shell=bash
 
 filetype off
 set rtp+=~/.vim/bundle/vundle/
@@ -42,6 +43,8 @@ let maplocalleader = "\\"
       \ }
 
   " General Programming
+    Bundle 'elixir-lang/vim-elixir'
+
     " Live syntax checking
     Bundle 'scrooloose/syntastic'
     Bundle 'tpope/vim-endwise'
@@ -57,6 +60,7 @@ let maplocalleader = "\\"
   " JavaScript
     Bundle 'jQuery'
     Bundle 'kchmck/vim-coffee-script'
+    Bundle 'leafgarland/typescript-vim'
 
   " Clojure
     Bundle 'VimClojure'
@@ -65,6 +69,9 @@ let maplocalleader = "\\"
     let vimclojure#SplitPos = "right"
     let g:vimclojure#HighlightBuiltins = 1
     let g:vimclojure#ParenRainbow = 1
+
+  " Scala
+    Bundle 'derekwyatt/vim-scala'
 
     Bundle "tpope/vim-fireplace"
 

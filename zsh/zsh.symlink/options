@@ -47,8 +47,8 @@ fi
 FIGNORE=".o:~"
 # Where to save my command history
 HISTFILE=~/.zsh_history
-# Remember the last 500000 commands.
-HISTSIZE=5000000
+# Remember the last 5000000 commands.
+HISTSIZE=50000000
 # Only ask if completion listing would scroll off screen
 LISTMAX=0
 # Check for logins/logouts every 5 minutes
@@ -58,7 +58,7 @@ MAILCHECK=0
 # Give timing statistics for programs that take longer than a minute to run.
 REPORTTIME=60
 # Save the last 3000 commands.
-SAVEHIST=3000
+SAVEHIST=3000000
 # Report on any log(in|out)s not from my username on systems that I administer.
 case `hostname` in tigger*|pooh*|robinson*)
     WATCH=notme

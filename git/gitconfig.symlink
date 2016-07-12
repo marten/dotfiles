@@ -1,6 +1,7 @@
 [user]
   name = Marten Veldthuis
   email = marten@veldthuis.com
+	signingkey = 03C0DA07
 
 [branch]
   autosetuprebase = always
@@ -29,6 +30,10 @@
 [mergetool "threesome"]
   cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
   trustExitCode = true
+
+[mergetool "unityyamlmerge"]
+  trustExitCode = false
+  cmd = /Applications/Unity/Unity.app/Contents/Tools/UnityYAMLMerge merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
 
 [push]
 	default = simple
@@ -109,3 +114,7 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[pager]
+	diff = diff-highlight | less -S
+	show = diff-highlight | less -S
+	log = diff-highlight | less -S

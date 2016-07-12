@@ -13,7 +13,7 @@ export PATH=/opt/vagrant/bin:$PATH
 export PATH=/usr/local/spark-1.5.1-bin-hadoop2.6/bin:$PATH
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export PATH="$HOME/.cask/bin:$PATH"
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:$HOME/dotfiles/bin:$PATH
 
 export ROQUA_ROOT=$HOME/work/code/deployer
 export RAILS_LOG_LEVEL="debug"
@@ -25,7 +25,3 @@ export LANG=en_US.UTF-8
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
 export JAVA_HOME="$(/usr/libexec/java_home)"
-
-export DOCKER_HOST=tcp://192.168.59.103:2376
-export DOCKER_CERT_PATH=/Users/marten/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1

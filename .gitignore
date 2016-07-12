@@ -1,5 +1,7 @@
 .DS_Store
 *.pem
 config/direnv
+config/Fritzing
 config/fish/fish_history
 config/fish/fishd.*
+config/xbuild

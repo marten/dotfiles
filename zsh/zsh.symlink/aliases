@@ -14,3 +14,4 @@ alias gti=git
 
 # the silver searcher
 alias ag="ag --path-to-agignore=$HOME/.agignore"
+alias git-up="~/.rvm/wrappers/default/git-up"

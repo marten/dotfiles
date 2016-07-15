@@ -16,6 +16,10 @@ Plug 'garbas/vim-snipmate'
 Plug 'snipmate-snippets'
 Plug 'tpope/vim-endwise'
 Plug 'scrooloose/syntastic'
+Plug 'terryma/vim-multiple-cursors'
+
+Plug 'rizzatti/dash.vim'
+nmap <silent> <leader>d <Plug>DashSearch
 
 Plug 'tpope/vim-fugitive' " Git 
 Plug 'sjl/threesome.vim'  " Perform three-way merges
@@ -29,12 +33,16 @@ Plug 'VimClojure'
 Plug 'tpope/vim-fireplace'
 Plug 'derekwyatt/vim-scala'
 
-let g:ctrlp_user_command = {
-      \ 'types': {
-      \ 1: ['.git/', 'cd %s && git ls-files'],
-      \ },
-      \ 'fallback': 'find %s -type f'
-      \ }
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+Plug 'Shougo/unite.vim' "{{{
+if executable('ag')
+  let g:unite_source_grep_command = 'ag'
+  let g:unite_source_grep_default_opts = '-i --vimgrep'
+  let g:unite_source_grep_recursive_opts = ''
+endif
+
+nnoremap <C-p> :Unite file_rec/async<cr>i
+"}}}
 
 let vimclojure#WantNailgun = 1
 let vimclojure#UseErrorBuffer = 0
@@ -55,3 +63,5 @@ let NERDTreeIgnore=[ '\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$', '\.o$', '\.so
 
 call plug#end()
 
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
+call unite#filters#sorter_default#use(['sorter_rank'])

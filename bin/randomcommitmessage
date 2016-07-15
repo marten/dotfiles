@@ -1,2 +1,2 @@
 #!/bin/sh
-rl $HOME/bin/commit_messages.txt | head -1
+cat $HOME/dotfiles/bin/commit_messages.txt | perl -MList::Util=shuffle -e 'print shuffle(<STDIN>)' | head -1

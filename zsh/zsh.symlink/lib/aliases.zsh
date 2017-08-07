@@ -20,9 +20,6 @@ alias l='ls -la'
 alias ll='ls -l'
 alias sl=ls # often screw this up
 
-alias vim=nvim
-alias vi=nvim
-alias v=nvim
 alias git-up="~/.rvm/wrappers/default/git-up"
 
 alias afind='ack-grep -il'

@@ -24,4 +24,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
-export JAVA_HOME="$(/usr/libexec/java_home)"
+
+if (( $+commands[java_home] )) ; then
+  export JAVA_HOME="$(/usr/libexec/java_home)"
+fi

@@ -21,8 +21,10 @@ alias ll='ls -l'
 alias sl=ls # often screw this up
 
 alias git-up="~/.rvm/wrappers/default/git-up"
+alias datagrip="/usr/local/datagrip/bin/datagrip.sh"
 
 alias afind='ack-grep -il'
+alias awssh="docker run -it --rm --volume $HOME/.ssh:/root/.ssh -e AWS_DEFAULT_REGION -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -e AWS_SESSION_TOKEN -e AWS_SECURITY_TOKEN astopy/awssh"
 
 alias psql-panoptes-staging='psql -h panoptes-staging-new.cezuuccr9cw6.us-east-1.rds.amazonaws.com --user panoptes panoptes'
 alias psql-panoptes-production='psql -h panoptes-production.cezuuccr9cw6.us-east-1.rds.amazonaws.com --user readonly panoptes'

@@ -29,6 +29,8 @@ export LANG=en_US.UTF-8
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
+export ERL_AFLAGS="-kernel shell_history enabled"
+
 if (( $+commands[java_home] )) ; then
   export JAVA_HOME="$(/usr/libexec/java_home)"
 fi

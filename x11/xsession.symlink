@@ -22,7 +22,7 @@ gnome-settings-daemon &
 xscreensaver -no-splash &
 dropbox start &
 
-eval `ssh-agent`
+eval $(gnome-keyring-daemon --start)
 xterm -e ssh-add
 
 if [ -x /usr/bin/nm-applet ] ; then

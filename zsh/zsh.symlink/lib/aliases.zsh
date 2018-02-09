@@ -20,6 +20,8 @@ alias l='ls -la'
 alias ll='ls -l'
 alias sl=ls # often screw this up
 
+alias e='emacsclient -nw'
+
 alias git-up="~/.rvm/wrappers/default/git-up"
 alias datagrip="/usr/local/datagrip/bin/datagrip.sh"
 
@@ -37,3 +39,5 @@ alias psql-caesar-staging='psql -h microservices-staging.cezuuccr9cw6.us-east-1.
 alias psql-caesar-production='psql -h microservices-production.cezuuccr9cw6.us-east-1.rds.amazonaws.com --user caesar_production caesar_production'
 
 alias psql-nero-production='psql -h microservices-production.cezuuccr9cw6.us-east-1.rds.amazonaws.com --user nero nero'
+
+alias sas='hermes exec StandaloneAppsSwarm -- docker '

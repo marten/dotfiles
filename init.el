@@ -46,7 +46,7 @@
        impatient-mode    ; show off code over HTTP
       ;macos             ; MacOS-specific commands
        make              ; run make tasks from Emacs
-      ;magit             ;
+       magit             ;
        neotree           ; a project drawer, like NERDTree for vim
        password-store    ; password manager for nerds
        pdf               ; pdf enhancements
@@ -116,4 +116,3 @@
        ;; and additional ex commands for evil-mode. Use it as a reference for
        ;; your own modules.
        (default +bindings +snippets +evil-commands))
-

@@ -111,11 +111,13 @@
 	smudge = git hawser smudge %f
 	required = true
 [filter "lfs"]
-	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 [pager]
 	diff = diff-highlight | less -S
 	show = diff-highlight | less -S
 	log = diff-highlight | less -S
+[vain]
+	default = c0de

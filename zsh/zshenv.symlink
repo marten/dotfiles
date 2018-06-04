@@ -13,6 +13,7 @@ export PATH=/var/lib/gems/1.8/bin:$PATH
 export PATH=/opt/vagrant/bin:$PATH
 export PATH=/usr/local/spark-1.5.1-bin-hadoop2.6/bin:$PATH
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
+export PATH=/anaconda2/bin:$PATH
 export PATH="$HOME/.cask/bin:$PATH"
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/bin:$HOME/dotfiles/bin:$PATH
@@ -38,3 +39,4 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 if (( $+commands[java_home] )) ; then
   export JAVA_HOME="$(/usr/libexec/java_home)"
 fi
+

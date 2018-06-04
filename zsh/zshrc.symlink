@@ -34,6 +34,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+
+export PATH=/anaconda2/bin:$PATH
 # added by travis gem
 [ -f /Users/marten/.travis/travis.sh ] && source /Users/marten/.travis/travis.sh
 

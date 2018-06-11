@@ -10,8 +10,10 @@
 ; (global-set-key (kbd "C-c c") 'org-capture)
 ; (global-set-key (kbd "C-c n p") 'org-projectile-project-todo-completing-read)
 
-
+(setq doom-localleader-key ",")
 
 (map! (:after ruby-mode
         :map ruby-mode-map
         :n "C-c C-c" #'seeing-is-believing))
+
+(map! :v "Q" 'fill-region)

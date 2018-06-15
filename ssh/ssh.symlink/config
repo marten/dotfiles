@@ -1,17 +1,40 @@
-ForwardAgent yes
-ServerAliveInterval 120
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+
+Host oxford_ssh_gateway
+Hostname ssh.physics.ox.ac.uk
+User veldthuis
+ForwardX11 yes
+GSSAPIDelegateCredentials true
+GSSAPIAuthentication true
+
+Host w
+Hostname marten-desktop.nat.physics.ox.ac.uk
+User marten
+ProxyCommand ssh oxford_ssh_gateway nc -q 0 marten-desktop.nat.physics.ox.ac.uk 22
+ForwardX11 yes
+GSSAPIDelegateCredentials true
+GSSAPIAuthentication true
+
+# Zooniverse
+Host *.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile /Users/marten/.ssh/zooniverse_1.pem
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking=no
+
+Host heroku.com
+ HostName heroku.com
+  IdentityFile ~/.ssh/id_rsa_heroku
+  User git
 
 # My workstations
-
 Host h
   Hostname home.veldthuis.com
   User marten
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
-
-Host w
-  HostName marten.rgoc.rug.nl
-  User marten
 
 Host s
   Hostname home.veldthuis.com

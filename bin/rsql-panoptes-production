@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+require 'pry-byebug'
+require 'sequel'
+
+DB = Sequel.connect(adapter: 'postgres', user: 'readonly', password: 'IXTLHks7Zy8>ACjT-zQKxCjmyOYgnNA>GSHXcfIyjcUgeGH5Wg',
+                    host: 'panoptes-production.cezuuccr9cw6.us-east-1.rds.amazonaws.com', database: 'panoptes')
+DB.extension :pg_json, :pg_array
+
+binding.pry
+puts 'done'

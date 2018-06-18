@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+path=$1
+
+if [[ "$path" == */ ]]
+then
+    echo "Getting file listing for $path"
+    exec aws s3 ls $path
+else
+    tempfile=$(mktemp)
+    trap "rm -f $tempfile" INT TERM HUP EXIT
+
+    echo "Downloading to $tempfile"
+    aws s3 cp $path $tempfile
+
+    "${EDITOR:-vi}" $tempfile
+
+    aws s3 cp --sse aws:kms $tempfile $path
+fi

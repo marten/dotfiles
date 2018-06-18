@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+path=$1
+
+if [[ "$path" == */ ]]
+then
+    echo "Getting file listing for $path"
+    exec aws s3 ls $path
+else
+    aws s3 cp $path -
+fi

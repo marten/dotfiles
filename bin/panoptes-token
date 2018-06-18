@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'panoptes-client'
+require 'yaml'
+
+config = YAML.load(File.read(File.expand_path('~/.panoptes-secret.yml')))
+client = Panoptes::Client.new(auth: {client_id: config["id"], client_secret: config["secret"]})
+response = client.panoptes.connection.get('/me')
+auth = response.env.request_headers["Authorization"]
+token = auth.gsub(/Bearer (.*)/, "\\1")
+puts token

@@ -1,0 +1,43 @@
+#!/usr/bin/env ruby
+require 'bundler/inline'
+gemfile do
+  source 'https://rubygems.org'
+  gem 'aws-sdk'
+  gem 'tty-command'
+  gem 'pry'
+end
+
+`command -v fzf >/dev/null 2>&1`
+if $? != 0
+  STDERR.puts "This script needs fzf but it is not installed."
+  STDERR.puts "  brew install fzf"
+  exit 1
+end
+
+puts "Getting instances"
+
+ec2 = Aws::EC2::Client.new(region: "us-east-1")
+response = ec2.describe_instances
+reservations = response.reservations
+instances = reservations.flat_map(&:instances).select { |instance| instance.state.name != "terminated" }
+
+lines = instances.map do |instance|
+  "#{instance.instance_id} :: #{instance.instance_type} [#{instance.tags.map(&:value).join(", ")}]"
+end
+
+tempfile = Tempfile.new('awssh')
+tempfile.write(lines.join("\n"))
+tempfile.close
+line = `cat #{tempfile.path} | fzf`
+tempfile.unlink
+
+if $? == 0 && line.strip.size > 0
+  chosen_instance_id = line.strip.split(" ").first
+  chosen_instance = instances.find { |instance| instance.instance_id == chosen_instance_id }
+
+  puts "ssh #{chosen_instance.public_dns_name}"
+  exec "ssh", chosen_instance.public_dns_name.to_s
+else
+  puts "Aborting."
+  exit 1
+end

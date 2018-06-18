@@ -1,0 +1,11 @@
+--color
+--pager=LESS=FSRX less -r
+--type-add=ruby=.haml,.rake,.rsel
+--type-set=haml=.haml
+--type-set=sass=.sass
+--type-set=erb=.erb
+--type-set=yml=.yml
+--type-set=coffeescript=.coffee
+--type-set=markdown=.md,.markdown,.mdown
+--nosql
+--ignore-dir="i18n"

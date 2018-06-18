@@ -1,0 +1,123 @@
+[user]
+  name = Marten Veldthuis
+  email = marten@veldthuis.com
+	signingkey = 03C0DA07
+
+[branch]
+  autosetuprebase = always
+
+[color]
+  ui = auto
+
+[cola]
+  savewindowsettings = true
+  fontui = Bitstream Vera Sans Mono,8,-1,5,50,0,0,0,0,0
+  fontdiff = Bitstream Vera Sans Mono,8,-1,5,50,0,0,0,0,0
+	geometry = 1680x973+1280,49
+
+[giggle]
+  compact-mode = true
+	main-window-maximized = true
+	main-window-geometry = 1072x947+0+25
+	main-window-view = HistoryView
+	file-view-hpane-position = 274
+	history-view-vpane-position = 409
+	file-view-vpane-position = 533
+
+[merge]
+	tool = Kaleidoscope
+
+[mergetool "threesome"]
+  cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
+  trustExitCode = true
+
+[mergetool "unityyamlmerge"]
+  trustExitCode = false
+  cmd = /Applications/Unity/Unity.app/Contents/Tools/UnityYAMLMerge merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+
+[push]
+	default = simple
+
+[alias]
+  ci = commit            ; this stuff is just shorter
+  st = status
+  co = checkout
+  di = diff
+  dc = diff --cached
+  aa = add --all
+  amend = commit --amend
+  div = divergence       ; git-divergence is a ~/bin script
+  ff = merge --ff-only   ; if you want to make sure it won't create a merge commit
+  noff = merge --no-ff   ; if you want to make sure it does  create a merge commit
+  sha = log -1 --pretty=format:%H    ; the sha1 of the latest commit
+  standup = log --since '1 day ago' --oneline --author=Marten
+
+  ; typos
+  puhs = push
+
+  ; stolen from https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
+  l = log --graph --abbrev-commit --date=relative
+  la = !git l --all
+  ;head = !git l -1
+  h = !git head
+  r = !git --no-pager l -20
+  ra = !git r --all
+
+; stolen from https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
+[format]
+  pretty=format:%C(yellow)%h  %Cgreen(%ad) %C(red)%d%Creset %s %C(bold blue)<%an>%Creset
+
+[github]
+	user = marten
+	site = https://github.com
+	endpoint = https://api.github.com
+	oauth-token-file = /Users/marten/.github-oauth-token
+
+[core]
+	excludesfile = ~/.gitignore_global
+	quotepath = false
+  pager = less -S
+
+[mergetool "opendiff"]
+	cmd = opendiff
+[mergetool]
+	keepBackup = true
+	prompt = false
+[credential]
+	helper = cache --timeout=3600
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = Kaleidoscope
+[difftool]
+	prompt = false
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[git-up "rebase"]
+	log-hook = "echo \"CHANGES FOR $1\"; git log $1..$2"
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[pager]
+	diff = diff-highlight | less -S
+	show = diff-highlight | less -S
+	log = diff-highlight | less -S
+[vain]
+	default = c0de

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+http $1 $2 "Accept:application/vnd.api+json; version=1"

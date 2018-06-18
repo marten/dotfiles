@@ -1,0 +1,4 @@
+DOTFILES_DIRS="/Users/marten/dotfiles"
+UNDOTTED="bin"
+SYMLINK_DIRS="*:*"
+EXCLUDES="Brewfile README.md SHARPEN.md Rakefile emacs-old"

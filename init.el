@@ -147,3 +147,9 @@ of seeing_is_believing."
 
 (define-key prog-mode-map (kbd "M-RET") 'emr-show-refactor-menu)
 (add-hook 'prog-mode-hook 'emr-initialize)
+
+(map! :n "ga" #'projectile-toggle-between-implementation-and-test)
+
+(map! :leader
+      (:desc "Project" :prefix "p"
+        :desc "Switch between implementation and test file" :n "a" #'projectile-toggle-between-implementation-and-test))

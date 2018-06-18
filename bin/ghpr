@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+
+MATCHER = /^\* (\S+)\s+([0-9a-f]+) \[(\w+)\/(.+)\] .*$/
+
+match = `git branch -vv`.split("\n").find { |line| line =~ MATCHER }
+
+if match
+  local_branch = $1
+  sha = $2
+  github_organization = "zooniverse"
+  remote_repo_name = "Panoptes"
+  remote_origin = $3
+  remote_branch = $4
+
+  puts "https://github.com/#{github_organization}/#{remote_repo_name}/compare/master...#{remote_origin}:#{remote_branch}?expand=1"
+else
+  STDERR.puts "Couldn't find configured tracking branch."
+  exit 1
+end
+

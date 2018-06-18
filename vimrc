@@ -2,100 +2,99 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 set shell=bash
-
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
 
 let mapleader = ","
 let maplocalleader = "\\"
 
+call plug#begin('~/.vim/plugged')
 " Vundle configuration, and config for each bundle {{{
-  " Deps
-    Bundle 'gmarik/vundle'
-    Bundle 'git://github.com/MarcWeber/vim-addon-mw-utils.git'
-    Bundle 'git://github.com/tomtom/tlib_vim.git'
-  
-  " General
-    " Nice looking status line
-    Bundle 'Lokaltog/vim-powerline'
+" Deps
+Plug 'git://github.com/MarcWeber/vim-addon-mw-utils.git'
+Plug 'git://github.com/tomtom/tlib_vim.git'
 
-    " Change surrounding stuff (e.g. cs'" to change ' to ")
-    Bundle 'tpope/vim-surround'
+" General
+" Nice looking status line
+Plug 'Lokaltog/vim-powerline'
 
-    " Better repeats with .
-    Bundle 'tpope/vim-repeat'
+" Change surrounding stuff (e.g. cs'" to change ' to ")
+Plug 'tpope/vim-surround'
+"
+" " Better repeats with .
+Plug 'tpope/vim-repeat'
+"
+" " Rename the current file and update buffer (:Rename)
+Plug 'tpope/vim-eunuch'
+"
+Plug 'sickill/vim-pasta'
+"Plug 'jgdavey/tslime.vim'
+"Plug 'jgdavey/vim-turbux'
+"
+" " ctrl-p to jump between files
+Plug 'kien/ctrlp.vim'
+let g:ctrlp_user_command = {
+  \ 'types': {
+    \ 1: ['.git/', 'cd %s && git ls-files'],
+    \ },
+  \ 'fallback': 'find %s -type f'
+  \ }
 
-    " Rename the current file and update buffer (:Rename)
-    Bundle 'Rename'
+" " General Programming
+Plug 'elixir-lang/vim-elixir'
 
-    Bundle 'sickill/vim-pasta'
-    Bundle 'jgdavey/tslime.vim'
-    "Bundle 'jgdavey/vim-turbux'
+" " Live syntax checking
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-fugitive'
 
-    " ctrl-p to jump between files
-    Bundle "kien/ctrlp.vim"
-    let g:ctrlp_user_command = {
-      \ 'types': {
-        \ 1: ['.git/', 'cd %s && git ls-files'],
-        \ },
-      \ 'fallback': 'find %s -type f'
-      \ }
+Plug 'garbas/vim-snipmate'
+Plug 'scrooloose/snipmate-snippets'
 
-  " General Programming
-    Bundle 'elixir-lang/vim-elixir'
+" " Ruby
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-haml'
 
-    " Live syntax checking
-    Bundle 'scrooloose/syntastic'
-    Bundle 'tpope/vim-endwise'
-    Bundle 'tpope/vim-fugitive'
+" " JavaScript
+Plug 'kchmck/vim-coffee-script'
+Plug 'leafgarland/typescript-vim'
 
-    Bundle 'garbas/vim-snipmate' 
-    Bundle 'snipmate-snippets'
+" Clojure
+" Plug 'VimClojure'
+" let vimclojure#WantNailgun = 1
+" let vimclojure#UseErrorBuffer = 0
+" let vimclojure#SplitPos = "right"
+" let g:vimclojure#HighlightBuiltins = 1
+" let g:vimclojure#ParenRainbow = 1
 
-  " Ruby
-    Bundle 'tpope/vim-rails'
-    Bundle 'tpope/vim-haml'
+" Scala
+Plug 'derekwyatt/vim-scala'
+"
+Plug 'tpope/vim-fireplace'
+"
+Plug 'scrooloose/nerdtree'
+nmap <leader>n :NERDTreeClose<CR>:NERDTreeToggle<CR>
+nmap <leader>N :NERDTreeClose<CR>
+let NERDTreeBookmarksFile=expand("$HOME/.vim/NERDTreeBookmarks") " Store the bookmarks file
+let NERDTreeShowBookmarks=1                                      " Show the bookmarks table on startup
+let NERDTreeShowFiles=1                                          " Show hidden files, too
+let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=0                                         " Don't quit on opening files from the tree
+let NERDTreeHighlightCursorline=1                                " Highlight the selected entry in the tree
+let NERDTreeMouseMode=1                                          " Use a double click to fold/unfold directories and a double click to open files
+let NERDTreeIgnore=[ '\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$', '\.o$', '\.so$', '\.egg$', '^\.git$' ] " Don't display these kinds of files
 
-  " JavaScript
-    Bundle 'jQuery'
-    Bundle 'kchmck/vim-coffee-script'
-    Bundle 'leafgarland/typescript-vim'
-
-  " Clojure
-    Bundle 'VimClojure'
-    let vimclojure#WantNailgun = 1
-    let vimclojure#UseErrorBuffer = 0
-    let vimclojure#SplitPos = "right"
-    let g:vimclojure#HighlightBuiltins = 1
-    let g:vimclojure#ParenRainbow = 1
-
-  " Scala
-    Bundle 'derekwyatt/vim-scala'
-
-    Bundle "tpope/vim-fireplace"
-
-    Bundle 'The-NERD-tree'
-    nmap <leader>n :NERDTreeClose<CR>:NERDTreeToggle<CR>
-    nmap <leader>N :NERDTreeClose<CR>
-    let NERDTreeBookmarksFile=expand("$HOME/.vim/NERDTreeBookmarks") " Store the bookmarks file
-    let NERDTreeShowBookmarks=1                                      " Show the bookmarks table on startup
-    let NERDTreeShowFiles=1                                          " Show hidden files, too
-    let NERDTreeShowHidden=1
-    let NERDTreeQuitOnOpen=0                                         " Don't quit on opening files from the tree
-    let NERDTreeHighlightCursorline=1                                " Highlight the selected entry in the tree
-    let NERDTreeMouseMode=1                                          " Use a double click to fold/unfold directories and a double click to open files
-    let NERDTreeIgnore=[ '\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$', '\.o$', '\.so$', '\.egg$', '^\.git$' ] " Don't display these kinds of files
-
-Bundle 'The-NERD-Commenter'
-"" ,/ to invert comment on the current line/selection
-"nmap <leader>/ :call NERDComment(0, "invert")<cr>
-"vmap <leader>/ :call NERDComment(0, "invert")<cr>
+Plug 'scrooloose/nerdcommenter'
+" ,/ to invert comment on the current line/selection
+nmap <leader>/ :call NERDComment(0, "invert")<cr>
+vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
 " Languages
-Bundle 'sjl/threesome.vim'
-
+" Plug 'sjl/threesome.vim'
 " }}}
+
+call plug#end()
+
+
 
 filetype plugin indent on       " enable detection, plugins and indenting in one step
 
@@ -371,7 +370,7 @@ vnoremap <Space> za
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
 " Run Ack fast (mind the trailing space here, wouldya?)
-nnoremap <leader>a :Ack 
+nnoremap <leader>a :Ack
 
 " Creating folds for tags in HTML
 "nnoremap <leader>ft Vatzf
@@ -400,7 +399,7 @@ autocmd filetype latex map ,c :w\|!rubber -d %<cr>
 "set autowriteall        " Automatically save before commands like :next and :make
 "set history=1000
 
-"" highlight trailing whitespace  
+"" highlight trailing whitespace
 set listchars=tab:▷⋅,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
@@ -447,7 +446,7 @@ function! RunTests(filename)
     :silent !echo;echo;echo;echo;echo;echo;echo;echo;echo;echo
     " Run tests directly in current terminal
     exec ":!soundcheck " . a:filename
-    
+
     " Or send them to a tmux instance
     "call Send_to_Tmux("soundcheck " . a:filename . "\n")
 

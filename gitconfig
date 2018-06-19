@@ -37,6 +37,7 @@
 
 [push]
 	default = simple
+	recurseSubmodules = check
 
 [alias]
   ci = commit            ; this stuff is just shorter
@@ -89,6 +90,7 @@
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [diff]
 	tool = Kaleidoscope
+	submodule = log
 [difftool]
 	prompt = false
 [mergetool "Kaleidoscope"]
@@ -121,3 +123,5 @@
 	log = diff-highlight | less -S
 [vain]
 	default = c0de
+[status]
+	submodulesummary = 1

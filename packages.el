@@ -5,3 +5,4 @@
 (package! emr)
 (package! ein)
 (package! apib-mode)
+(package! ws-butler)

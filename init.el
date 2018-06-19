@@ -148,6 +148,7 @@ of seeing_is_believing."
 (define-key prog-mode-map (kbd "M-RET") 'emr-show-refactor-menu)
 (add-hook 'prog-mode-hook 'emr-initialize)
 (add-hook 'prog-mode-hook #'ws-butler-mode)
+(setq-default show-trailing-whitespace t)
 
 (map! :n "ga" #'projectile-toggle-between-implementation-and-test)
 

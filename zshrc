@@ -41,3 +41,6 @@ export PATH=/anaconda2/bin:$PATH
 
 # added by travis gem
 [ -f /home/marten/.travis/travis.sh ] && source /home/marten/.travis/travis.sh
+
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash

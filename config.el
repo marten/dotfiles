@@ -17,3 +17,9 @@
         :n "C-c C-c" #'seeing-is-believing))
 
 (map! :v "Q" 'fill-region)
+
+(map! :n "ga" #'projectile-toggle-between-implementation-and-test)
+
+(map! :leader
+      (:desc "Project" :prefix "p"
+        :desc "Switch between implementation and test file" :n "a" #'projectile-toggle-between-implementation-and-test))

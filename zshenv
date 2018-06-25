@@ -20,6 +20,7 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/bin:$HOME/dotfiles/bin:$PATH
 export PATH="$PATH:$HOME/src/xtensa-esp32-elf/bin"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=$PATH:$HOME/dev/esp/xtensa-esp32-elf/bin
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -33,8 +34,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
-export IDF_PATH=$HOME/dev/esp-idf
-
+export IDF_PATH=$HOME/dev/esp/esp-idf
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 if (( $+commands[java_home] )) ; then

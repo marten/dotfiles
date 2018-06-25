@@ -39,6 +39,10 @@ Host s
   Hostname home.veldthuis.com
   User marten
 
+Host erik
+  Hostname saffier.no-ip.org
+  User marten
+
 # RGOc
 
 Host x0
@@ -598,6 +602,8 @@ Host stag-rom-web3
 Hostname 10.210.10.13
 Host stag-rom-util1
 Hostname 10.210.11.11
+Host stag-rom-util2
+Hostname 10.210.11.12
 Host stag-grip-web1
 Hostname 10.210.20.11
 Host stag-grip-web2

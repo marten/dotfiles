@@ -3,10 +3,6 @@ alias  em='/Applications/Emacs.app/Contents/MacOS/Emacs &'
 alias   e='emacsclient -n'
 alias ssh='/usr/bin/ssh'
 
-alias vim=nvim
-alias vi=nvim
-alias v=nvim
-
 # git
 alias  g='git'
 alias  gp='git pull --rebase'

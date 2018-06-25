@@ -66,7 +66,7 @@ use HTML::Entities;
 
 my $progname0 = $0;
 my $progname = $0; $progname =~ s@.*/@@g;
-my ($version) = ('$Revision: 1.826 $' =~ m/\s(\d[.\d]+)\s/s);
+my ($version) = ('$Revision: 1.828 $' =~ m/\s(\d[.\d]+)\s/s);
 
 # Without this, [:alnum:] doesn't work on non-ASCII.
 use locale;
@@ -646,8 +646,8 @@ sub get_url_1($;$$$$$$) {
   # Check to see if a network failure truncated the file and warn.
   # Caller will then resume the download using byte ranges.
   #
-  if ($to_file &&
-      $cl &&
+  if ($to_file && 
+      $cl && 
       $start_byte + $bytes < $cl-1) {
     my $pct = int (100 * ($start_byte + $bytes) / $cl);
     $pct = sprintf ("%.2f", 100 * $bytes / $cl) if ($pct == 100);
@@ -1574,6 +1574,8 @@ my %ciphers = (
   'player-en_US-vflXU8Lcz/base' => '17079 r w45 s1 r s2 r s2 r w3',# 05 Oct 2016
   'player-en_US-vflOj6Vz8/base' => '17079 r w45 s1 r s2 r s2 r w3',# 07 Oct 2016
   'player-en_US-vflQcYs5w/base' => '17079 r w45 s1 r s2 r s2 r w3',# 07 Oct 2016
+  'player-en_US-vfl-E2vny/base' => '17082 r w9 s1 r s1 w66 w30 r w48',# 11 Oct 2016
+  'player-en_US-vflabgyIE/base' => '17086 s2 w6 r s3 w53 r w46 w56',# 12 Oct 2016
 );
 
 
@@ -2116,11 +2118,11 @@ sub load_youtube_formats_html($$$) {
   if (! $args) {
     # Try to find a better error message
     my (undef, $err) = ($body =~ m@<( div | h1 ) \s+
-                                    (?: id | class ) =
+                                    (?: id | class ) = 
                                    "(?: error-box |
                                         yt-alert-content |
                                         unavailable-message )"
-                                   [^<>]* > \s*
+                                   [^<>]* > \s* 
                                    ( [^<>]+? ) \s*
                                    </ \1 > @six);
     $err = "Rate limited: CAPCHA required"
@@ -3405,10 +3407,10 @@ sub munge_title($) {
   $title =~ s/ on Vimeo\s*$//si;
   $title =~ s/Broadcast Yourself\.?$//si;
 
-  $title =~ s/\b ( ( (in \s*)?
+  $title =~ s/\b ( ( (in \s*)? 
                      (
                        HD | TV | HDTV | HQ | 720\s*p? | 1080\s*p? | 4K |
-                       High [-\s]* Qual (ity)?
+                       High [-\s]* Qual (ity)? 
                      ) |
                      FM(\'s)? |
                      EP s? (?>[\s\.\#]*) (?!\d+) |   # allow "episode" usage
@@ -3425,7 +3427,7 @@ sub munge_title($) {
                    \b \s* )+ //gsix;
 
   $title =~ s/\b (The\s*)? (Un)?Off?ici[ae]le?
-                 ( [-\s]*
+                 ( [-\s]* 
                    ( Video | Clip | Studio | Music | Audio | Stereo | Lyric )s?
                  )+
               \b//gsix;
@@ -3454,12 +3456,12 @@ sub munge_title($) {
   my ($empty_phrase)
     = q/
         \s*(
-          the | new | free | amazing | (un)?off?ici[ae]le? |
+          the | new | free | amazing | (un)?off?ici[ae]le? | 
           on | iTunes | Amazon | [\s[:punct:]]+ | version |
           cc | song | video | audio | band | source | field |
           extended | mix | remix | edit | stream | uncut | single |
           track | to be | released? | out | now |
-          teaser | trailer
+          teaser | trailer 
         )?\s*
       /
   ;
@@ -3507,7 +3509,7 @@ sub munge_title($) {
 
   ($artist, $track) = ($1, "\L$2\E $3")   # ARTIST talks about HIMSELF
     if (!$artist &&                       #        ^^^^^^^^^^^^^^^^^^^ = TRACK
-        $title =~ m/^ ( .+? ) \b
+        $title =~ m/^ ( .+? ) \b 
                       \(? \s* (interview|talks about) \s* \)?
                       \b \s* ( .+ ) $/six);
 

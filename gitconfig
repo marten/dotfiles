@@ -125,3 +125,5 @@
 	default = c0de
 [status]
 	submodulesummary = 1
+[commit]
+	verbose = true

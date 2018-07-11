@@ -4,7 +4,7 @@ set nocompatible
 set shell=bash
 filetype off
 
-let mapleader = ","
+let mapleader = " "
 let maplocalleader = "\\"
 
 call plug#begin('~/.vim/plugged')
@@ -14,8 +14,8 @@ Plug 'git://github.com/MarcWeber/vim-addon-mw-utils.git'
 Plug 'git://github.com/tomtom/tlib_vim.git'
 
 " General
-" Nice looking status line
-Plug 'Lokaltog/vim-powerline'
+Plug 'vim-airline/vim-airline'
+let g:airline_powerline_fonts = 1
 
 " Change surrounding stuff (e.g. cs'" to change ' to ")
 Plug 'tpope/vim-surround'
@@ -57,6 +57,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-signify'
 
 Plug 'garbas/vim-snipmate'
 Plug 'scrooloose/snipmate-snippets'

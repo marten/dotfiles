@@ -4,7 +4,7 @@ set nocompatible
 set shell=bash
 filetype off
 
-let mapleader = " "
+let mapleader = ","
 let maplocalleader = "\\"
 
 call plug#begin('~/.vim/plugged')
@@ -39,7 +39,7 @@ nmap <silent> <leader>tg :TestVisit<CR>
 
 Plug 'dkprice/vim-easygrep'
 let g:EasyGrepCommand=1
-let greppprg='ag'
+let grepprg='ag'
 "
 " " ctrl-p to jump between files
 Plug 'kien/ctrlp.vim'
@@ -54,9 +54,12 @@ let g:ctrlp_user_command = {
 Plug 'elixir-lang/vim-elixir'
 
 " " Live syntax checking
-Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 Plug 'tpope/vim-endwise'
+
+" Git and other versiony things
 Plug 'tpope/vim-fugitive'
+Plug 'jreybert/vimagit'
 Plug 'mhinz/vim-signify'
 
 Plug 'garbas/vim-snipmate'
@@ -476,3 +479,7 @@ set winwidth=78
 "set winheight=5
 "set winminheight=5
 "set winheight=999
+"
+if has("gui_running")
+  set guifont="Input Mono 12"
+endif

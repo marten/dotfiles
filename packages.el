@@ -6,3 +6,4 @@
 (package! ein)
 (package! apib-mode)
 (package! ws-butler)
+(package! groovy-mode)

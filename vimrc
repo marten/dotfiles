@@ -81,6 +81,8 @@ Plug 'leafgarland/typescript-vim'
 " let g:vimclojure#HighlightBuiltins = 1
 " let g:vimclojure#ParenRainbow = 1
 
+Plug 'rhysd/vim-crystal'
+
 " Scala
 Plug 'derekwyatt/vim-scala'
 "

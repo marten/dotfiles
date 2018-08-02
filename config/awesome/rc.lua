@@ -381,21 +381,6 @@ clientkeys = awful.util.table.join(
     {description = "maximize", group = "client"})
 )
 
--- Bind all function keys to tags.
-for i = 1, 12 do
-  globalkeys = awful.util.table.join(globalkeys,
-                                     -- View tag only.
-                                     awful.key({ }, "F" .. i,
-                                       function ()
-                                         local screen = awful.screen.focused()
-                                         local tag = screen.tags[i]
-                                         if tag then
-                                           tag:view_only()
-                                         end
-                                       end,
-                                       {description = "view tag #"..i, group = "tag"})
-  )
-end
 -- Bind all key numbers to tags.
 -- Be careful: we use keycodes to make it works on any keyboard layout.
 -- This should map on the top row of your keyboard, usually 1 to 9.

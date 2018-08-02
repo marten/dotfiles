@@ -1,8 +1,4 @@
 DOTFILES_DIRS="/Users/marten/dotfiles /home/marten/dotfiles"
 UNDOTTED="bin"
-<<<<<<< Updated upstream
 SYMLINK_DIRS="bin config/* doom.d emacs.d git irssi vim zsh"
-=======
-SYMLINK_DIRS="bin config doom.d emacs.d git irssi vim zsh"
->>>>>>> Stashed changes
 EXCLUDES="Brewfile README.md SHARPEN.md Rakefile emacs-old emacs-spacemacs sublime-text-2 sublime-text-3"

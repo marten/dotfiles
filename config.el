@@ -1,6 +1,6 @@
 ;;;  -*- lexical-binding: t; -*-
 
-(setq doom-font (font-spec :family "Input Mono Narrow" :size 12)
+(setq doom-font (font-spec :family "Input Mono Narrow" :size 16)
       doom-big-font (font-spec :family "Input Mono Narrow" :size 25))
 
 (require 'org-projectile)

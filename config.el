@@ -31,3 +31,15 @@ Repeated invocations toggle between the two most recently open buffers."
 (map! :leader
       (:desc "Project" :prefix "p"
         :desc "Switch between implementation and test file" :n "a" #'projectile-toggle-between-implementation-and-test))
+
+(cond
+ ((string-equal system-type "windows-nt") ; Microsoft Windows
+  (progn
+    (message "Microsoft Windows")))
+ ((string-equal system-type "darwin") ; Mac OS X
+  (progn
+    (message "Mac OS X")))
+ ((string-equal system-type "gnu/linux") ; linux
+  (progn
+    (add-to-list 'ruby-mode-hook (lambda () (setq zeal-at-point-docset '("ruby" "rails"))))
+    (map! :nv "g?" #'zeal-at-point))))

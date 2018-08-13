@@ -8,3 +8,4 @@
 (package! ws-butler)
 (package! groovy-mode)
 (package! zeal-at-point)
+(package! crystal-mode)

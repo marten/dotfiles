@@ -24,6 +24,7 @@ Repeated invocations toggle between the two most recently open buffers."
   (interactive)
   (switch-to-buffer (other-buffer (current-buffer) 1)))
 
+(map! :nvoi "C-z" #'suspend-frame)
 (map! :n "ga" #'projectile-toggle-between-implementation-and-test
       :n ";" #'evil-ex
       :n ",," #'switch-to-previous-buffer)
@@ -43,3 +44,5 @@ Repeated invocations toggle between the two most recently open buffers."
   (progn
     (add-to-list 'ruby-mode-hook (lambda () (setq zeal-at-point-docset '("ruby" "rails"))))
     (map! :nv "g?" #'zeal-at-point))))
+
+(customize-set-variable 'inf-ruby-console-environment "development")

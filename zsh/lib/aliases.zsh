@@ -14,6 +14,11 @@ alias _='sudo'
 # Show history
 alias history='fc -l 1'
 
+# git
+alias  g='git'
+alias  gp='git pull --rebase'
+alias gti=git
+
 # List direcory contents
 alias lsa='ls -lah'
 alias l='ls -la'

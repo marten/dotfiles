@@ -9,8 +9,6 @@ prompt marten
 # Automatically pushd
 setopt autopushd
 
-export GEOLOQI_TOKEN="6d67-6079eaaa6955cb62838be656e36cd00398d7ec55"
-
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
 export MAKEFLAGS="-j8"
 export EDITOR=vim

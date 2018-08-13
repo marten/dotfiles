@@ -1,0 +1,20 @@
+#+TITLE: marten's emacs config (based on Doom)
+
+* Getting started
+Simply clone both ~doom-emacs~ and my config, and modify ~.emacs.d/init.el~:
+#+BEGIN_SRC bash
+git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+git clone https://github.com/marten/doom-emacs-private ~/.doom.d
+vim ~/.emacs.d/init.el
+#+END_SRC
+~~/.emacs.d/init.el~:
+#+BEGIN_SRC elisp
+(require 'core (concat user-emacs-directory "core/core"))
+(doom! :config private)
+#+END_SRC
+And use ~make~ to install the packages, etc.
+#+BEGIN_SRC bash
+cd .emacs.d
+make
+#+END_SRC
+

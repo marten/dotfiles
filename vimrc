@@ -32,9 +32,11 @@ Plug 'sickill/vim-pasta'
 
 Plug 'janko-m/vim-test'
 nmap <silent> <leader>tn :TestNearest<CR>
-nmap <silent> <leader>tf :TestFile<CR>   
-nmap <silent> <leader>ts :TestSuite<CR>  
+nmap <silent> <leader>ts :TestNearest<CR>
+nmap <silent> <leader>tv :TestFile<CR>   
+nmap <silent> <leader>ta :TestSuite<CR>  
 nmap <silent> <leader>tl :TestLast<CR>   
+nmap <silent> <leader>tt :TestLast<CR>   
 nmap <silent> <leader>tg :TestVisit<CR>  
 
 Plug 'dkprice/vim-easygrep'
@@ -360,6 +362,9 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " Clears the search register
 nmap <silent> <leader>/ :nohlsearch<CR>
+nnoremap <CR> :nohlsearch<cr>
+
+imap <c-l> <space>=><space>
 
 " Quickly get out of insert mode without your fingers having to leave the
 " home row ('jj' only, 'jk' doesn't work well with Dutch "-ijk"-words)
@@ -395,6 +400,10 @@ nnoremap <leader>a :Ack
 " Reselect text that was just pasted with ,v
 nnoremap <leader>v V`]
 
+
+" Multipurpose tab key: (as per Gary Bernhardt's vim)
+" Will indent when we're at the beginning of a line
+" Will autocomplete elsewhere.
 function! InsertTabWrapper()
     let col = col('.') - 1
     if !col || getline('.')[col - 1] !~ '\k'

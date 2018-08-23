@@ -41,7 +41,7 @@
 
 [alias]
   ci = commit            ; this stuff is just shorter
-  st = status
+  st = status --short
   co = checkout
   di = diff
   dc = diff --cached

@@ -6,3 +6,4 @@ config/fish/fish_history
 config/fish/fishd.*
 config/xbuild
 config/configstore/update-notifier-npm.json
+config/configstore/update-notifier-npm.json*

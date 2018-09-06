@@ -10,3 +10,4 @@
 (package! zeal-at-point)
 (package! crystal-mode)
 (package! ruby-refactor)
+(package! restclient)

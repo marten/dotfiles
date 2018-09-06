@@ -1,6 +1,6 @@
 ;;;  -*- lexical-binding: t; -*-
 
-(setq doom-font (font-spec :family "Input Mono Narrow" :size 16)
+(setq doom-font (font-spec :family "Input Mono Narrow" :size 12)
       doom-big-font (font-spec :family "Input Mono Narrow" :size 25))
 
 (require 'org-projectile)
@@ -15,6 +15,10 @@
 (map! (:after ruby-mode
         :map ruby-mode-map
         :n "C-c C-c" #'seeing-is-believing))
+
+;(map! :map crystal-mode-map
+      ;:localleader
+      ;:n "ta" #'crystal-spec-all)
 
 (map! :v "Q" 'fill-region)
 

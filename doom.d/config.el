@@ -16,9 +16,9 @@
         :map ruby-mode-map
         :n "C-c C-c" #'seeing-is-believing))
 
-(map! :map crystal-mode-map
-      :localleader
-      :n "ta" #'crystal-spec-all)
+;(map! :map crystal-mode-map
+      ;:localleader
+      ;:n "ta" #'crystal-spec-all)
 
 (map! :v "Q" 'fill-region)
 

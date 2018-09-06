@@ -19,7 +19,7 @@ GSSAPIAuthentication true
 # Zooniverse
 Host *.compute-1.amazonaws.com
   User ubuntu
-  IdentityFile /Users/marten/.ssh/zooniverse_1.pem
+  IdentityFile ~/.ssh/zooniverse_1.pem
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking=no
 

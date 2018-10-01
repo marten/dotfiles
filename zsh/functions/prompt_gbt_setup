@@ -9,7 +9,9 @@ export GBT_RCARS='Status'
 export GBT_CAR_DIR_DEPTH='9999'
 export GBT_CAR_STATUS_FORMAT=' {{ Code }} '
 export GBT_CAR_GIT_BG='none'
-export GBT_CAR_GIT_FG='white'
+export GBT_CAR_GIT_FG='grey'
+export GBT_CAR_GIT_CLEAN_FG='green'
+export GBT_CAR_GIT_DIRTY_FG='red'
 
 prompt_gbt_setup () {
   precmd  () { prompt_gbt_precmd }

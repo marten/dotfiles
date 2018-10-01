@@ -1,0 +1,25 @@
+prompt_gbt_help () {
+  cat <<'EOF'
+This is my prompt
+EOF
+}
+
+export GBT_CARS='Dir, Git, Sign'
+export GBT_RCARS='Status'
+export GBT_CAR_DIR_DEPTH='9999'
+export GBT_CAR_STATUS_FORMAT=' {{ Code }} '
+export GBT_CAR_GIT_BG='none'
+export GBT_CAR_GIT_FG='white'
+
+prompt_gbt_setup () {
+  precmd  () { prompt_gbt_precmd }
+  preexec () { }
+}
+
+prompt_gbt_precmd () {
+  # *Very* important to use single quotes, not double quotes... WHY?
+  PROMPT='$(gbt $?)'
+  RPROMPT='$(gbt -right $?)'
+}
+
+prompt_gbt_setup "$@"

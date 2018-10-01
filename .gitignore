@@ -7,3 +7,6 @@ config/fish/fishd.*
 config/xbuild
 config/configstore/update-notifier-npm.json
 config/configstore/update-notifier-npm.json*
+config/pgcli/history
+config/pgcli/log
+config/StardewValley

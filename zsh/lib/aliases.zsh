@@ -19,6 +19,8 @@ alias  g='git'
 alias  gp='git pull --rebase'
 alias gti=git
 
+alias ping='prettyping'
+
 # List direcory contents
 alias lsa='ls -lah'
 alias l='ls -la'
@@ -35,6 +37,7 @@ alias beheer='sshuttle -r beheer11 10.128.0.0/9'
 alias afind='ack-grep -il'
 alias awssh="docker run -it --rm --volume $HOME/.ssh:/root/.ssh -e AWS_DEFAULT_REGION -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -e AWS_SESSION_TOKEN -e AWS_SECURITY_TOKEN astopy/awssh"
 
+alias psql='pgcli'
 alias psql-panoptes-staging='psql -h panoptes-staging-new.cezuuccr9cw6.us-east-1.rds.amazonaws.com --user panoptes panoptes'
 alias psql-panoptes-production='psql -h panoptes-production.cezuuccr9cw6.us-east-1.rds.amazonaws.com --user readonly panoptes'
 alias psql-panoptes-slave='psql -h panoptes-production-read1.cezuuccr9cw6.us-east-1.rds.amazonaws.com --user readonly panoptes'

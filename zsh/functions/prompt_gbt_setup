@@ -4,14 +4,25 @@ This is my prompt
 EOF
 }
 
-export GBT_CARS='Dir, Git, Sign'
+export GBT_CARS='Custom, Dir, Git, Sign'
 export GBT_RCARS='Status'
+
+# Put a newline before each new prompt
+export GBT_CAR_CUSTOM_TEXT_TEXT="" 
+export GBT_CAR_CUSTOM_BG=none
+export GBT_CAR_DIR_SEP=""
+export GBT_CAR_DIR_WRAP=1
+
 export GBT_CAR_DIR_DEPTH='9999'
-export GBT_CAR_STATUS_FORMAT=' {{ Code }} '
-export GBT_CAR_GIT_BG='none'
-export GBT_CAR_GIT_FG='grey'
+export GBT_CAR_GIT_BG='default'
+export GBT_CAR_GIT_FG='default'
 export GBT_CAR_GIT_CLEAN_FG='green'
 export GBT_CAR_GIT_DIRTY_FG='red'
+
+export GBT_CAR_SIGN_WRAP=1
+export GBT_CAR_SIGN_FM=none
+
+export GBT_CAR_STATUS_FORMAT=' {{ Code }} '
 
 prompt_gbt_setup () {
   precmd  () { prompt_gbt_precmd }

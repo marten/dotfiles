@@ -4,7 +4,7 @@ colors
 setopt promptsubst
 autoload -U promptinit
 promptinit
-prompt marten
+prompt gbt
 
 # Automatically pushd
 setopt autopushd

@@ -4,6 +4,8 @@ xscreensaver -no-splash &
 setxkbmap -option caps:super
 setxkbmap -option compose:menu
 
+workrave &
+
 eval $(gnome-keyring-daemon --start)
 
 gnome-terminal &

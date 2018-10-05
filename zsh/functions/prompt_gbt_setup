@@ -14,7 +14,7 @@ export GBT_CAR_DIR_SEP=""
 export GBT_CAR_DIR_WRAP=1
 
 export GBT_CAR_DIR_DEPTH='9999'
-export GBT_CAR_GIT_BG='default'
+export GBT_CAR_GIT_BG='40;40;40'
 export GBT_CAR_GIT_FG='default'
 export GBT_CAR_GIT_CLEAN_FG='green'
 export GBT_CAR_GIT_DIRTY_FG='red'

@@ -28,12 +28,19 @@ Repeated invocations toggle between the two most recently open buffers."
   (interactive)
   (switch-to-buffer (other-buffer (current-buffer) 1)))
 
-(map! :nvoi "C-z" #'suspend-frame)
-(map! :n "ga" #'projectile-toggle-between-implementation-and-test
-      :n ";" #'evil-ex
-      :n ",," #'switch-to-previous-buffer)
+(map! :nvoi "C-z" #'suspend-frame
 
-(map! :leader
+      ;; Easier window navigation
+      :en "C-h"   #'evil-window-left
+      :en "C-j"   #'evil-window-down
+      :en "C-k"   #'evil-window-up
+      :en "C-l"   #'evil-window-right
+
+      :n "ga" #'projectile-toggle-between-implementation-and-test
+      :n ";" #'evil-ex
+      :n ",," #'switch-to-previous-buffer
+
+      :leader
       (:desc "Project" :prefix "p"
         :desc "Switch between implementation and test file" :n "a" #'projectile-toggle-between-implementation-and-test))
 
@@ -50,3 +57,4 @@ Repeated invocations toggle between the two most recently open buffers."
     (map! :nv "g?" #'zeal-at-point))))
 
 (customize-set-variable 'inf-ruby-console-environment "development")
+

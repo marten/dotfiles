@@ -493,10 +493,9 @@ globalkeys = my_table.join(
               {description = "run gui editor", group = "launcher"}),
 
     -- Default
-    --[[ Menubar
-    awful.key({ modkey }, "p", function() menubar.show() end,
-              {description = "show the menubar", group = "launcher"})
-    --]]
+    awful.key({ modkey }, "p", function() awful.spawn("rofi -show run") end,
+              {description = "show the menubar", group = "launcher"}),
+    
     --[[ dmenu
     awful.key({ modkey }, "x", function ()
             os.execute(string.format("dmenu_run -i -fn 'Monospace' -nb '%s' -nf '%s' -sb '%s' -sf '%s'",
@@ -725,7 +724,7 @@ end)
 
 -- Enable sloppy focus, so that focus follows mouse.
 client.connect_signal("mouse::enter", function(c)
-    c:emit_signal("request::activate", "mouse_enter", {raise = true})
+    c:emit_signal("request::activate", "mouse_enter", {raise = false})
 end)
 
 -- No border for maximized clients

@@ -5,3 +5,4 @@ targetbase="$HOME/screenshots"
 mkdir -p $targetbase
 [ -d $targetbase ] || exit 1
 scrot --select $targetbase/$timestamp.png
+xclip -selection clipboard -target image/png -i $targetbase/$timestamp.png

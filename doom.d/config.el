@@ -14,7 +14,8 @@
 
 (map! (:after ruby-mode
         :map ruby-mode-map
-        :n "C-c C-c" #'seeing-is-believing))
+        :n "C-c C-c" #'seeing-is-believing
+        :n "<pause>" #'rspec-rerun))
 
 ;(map! :map crystal-mode-map
       ;:localleader

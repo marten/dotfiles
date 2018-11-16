@@ -13,6 +13,7 @@ Hostname marten-desktop.nat.physics.ox.ac.uk
 User marten
 ProxyCommand ssh oxford_ssh_gateway nc -q 0 marten-desktop.nat.physics.ox.ac.uk 22
 ForwardX11 yes
+ForwardAgent yes
 GSSAPIDelegateCredentials true
 GSSAPIAuthentication true
 

@@ -327,6 +327,9 @@ nnoremap ` '
 " ,e to switch between 2 last buffers
 nmap <leader>e :b#<CR>
 
+" ga to switch between implementation and test
+nmap ga :A<cr>
+
 " Please move through long wrapped lines logically
 nnoremap j gj
 nnoremap k gk

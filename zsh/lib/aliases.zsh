@@ -54,3 +54,10 @@ alias psql-nero-production='psql -h microservices-production.cezuuccr9cw6.us-eas
 alias psql-turk-production='psql -h microservices-production.cezuuccr9cw6.us-east-1.rds.amazonaws.com -U mechanical_zoo_production mechanical_zoo_production'
 
 alias sas='hermes exec StandaloneAppsSwarm -- docker '
+
+
+# Simulate OSX's pbcopy and pbpaste on other platforms
+if [ ! $(uname -s) = "Darwin" ]; then
+    alias pbcopy='xsel --clipboard --input'
+    alias pbpaste='xsel --clipboard --output'
+fi

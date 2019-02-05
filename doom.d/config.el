@@ -45,6 +45,7 @@ Repeated invocations toggle between the two most recently open buffers."
       (:desc "Project" :prefix "p"
         :desc "Switch between implementation and test file" :n "a" #'projectile-toggle-between-implementation-and-test))
 
+
 (cond
  ((string-equal system-type "windows-nt") ; Microsoft Windows
   (progn
@@ -58,4 +59,4 @@ Repeated invocations toggle between the two most recently open buffers."
     (map! :nv "g?" #'zeal-at-point))))
 
 (customize-set-variable 'inf-ruby-console-environment "development")
-
+(customize-set-variable 'racer-rust-src-path "/Users/marten/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src")

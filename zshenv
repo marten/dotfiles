@@ -28,6 +28,8 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export ROQUA_ROOT=$HOME/work/code/deployer
 export RAILS_LOG_LEVEL="debug"
 
+export RUST_SRC_PATH=$HOME/src/rust
+
 export PATH=$HOME/bin:$PATH
 
 export LC_ALL=en_US.UTF-8

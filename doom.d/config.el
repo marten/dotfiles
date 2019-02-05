@@ -12,6 +12,8 @@
 
 (setq doom-localleader-key ",")
 
+(setq rspec-use-rvm nil)
+
 (map! (:after ruby-mode
         :map ruby-mode-map
         :n "C-c C-c" #'seeing-is-believing

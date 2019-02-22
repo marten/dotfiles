@@ -3,26 +3,9 @@
 (setq doom-font (font-spec :family "Input Mono Narrow" :size 12)
       doom-big-font (font-spec :family "Input Mono Narrow" :size 25))
 
-(require 'org-projectile)
-(org-projectile-per-project)
-(setq org-projectile-per-project-filepath "my_project_todo_filename.org")
-(setq org-agenda-files (append org-agenda-files (org-projectile-todo-files)))
-; (global-set-key (kbd "C-c c") 'org-capture)
-; (global-set-key (kbd "C-c n p") 'org-projectile-project-todo-completing-read)
 
-(setq doom-localleader-key ",")
-
-(setq rspec-use-rvm nil)
-
-(map! (:after ruby-mode
-        :map ruby-mode-map
-        :n "C-c C-c" #'seeing-is-believing
-        :n "<pause>" #'rspec-rerun))
-
-;(map! :map crystal-mode-map
-      ;:localleader
-      ;:n "ta" #'crystal-spec-all)
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Generic
 (map! :v "Q" 'fill-region)
 
 (defun switch-to-previous-buffer ()
@@ -47,7 +30,40 @@ Repeated invocations toggle between the two most recently open buffers."
       (:desc "Project" :prefix "p"
         :desc "Switch between implementation and test file" :n "a" #'projectile-toggle-between-implementation-and-test))
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; org-mode
+(require 'org-projectile)
+(org-projectile-per-project)
+(setq org-projectile-per-project-filepath "my_project_todo_filename.org")
+(setq org-agenda-files (append org-agenda-files (org-projectile-todo-files)))
+; (global-set-key (kbd "C-c c") 'org-capture)
+; (global-set-key (kbd "C-c n p") 'org-projectile-project-todo-completing-read)
 
+(setq doom-localleader-key ",")
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; ruby-mode et al
+(setq rspec-use-rvm nil)
+(setq ruby-deep-indent-paren nil)
+(customize-set-variable 'inf-ruby-console-environment "development")
+
+(map! (:after ruby-mode
+        :map ruby-mode-map
+        :n "C-c C-c" #'seeing-is-believing
+        :n "<pause>" #'rspec-rerun))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; crystal-mode
+(map! :map crystal-mode-map
+      :localleader
+      :n "ta" #'crystal-spec-all)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; rust
+(customize-set-variable 'racer-rust-src-path "/Users/marten/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src")
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; dash / zeal
 (cond
  ((string-equal system-type "windows-nt") ; Microsoft Windows
   (progn
@@ -59,6 +75,3 @@ Repeated invocations toggle between the two most recently open buffers."
   (progn
     (add-to-list 'ruby-mode-hook (lambda () (setq zeal-at-point-docset '("ruby" "rails"))))
     (map! :nv "g?" #'zeal-at-point))))
-
-(customize-set-variable 'inf-ruby-console-environment "development")
-(customize-set-variable 'racer-rust-src-path "/Users/marten/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src")

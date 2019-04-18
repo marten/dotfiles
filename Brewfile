@@ -1,13 +1,36 @@
-brew "libyaml"
-brew "libxml2"
-brew "libxslt"
-brew "readline"
-brew "openssl"
-brew "openssl-osx-ca"
-brew "vim"
+cask "alfred"
+cask "visual-studio-code"
+cask "docker"
+
+tap "thoughtbot/formulae"
+brew "rcm"
+
+brew "git"
+brew "zsh"
+brew "fish"
+brew "gnupg"
+
+tap "jtyr/repo"
+brew "gbt"
+
+tap "d12frosted/emacs-plus"
+brew "emacs-plus", link: true
+
+brew "htop"
+
+brew "rbenv"
 brew "ssh-copy-id"
 brew "the_silver_searcher"
-brew "git"
-brew "postgresql"
-brew "mr"
+brew "sshuttle"
 brew "autojump"
+brew "mr"
+brew "postgresql"
+
+# brew "libyaml"
+# brew "libxml2"
+# brew "libxslt"
+# brew "readline"
+# brew "openssl"
+# brew "openssl-osx-ca"
+# brew "vim"
+# brew "postgresql"

@@ -1,6 +1,9 @@
 cask "alfred"
 cask "visual-studio-code"
 cask "docker"
+cask "bettertouchtool"
+cask "istat-menus"
+cask "dash"
 
 tap "thoughtbot/formulae"
 brew "rcm"

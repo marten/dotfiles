@@ -4,6 +4,7 @@ cask "docker"
 cask "bettertouchtool"
 cask "istat-menus"
 cask "dash"
+cask "numi" # calculator app
 
 tap "thoughtbot/formulae"
 brew "rcm"

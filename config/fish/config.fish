@@ -7,6 +7,6 @@ if [ -d ~/.rbenv ]
   rbenv rehash >/dev/null ^&1
 end
 
-if [ -d $HOME/dotfiles/emacs.d/bin ]
-  set PATH $HOME/dotfiles/emacs.d/bin $PATH
+if [ -d $HOME/.emacs.d/bin ]
+  set PATH $HOME/.emacs.d/bin $PATH
 end

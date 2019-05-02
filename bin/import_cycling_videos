@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+require 'pp'
+require 'fileutils'
+require 'rake'
+
+HDD = "/Volumes/CyclingVids"
+SD  = "/Volumes/CYCLIQ"
+
+unless Dir.exists?(HDD)
+  STDERR.puts("Mount harddrive first")
+  exit 1
+end
+
+unless Dir.exists?(SD)
+  STDERR.puts("Mount SD card first")
+  exit 1
+end
+
+files = Rake::FileList["#{HDD}/Raw footage/20*/*.MP4"].sort
+last_file = files.last
+last_timestamp = File.ctime(last_file)
+pp last_file
+pp last_timestamp
+puts
+
+to_import = Dir["#{SD}/DCIM/*"].sort.select do |f|
+  File.file?(f) && File.basename(f) > File.basename(last_file)
+end
+pp to_import
+puts
+
+today = Time.now.strftime("%Y-%m-%d")
+newdir = "#{HDD}/Raw footage/#{today}"
+pp newdir
+FileUtils.mkdir_p(newdir)
+
+to_import.each do |f|
+  puts "Copying #{f}"
+  FileUtils.cp(f, newdir)
+end

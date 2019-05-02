@@ -8,7 +8,7 @@ ForwardX11 yes
 GSSAPIDelegateCredentials true
 GSSAPIAuthentication true
 
-Host w
+Host oxford
 Hostname marten-desktop.nat.physics.ox.ac.uk
 User marten
 ProxyCommand ssh oxford_ssh_gateway nc -q 0 marten-desktop.nat.physics.ox.ac.uk 22
@@ -16,6 +16,11 @@ ForwardX11 yes
 ForwardAgent yes
 GSSAPIDelegateCredentials true
 GSSAPIAuthentication true
+
+Host w
+Hostname marten.rgoc.rug.nl
+User marten
+ForwardAgent yes
 
 # Zooniverse
 Host *.compute-1.amazonaws.com
@@ -724,10 +729,8 @@ Hostname 10.250.11.11
 Host beheer11
 Hostname 129.125.147.11
 Port 22
-IdentityFile ~/.ssh/id_rsa_sshuttle
 
 Host beheer12
 Hostname 129.125.147.12
 Port 22
-IdentityFile ~/.ssh/id_rsa_sshuttle
 

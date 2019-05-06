@@ -5,6 +5,11 @@ cask "bettertouchtool"
 cask "istat-menus"
 cask "dash"
 cask "numi" # calculator app
+cask "arduino"
+cask "spotify"
+
+tap "homebrew/cask-fonts"
+cask "font-input"
 
 tap "thoughtbot/formulae"
 brew "rcm"
@@ -29,6 +34,8 @@ brew "sshuttle"
 brew "autojump"
 brew "mr"
 brew "postgresql"
+
+brew "elixir"
 
 # brew "libyaml"
 # brew "libxml2"

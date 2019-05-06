@@ -1,9 +1,5 @@
-[oversight/agent]
-checkout = git clone 'git@github.com:oversight/agent.git' 'agent'
-
-[oversight/docs]
-checkout = git clone 'git@github.com:oversight/docs.git' 'docs'
-
+[dotfiles]
+checkout = git clone 'git@github.com:marten/dotfiles.git' 'dotfiles'
 
 [rgoc/deployer]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/deployer.git' 'deployer'
@@ -31,3 +27,5 @@ checkout = git clone 'git@gitlab.roqua.nl:roqua/medo.git' 'medo'
 checkout = git clone 'git@gitlab.roqua.nl:roqua/healthy.git' 'healthy'
 [rgoc/status]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/status.git' 'status'
+[rgoc/gitlab-automator]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/gitlab_automator.git' 'gitlab-automator'

@@ -7,6 +7,7 @@ cask "dash"
 cask "numi" # calculator app
 cask "arduino"
 cask "spotify"
+cask "shiori"
 
 tap "homebrew/cask-fonts"
 cask "font-input"
@@ -26,6 +27,7 @@ tap "d12frosted/emacs-plus"
 brew "emacs-plus", link: true
 
 brew "htop"
+brew "httpie"
 
 brew "rbenv"
 brew "ssh-copy-id"

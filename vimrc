@@ -17,6 +17,8 @@ Plug 'git://github.com/tomtom/tlib_vim.git'
 Plug 'vim-airline/vim-airline'
 let g:airline_powerline_fonts = 1
 
+Plug 'nicwest/vim-workman'
+
 " Change surrounding stuff (e.g. cs'" to change ' to ")
 Plug 'tpope/vim-surround'
 "

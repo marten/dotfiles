@@ -1,7 +1,7 @@
 ;;;  -*- lexical-binding: t; -*-
 
-;; (setq doom-font (font-spec :family "Input Mono Narrow" :size 12)
-;;       doom-big-font (font-spec :family "Input Mono Narrow" :size 25))
+(setq doom-font (font-spec :family "Input Mono Narrow" :size 14)
+      doom-big-font (font-spec :family "Input Mono Narrow" :size 25))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Generic

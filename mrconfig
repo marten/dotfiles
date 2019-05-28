@@ -29,3 +29,6 @@ checkout = git clone 'git@gitlab.roqua.nl:roqua/healthy.git' 'healthy'
 checkout = git clone 'git@gitlab.roqua.nl:roqua/status.git' 'status'
 [rgoc/gitlab-automator]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/gitlab_automator.git' 'gitlab-automator'
+
+[rgoc/documentation]
+checkout = git clone 'git@gitlab.roqua.nl:Pages/documentation.git' 'documentation'

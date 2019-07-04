@@ -23,3 +23,6 @@
 
 ; Open Zeal (documentation browser) for function at point
 (package! zeal-at-point)
+
+; HAML
+(package! haml-mode)

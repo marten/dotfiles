@@ -1,5 +1,6 @@
 Host *
   AddKeysToAgent yes
+  UseKeychain yes
 
 Host oxford_ssh_gateway
 Hostname ssh.physics.ox.ac.uk

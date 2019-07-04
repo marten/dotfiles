@@ -55,6 +55,8 @@ let g:ctrlp_user_command = {
   \ }
 
 " " General Programming
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
 Plug 'elixir-lang/vim-elixir'
 
 " " Live syntax checking
@@ -76,6 +78,7 @@ Plug 'tpope/vim-haml'
 " " JavaScript
 Plug 'kchmck/vim-coffee-script'
 Plug 'leafgarland/typescript-vim'
+Plug 'ryanolsonx/vim-lsp-typescript'
 
 " Clojure
 " Plug 'VimClojure'
@@ -275,20 +278,6 @@ if &t_Co >= 256 || $COLORTERM == 'gnome-terminal' || has("gui_running")
 	set t_Co=256
 	set background=dark
 	colorscheme molokai
-
-	function! ToggleBackground()
-		if (g:solarized_style=="dark")
-		let g:solarized_style="light"
-		colorscheme solarized
-	else
-		let g:solarized_style="dark"
-		colorscheme solarized
-	endif
-	endfunction
-	command! Togbg call ToggleBackground()
-	nnoremap <F5> :call ToggleBackground()<CR>
-	inoremap <F5> <ESC>:call ToggleBackground()<CR>a
-	vnoremap <F5> <ESC>:call ToggleBackground()<CR>
 endif
 
 if &t_Co > 2 || has("gui_running")
@@ -397,7 +386,7 @@ vnoremap <Space> za
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
 " Run Ack fast (mind the trailing space here, wouldya?)
-nnoremap <leader>a :Ack
+nnoremap <leader>a :Ack<space>
 
 " Creating folds for tags in HTML
 "nnoremap <leader>ft Vatzf
@@ -436,38 +425,6 @@ nmap <silent> <leader>s :set nolist!<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Stolen from https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
-
-" Map keys to go to specific files
-map <leader>gr :topleft :split config/routes.rb<cr>
-function! ShowRoutes()
-" Requires 'scratch' plugin
-  :topleft 100 :split __Routes__
-" Make sure Vim doesn't write __Routes__ as a file
-  :set buftype=nofile
-" Delete everything
-  :normal 1GdG
-" Put routes output in buffer
-  :0r! rake -s routes
-" Size window to number of lines (1 plus rake output length)
-  :exec ":normal " . line("$") . _ "
-" Move cursor to bottom
-  :normal 1GG
-" Delete empty trailing line
-  :normal dd
-endfunction
-map <leader>gR :call ShowRoutes()<cr>
-"map <leader>ga :CommandTFlush<cr>\|:CommandT app/assets<cr>
-"map <leader>gv :CommandTFlush<cr>\|:CommandT app/views<cr>
-"map <leader>gc :CommandTFlush<cr>\|:CommandT app/controllers<cr>
-"map <leader>gm :CommandTFlush<cr>\|:CommandT app/models<cr>
-"map <leader>gh :CommandTFlush<cr>\|:CommandT app/helpers<cr>
-"map <leader>gl :CommandTFlush<cr>\|:CommandT lib<cr>
-"map <leader>gp :CommandTFlush<cr>\|:CommandT public<cr>
-"map <leader>gs :CommandTFlush<cr>\|:CommandT spec<cr>
-"map <leader>gf :CommandTFlush<cr>\|:CommandT features<cr>
-"map <leader>gg :topleft 100 :split Gemfile<cr>
-"map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
-"map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
 nnoremap <leader><leader> <c-^>
 

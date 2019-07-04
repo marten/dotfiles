@@ -10,3 +10,4 @@ config/configstore/update-notifier-npm.json*
 config/pgcli/history
 config/pgcli/log
 config/StardewValley
+config/nvim/plugged/

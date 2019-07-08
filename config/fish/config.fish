@@ -1,6 +1,10 @@
 # AutoJump
 [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
 
+if [ -d ~/bin ]
+  set PATH $HOME/bin $PATH
+end
+
 if [ -d ~/.rbenv ]
   set PATH $HOME/.rbenv/bin $PATH
   set PATH $HOME/.rbenv/shims $PATH

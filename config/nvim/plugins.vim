@@ -12,6 +12,7 @@ if !filereadable(plugpath)
             echom "Error downloading vim-plug. Please install it manually.\n"
             exit
         endif
+        autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
     else
         echom "vim-plug not installed. Please install it manually or install curl.\n"
         exit
@@ -62,6 +63,9 @@ Plug 'mxw/vim-jsx'
 " Generate JSDoc commands based on function signature
 Plug 'heavenshell/vim-jsdoc'
 
+" === Ruby plugins === "
+Plug 'vim-ruby/vim-ruby' " For Facts, Ruby functions, and custom providers
+
 " === Syntax Highlighting === "
 
 " Syntax highlighting for nginx
@@ -72,6 +76,9 @@ Plug 'othree/javascript-libraries-syntax.vim'
 
 " Improved syntax highlighting and indentation
 Plug 'othree/yajs.vim'
+
+" Fish shell
+Plug 'dag/vim-fish'
 
 " === UI === "
 " File explorer

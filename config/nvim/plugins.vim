@@ -33,8 +33,9 @@ Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 " Tmux/Neovim movement integration
 Plug 'christoomey/vim-tmux-navigator'
 
-" Denite - Fuzzy finding, buffer management
-Plug 'Shougo/denite.nvim'
+" Fzf - file and buffer finder
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
 
 " Snippet support
 Plug 'Shougo/neosnippet'
@@ -84,6 +85,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+
+Plug 'scrooloose/nerdcommenter'
 
 " Initialize plugin system
 call plug#end()

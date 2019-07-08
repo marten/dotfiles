@@ -54,7 +54,6 @@ set shortmess+=c
 " ===                           PLUGIN SETUP                               === "
 " ============================================================================ "
 
-source ~/.config/nvim/denite.vim
 source ~/.config/nvim/coc.vim
 source ~/.config/nvim/neosnippet.vim
 source ~/.config/nvim/nerdtree.vim
@@ -152,23 +151,25 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " Toggle between last and current file
 nnoremap <leader><leader> <c-^>
+nnoremap <leader>q :q<cr>
 
-" === Denite shorcuts === "
-"   ;         - Browser currently open buffers
-"   <leader>t - Browse list of files in current directory
-"   <leader>g - Search current directory for occurences of given term and
-"   close window if no results
+nnoremap ; :
+
+" === Navigation shortcuts === "
+"   <leader>b - Browser currently open buffers
+"   <leader>f - Browse list of files in current directory
+"   <leader>g - Search current directory for occurences of given term and close window if no results
 "   <leader>j - Search current directory for occurences of word under cursor
-nmap ; :Denite buffer -split=floating -winrow=1<CR>
-nmap <leader>t :Denite file/rec -split=floating -winrow=1<CR>
-nnoremap <leader>g :<C-u>Denite grep:. -no-empty<CR>
-nnoremap <leader>j :<C-u>DeniteCursorWord grep:.<CR>
+nmap <leader>b :Buffers<CR>
+nmap <leader>f :Files<CR>
+nnoremap <leader>g :Rg<space>
+"nnoremap <leader>j :<C-u>DeniteCursorWord grep:.<CR>
 
 " === Nerdtree shorcuts === "
 "  <leader>n - Toggle NERDTree on/off
 "  <leader>f - Opens current file location in NERDTree
 nmap <leader>n :NERDTreeToggle<CR>
-nmap <leader>f :NERDTreeFind<CR>
+nmap <leader>N :NERDTreeFind<CR>
 
 "   <Space> - PageDown
 "   -       - PageUp
@@ -201,6 +202,11 @@ nmap <leader>z :JsDoc<CR>
 " Used when you want to paste over something without it getting copied to
 " Vim's default buffer
 vnoremap <leader>p "_dP
+
+" === NERDCommenter.vim === "
+" ,/ to invert comment on the current line/selection
+nmap <leader>/ :call NERDComment(0, "invert")<cr>
+vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
 " ============================================================================ "
 " ===                                 MISC.                                === "

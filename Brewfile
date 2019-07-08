@@ -15,6 +15,8 @@ cask "font-input"
 tap "thoughtbot/formulae"
 brew "rcm"
 
+brew "fd"
+brew "fzf"
 brew "git"
 brew "zsh"
 brew "fish"

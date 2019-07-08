@@ -208,6 +208,13 @@ vnoremap <leader>p "_dP
 nmap <leader>/ :call NERDComment(0, "invert")<cr>
 vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
+" vim-test "
+nmap <silent> <leader>ts :TestNearest<CR>
+nmap <silent> <leader>tf :TestFile<CR>
+nmap <silent> <leader>ta :TestSuite<CR>
+nmap <silent> <leader>tl :TestLast<CR>
+nmap <silent> <leader>tg :TestVisit<CR>
+
 " ============================================================================ "
 " ===                                 MISC.                                === "
 " ============================================================================ "

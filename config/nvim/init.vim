@@ -215,6 +215,9 @@ nmap <silent> <leader>ta :TestSuite<CR>
 nmap <silent> <leader>tl :TestLast<CR>
 nmap <silent> <leader>tg :TestVisit<CR>
 
+" coc
+nmap gd :call CocActionAsync('jumpDefinition')<cr>
+
 " ============================================================================ "
 " ===                                 MISC.                                === "
 " ============================================================================ "

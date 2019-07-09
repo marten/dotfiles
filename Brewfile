@@ -21,6 +21,7 @@ brew "git"
 brew "zsh"
 brew "fish"
 brew "gnupg"
+brew "bench"
 
 tap "jtyr/repo"
 brew "gbt"

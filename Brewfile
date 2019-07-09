@@ -8,6 +8,7 @@ cask "numi" # calculator app
 cask "arduino"
 cask "spotify"
 cask "shiori"
+cask "kitty"
 
 tap "homebrew/cask-fonts"
 cask "font-input"
@@ -26,6 +27,7 @@ brew "bench"
 tap "jtyr/repo"
 brew "gbt"
 
+brew "neovim"
 tap "d12frosted/emacs-plus"
 brew "emacs-plus", link: true
 
@@ -33,6 +35,7 @@ brew "htop"
 brew "httpie"
 
 brew "rbenv"
+brew "nvm"
 brew "ssh-copy-id"
 brew "the_silver_searcher"
 brew "sshuttle"

@@ -47,8 +47,10 @@ Plug 'Shougo/echodoc.vim'
 
 " === Git Plugins === "
 " Enable git changes to be shown in sign column
-Plug 'mhinz/vim-signify'
-Plug 'tpope/vim-fugitive'
+"Plug 'mhinz/vim-signify'
+"Plug 'tpope/vim-fugitive'
+"Plug 'jreybert/vimagit'
+Plug 'airblade/vim-gitgutter'
 
 " Testing
 Plug 'janko-m/vim-test'

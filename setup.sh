@@ -10,3 +10,4 @@ cd -
 curl -L https://get.oh-my.fish | fish
 fish -c "omf install bang-bang"
 fish -c "omf install nvm"
+fish -c "omf install direnv"

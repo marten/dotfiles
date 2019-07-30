@@ -29,7 +29,12 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'rstacruz/vim-closer'
 
 " Intellisense Engine
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
+
+" Linting engine
+Plug 'dense-analysis/ale'
 
 " Tmux/Neovim movement integration
 Plug 'christoomey/vim-tmux-navigator'

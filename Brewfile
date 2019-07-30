@@ -9,6 +9,10 @@ cask "arduino"
 cask "spotify"
 cask "shiori"
 cask "caffeine"
+cask "kitty"
+cask "dropbox"
+cask "scroll-reverser"
+cask "sensiblesidebuttons"
 
 tap "homebrew/cask-fonts"
 cask "font-input"
@@ -16,6 +20,7 @@ cask "font-input"
 tap "thoughtbot/formulae"
 brew "rcm"
 
+brew "ripgrep"
 brew "fd"
 brew "fzf"
 brew "git"
@@ -23,10 +28,15 @@ brew "zsh"
 brew "fish"
 brew "gnupg"
 brew "bench"
+brew "direnv"
+brew "tmux"
 
 tap "jtyr/repo"
 brew "gbt"
 
+brew "cmake"
+
+brew "neovim"
 tap "d12frosted/emacs-plus"
 brew "emacs-plus", link: true
 
@@ -34,6 +44,7 @@ brew "htop"
 brew "httpie"
 
 brew "rbenv"
+brew "nvm"
 brew "ssh-copy-id"
 brew "the_silver_searcher"
 brew "sshuttle"

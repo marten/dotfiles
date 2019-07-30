@@ -1,6 +1,12 @@
 [dotfiles]
 checkout = git clone 'git@github.com:marten/dotfiles.git' 'dotfiles'
 
+[rgoc/docker-base-images]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/docker-base-images.git' 'docker-base-images'
+[rgoc/rq]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/rq.git' 'rq'
+[rgoc/documentation]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/documentation.git' 'deployer'
 [rgoc/deployer]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/deployer.git' 'deployer'
 [rgoc/roqua]
@@ -29,6 +35,3 @@ checkout = git clone 'git@gitlab.roqua.nl:roqua/healthy.git' 'healthy'
 checkout = git clone 'git@gitlab.roqua.nl:roqua/status.git' 'status'
 [rgoc/gitlab-automator]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/gitlab_automator.git' 'gitlab-automator'
-
-[rgoc/documentation]
-checkout = git clone 'git@gitlab.roqua.nl:Pages/documentation.git' 'documentation'

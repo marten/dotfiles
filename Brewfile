@@ -10,6 +10,8 @@ cask "spotify"
 cask "shiori"
 cask "kitty"
 cask "dropbox"
+cask "scroll-reverser"
+cask "sensiblesidebuttons"
 
 tap "homebrew/cask-fonts"
 cask "font-input"
@@ -30,6 +32,8 @@ brew "tmux"
 
 tap "jtyr/repo"
 brew "gbt"
+
+brew "cmake"
 
 brew "neovim"
 tap "d12frosted/emacs-plus"

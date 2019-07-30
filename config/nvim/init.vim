@@ -60,8 +60,10 @@ source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/echodoc.vim
 source ~/.config/nvim/signify.vim
+source ~/.config/nvim/limelight.vim
 
 source ~/.config/nvim/lang/javascript.vim
+source ~/.config/nvim/lang/ruby.vim
 
 " ============================================================================ "
 " ===                                UI                                    === "
@@ -209,6 +211,9 @@ nmap <leader>/ :call NERDComment(0, "invert")<cr>
 vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
 " vim-test "
+"let test#strategy = "dispatch_background"
+let test#strategy = "neovim"
+let test#neovim#term_position = "vertical botright"
 nmap <silent> <leader>ts :TestNearest<CR>
 nmap <silent> <leader>tf :TestFile<CR>
 nmap <silent> <leader>ta :TestSuite<CR>

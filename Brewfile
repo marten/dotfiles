@@ -8,6 +8,7 @@ cask "numi" # calculator app
 cask "arduino"
 cask "spotify"
 cask "shiori"
+cask "caffeine"
 
 tap "homebrew/cask-fonts"
 cask "font-input"

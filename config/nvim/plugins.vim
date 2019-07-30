@@ -52,6 +52,7 @@ Plug 'tpope/vim-fugitive'
 
 " Testing
 Plug 'janko-m/vim-test'
+Plug 'tpope/vim-dispatch'
 
 " === Javascript Plugins === "
 " Typescript syntax highlighting
@@ -66,6 +67,11 @@ Plug 'heavenshell/vim-jsdoc'
 " === Ruby plugins === "
 Plug 'vim-ruby/vim-ruby' " For Facts, Ruby functions, and custom providers
 
+" === Writing ===
+Plug 'jceb/vim-orgmode'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+
 " === Syntax Highlighting === "
 
 " Syntax highlighting for nginx
@@ -77,6 +83,10 @@ Plug 'othree/javascript-libraries-syntax.vim'
 " Improved syntax highlighting and indentation
 Plug 'othree/yajs.vim'
 
+" Syntax highlighting for coffeescript
+Plug 'kchmck/vim-coffee-script'
+
+Plug 'jparise/vim-graphql'
 " Fish shell
 Plug 'dag/vim-fish'
 

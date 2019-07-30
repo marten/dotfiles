@@ -1,3 +1,5 @@
 {
   "python.jediEnabled": false,
+  "coc.preferences.formatOnSaveFiletypes": ["css", "javascript", "typescript", "javascriptreact", "typescriptreact", "json", "graphql"],
+  "tslint.configFile": "tslint.json"
 }

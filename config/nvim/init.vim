@@ -155,7 +155,12 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nnoremap <leader><leader> <c-^>
 nnoremap <leader>q :q<cr>
 
+" Make it easier to invoke command mode
 nnoremap ; :
+
+" Use Q for formatting the current paragraph (or visual selection)
+vmap Q gq
+nmap Q gqap
 
 " === Navigation shortcuts === "
 "   <leader>b - Browser currently open buffers
@@ -186,6 +191,9 @@ nmap <silent> <leader>dj <Plug>(coc-implementation)
 " === vim-better-whitespace === "
 "   <leader>y - Automatically remove trailing whitespace
 nmap <leader>y :StripWhitespace<CR>
+
+" ga to switch between implementation and test
+nmap ga :A<cr>
 
 " === Search shorcuts === "
 "   <leader>h - Find and replace
@@ -223,12 +231,34 @@ nmap <silent> <leader>tg :TestVisit<CR>
 " coc
 nmap gd :call CocActionAsync('jumpDefinition')<cr>
 
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+vmap <leader>F <Plug>(coc-format-selected)
+nmap <leader>F <Plug>(coc-format-selected)
+
+" ALE
+nmap <silent> <C-j> <Plug>(ale_next_wrap)
+nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+
 " ============================================================================ "
 " ===                                 MISC.                                === "
 " ============================================================================ "
 
 " Automaticaly close nvim if NERDTree is only thing left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+let g:clipboard = {
+  \ 'name': 'pbcopy',
+  \ 'copy': {
+  \    '+': 'pbcopy',
+  \    '*': 'pbcopy',
+  \  },
+  \ 'paste': {
+  \    '+': 'pbpaste',
+  \    '*': 'pbpaste',
+  \ },
+  \ 'cache_enabled': 0,
+  \ }
+
 
 " === Search === "
 " ignore case when searching

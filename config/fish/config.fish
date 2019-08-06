@@ -14,3 +14,4 @@ end
 if [ -d $HOME/.emacs.d/bin ]
   set PATH $HOME/.emacs.d/bin $PATH
 end
+set -g fish_user_paths "/usr/local/sbin" $fish_user_paths

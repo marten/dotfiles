@@ -14,3 +14,6 @@ end
 if [ -d $HOME/.emacs.d/bin ]
   set PATH $HOME/.emacs.d/bin $PATH
 end
+
+set -x LC_ALL en_US.UTF-8
+set LANG en_US

@@ -28,10 +28,15 @@ Plug 'ntpeters/vim-better-whitespace'
 " auto-close plugin
 Plug 'rstacruz/vim-closer'
 
+" 
+Plug 'terryma/vim-multiple-cursors'
+
 " Intellisense Engine
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}
-Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
+"Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}
+"Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
+"Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
 
 " Linting engine
 Plug 'dense-analysis/ale'
@@ -53,8 +58,8 @@ Plug 'Shougo/echodoc.vim'
 " === Git Plugins === "
 " Enable git changes to be shown in sign column
 "Plug 'mhinz/vim-signify'
-"Plug 'tpope/vim-fugitive'
-"Plug 'jreybert/vimagit'
+Plug 'tpope/vim-fugitive'
+Plug 'jreybert/vimagit'
 Plug 'airblade/vim-gitgutter'
 
 " Testing

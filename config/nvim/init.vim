@@ -230,19 +230,27 @@ nmap <silent> <leader>tl :TestLast<CR>
 nmap <silent> <leader>tg :TestVisit<CR>
 
 " coc
-nmap gd :call CocActionAsync('jumpDefinition')<cr>
+"nmap gd :call CocActionAsync('jumpDefinition')<cr>
+nmap gd :LspDefinition
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 vmap <leader>F <Plug>(coc-format-selected)
 nmap <leader>F <Plug>(coc-format-selected)
 
 " ALE
-nmap <silent> <C-j> <Plug>(ale_next_wrap)
-nmap <silent> <C-k> <Plug>(ale_previous_wrap)
+nmap <silent> <A-j> <Plug>(ale_next_wrap)
+nmap <silent> <A-k> <Plug>(ale_previous_wrap)
+
+" Terminal
+tnoremap <esc> <C-\><C-n>
 
 " ============================================================================ "
 " ===                                 MISC.                                === "
 " ============================================================================ "
+
+let g:ale_fixers = {
+      \  'javascript': ['prettier'],
+      \}
 
 " Automaticaly close nvim if NERDTree is only thing left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

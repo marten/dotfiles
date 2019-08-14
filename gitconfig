@@ -98,9 +98,11 @@
 
 [diff]
   tool = nvimdiff2
+  guitool = kitty.gui
   submodule = log
 [difftool]
   prompt = false
+  trustExitCode = true
 [difftool "Kaleidoscope"]
   cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool "sourcetree"]
@@ -108,6 +110,10 @@
   path = 
 [difftool "nvimdiff2"]
   cmd = nvim -d $LOCAL $REMOTE
+[difftool "kitty"]
+  cmd = kitty +kitten diff $LOCAL $REMOTE
+[difftool "kitty.gui"]
+  cmd = kitty kitty +kitten diff $LOCAL $REMOTE
 
 [git-up "rebase"]
   log-hook = "echo \"CHANGES FOR $1\"; git log $1..$2"

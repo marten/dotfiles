@@ -55,6 +55,7 @@ set shortmess+=c
 " ============================================================================ "
 
 source ~/.config/nvim/coc.vim
+source ~/.config/nvim/ale.vim
 source ~/.config/nvim/neosnippet.vim
 source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/airline.vim

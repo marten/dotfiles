@@ -64,7 +64,8 @@ Plug 'airblade/vim-gitgutter'
 
 " Testing
 Plug 'janko-m/vim-test'
-Plug 'tpope/vim-dispatch'
+Plug 'neomake/neomake'
+"Plug 'tpope/vim-dispatch'
 
 " === Javascript Plugins === "
 " Typescript syntax highlighting

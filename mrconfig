@@ -1,6 +1,9 @@
 [dotfiles]
 checkout = git clone 'git@github.com:marten/dotfiles.git' 'dotfiles'
 
+[.emacs.d]
+checkout = git clone 'https://github.com/hlissner/doom-emacs' .emacs.d
+
 [rgoc/docker-base-images]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/docker-base-images.git' 'docker-base-images'
 [rgoc/rq]

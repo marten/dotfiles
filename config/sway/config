@@ -17,13 +17,28 @@ set $right l
 set $term kitty
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
+set $menu rofi -show run | xargs swaymsg exec --
+
+set $bg-color #2f343f
+set $inactive-bg-color   #2f343f
+set $text-color          #f3f4f5
+set $inactive-text-color #676E7D
+set $urgent-bg-color     #E53935
+
+# window colors
+#                       border              background         text                 indicator   child border
+client.focused          $bg-color           $bg-color          $text-color          #00ff00     #285577
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00     #222222
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #00ff00     #5f676a
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00     #900000
+
+default_border pixel 4
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-#
+output * bg ~/dotfiles/wallpapers/wild-horses-in-cappadocia-turkey-photo-credit-to-daniil-vnoutchkov-632a59f9d9609a14a103ea6c9f9d01d3.jpg fill
+
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
@@ -34,11 +49,11 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * dpms off"' \
-#               resume 'swaymsg "output * dpms on"' \
-#          before-sleep 'swaylock -f -c 000000'
+exec swayidle -w \
+       timeout 300 'swaylock -f -c 2f343f' \
+       timeout 600 'swaymsg "output * dpms off"' \
+       resume 'swaymsg "output * dpms on"' \
+       before-sleep 'swaylock -f -c 2f343f'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -150,6 +165,9 @@ input "5050:24:Barcode_Reader" {
     bindsym $mod+Shift+0 move container to workspace 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
+    
+    bindsym $mod+Shift+less move workspace to output left
+    bindsym $mod+Shift+greater move workspace to output right
 #
 # Layout stuff:
 #
@@ -221,7 +239,8 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+    #status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+    swaybar_command waybar
 
     colors {
         statusline #ffffff

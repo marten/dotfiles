@@ -15,8 +15,5 @@ if [ -d $HOME/.emacs.d/bin ]
   set PATH $HOME/.emacs.d/bin $PATH
 end
 
-set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
-
 set -x LC_ALL en_US.UTF-8
 set LANG en_US
-set -g fish_user_paths "/usr/local/opt/openssl/bin" $fish_user_paths

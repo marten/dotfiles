@@ -30,6 +30,7 @@ Plug 'rstacruz/vim-closer'
 
 " 
 Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
 
 " Intellisense Engine
 "Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}

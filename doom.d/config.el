@@ -1,5 +1,24 @@
 ;;;  -*- lexical-binding: t; -*-
 
+(setq mac-command-modifier 'super
+      mac-option-modifier  'meta)
+
+(defun seeing-is-believing ()
+  "Replace the current region (or the whole buffer, if none) with the output
+of seeing_is_believing."
+  (interactive)
+  (let ((beg (if (region-active-p) (region-beginning) (point-min)))
+        (end (if (region-active-p) (region-end) (point-max)))
+        (origin (point)))
+    (shell-command-on-region beg end "seeing_is_believing --xmpfilter-style" nil 'replace)
+    (goto-char origin)))
+
+(define-key prog-mode-map (kbd "M-RET") 'emr-show-refactor-menu)
+(add-hook 'prog-mode-hook 'emr-initialize)
+(add-hook 'prog-mode-hook #'ws-butler-mode)
+(setq-default show-trailing-whitespace t)
+
+
 (setq doom-font (font-spec :family "Input Mono Narrow" :size 14)
       doom-big-font (font-spec :family "Input Mono Narrow" :size 25))
 

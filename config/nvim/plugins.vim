@@ -36,8 +36,8 @@ Plug 'tpope/vim-surround'
 "Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}
 "Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/vim-lsp'
+"Plug 'prabirshrestha/async.vim'
+"Plug 'prabirshrestha/vim-lsp'
 
 " Linting engine
 Plug 'dense-analysis/ale'

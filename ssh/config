@@ -54,6 +54,13 @@ Host erik
 
 # RGOc
 
+Host hetzner1
+  Hostname 88.99.252.98
+  User root
+Host hetzner2
+  Hostname 188.40.113.102
+  User root
+
 Host x0
   Hostname 10.254.0.200
   User root

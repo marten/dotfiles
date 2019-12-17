@@ -33,14 +33,17 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
 
 " Intellisense Engine
-"Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}
 "Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'prabirshrestha/async.vim'
 "Plug 'prabirshrestha/vim-lsp'
 
 " Linting engine
-Plug 'dense-analysis/ale'
+"Plug 'dense-analysis/ale'
+
+Plug 'alvan/vim-closetag'
+Plug 'AndrewRadev/tagalong.vim'
 
 " Tmux/Neovim movement integration
 Plug 'christoomey/vim-tmux-navigator'
@@ -66,6 +69,7 @@ Plug 'airblade/vim-gitgutter'
 " Testing
 Plug 'janko-m/vim-test'
 Plug 'neomake/neomake'
+Plug 'jgdavey/tslime.vim'
 "Plug 'tpope/vim-dispatch'
 
 " === Javascript Plugins === "
@@ -110,6 +114,7 @@ Plug 'scrooloose/nerdtree'
 
 " Colorscheme
 Plug 'mhartington/oceanic-next'
+Plug 'tomasr/molokai'
 
 " Customized vim status line
 Plug 'vim-airline/vim-airline'

@@ -1,5 +1,9 @@
 scriptencoding utf-8
 
+set t_Co=256
+set t_AB={48;5;%dm
+set t_AF={48;5;%dm
+
 source ~/.config/nvim/plugins.vim
 
 " ============================================================================ "
@@ -221,8 +225,13 @@ vmap <leader>/ :call NERDComment(0, "invert")<cr>
 
 " vim-test "
 "let test#strategy = "dispatch_background"
-let test#strategy = "neovim"
-let test#neovim#term_position = "vertical botright"
+if ($TMUX != "")
+  let test#strategy = "tslime"
+else
+  let test#strategy = "neovim"
+  let test#neovim#term_position = "vertical botright"
+endif
+
 nmap <silent> <leader>ts :TestNearest<CR>
 nmap <silent> <leader>tf :TestFile<CR>
 nmap <silent> <leader>ta :TestSuite<CR>
@@ -230,8 +239,11 @@ nmap <silent> <leader>tl :TestLast<CR>
 nmap <silent> <leader>tg :TestVisit<CR>
 
 " coc
-"nmap gd :call CocActionAsync('jumpDefinition')<cr>
-nmap gd :LspDefinition
+" or map to: :call CocActionAsync('jumpDefinition')<cr>
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 vmap <leader>F <Plug>(coc-format-selected)

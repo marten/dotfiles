@@ -30,6 +30,7 @@ brew "gnupg"
 brew "bench"
 brew "direnv"
 brew "tmux"
+brew "tmuxinator"
 
 tap "jtyr/repo"
 brew "gbt"

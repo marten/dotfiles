@@ -18,6 +18,9 @@ of seeing_is_believing."
 (add-hook 'prog-mode-hook #'ws-butler-mode)
 (setq-default show-trailing-whitespace t)
 
+(setq ivy-re-builders-alist
+      '((read-file-name-internal . ivy--regex-fuzzy)
+        (t . ivy--regex-plus)))
 
 (setq doom-font (font-spec :family "Input Mono Narrow" :size 14)
       doom-big-font (font-spec :family "Input Mono Narrow" :size 25))

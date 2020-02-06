@@ -40,3 +40,5 @@ checkout = git clone 'git@gitlab.roqua.nl:roqua/status.git' 'status'
 checkout = git clone 'git@gitlab.roqua.nl:roqua/gitlab_automator.git' 'gitlab-automator'
 [rgoc/documentation]
 checkout = git clone 'git@gitlab.roqua.nl:pages/documentation.git' 'documentation'
+[rgoc/grip]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/grip.git' grip

@@ -1,24 +1,58 @@
 {
-    "window.zoomLevel": 1,
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
-    "workbench.startupEditor": "none",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "trailing-spaces.deleteModifiedLinesOnly": true,
-    "ruby.format": "rufo",
-    "git.autofetch": true,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.highlightModifiedTabs": true,
-    "explorer.autoReveal": false,
-    "emmet.excludeLanguages": [
-        "markdown",
-        "typescript",
-        "typescript-react"
-    ],
-    "tslint.packageManager": "yarn",
-    "vim.normalModeKeyBindingsNonRecursive": [
-      {"before": [";"], "after": [":"]}
-    ]
+  "window.zoomLevel": -1,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "trailing-spaces.deleteModifiedLinesOnly": true,
+  "ruby.format": "rufo",
+  "git.autofetch": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "explorer.autoReveal": false,
+  "emmet.excludeLanguages": [
+    "markdown",
+    "typescript",
+    "typescript-react"
+  ],
+  "tslint.packageManager": "yarn",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        ";"
+      ],
+      "after": [
+        ":"
+      ]
+    }
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "vim.useSystemClipboard": true,
+  "vim.whichwrap": "h,j,k,l",
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

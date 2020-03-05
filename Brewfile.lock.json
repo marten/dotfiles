@@ -2,51 +2,93 @@
   "entries": {
     "cask": {
       "alfred": {
-        "version": "4.0.7_1131"
+        "version": "4.0.7_1131",
+        "options": {
+          "full_name": "alfred"
+        }
       },
       "visual-studio-code": {
-        "version": "1.41.1"
+        "version": "1.41.1",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
       },
       "bettertouchtool": {
-        "version": "3.219"
+        "version": "3.219",
+        "options": {
+          "full_name": "bettertouchtool"
+        }
       },
       "istat-menus": {
-        "version": "6.40"
+        "version": "6.40",
+        "options": {
+          "full_name": "istat-menus"
+        }
       },
       "dash": {
-        "version": "5.0.3"
+        "version": "5.0.3",
+        "options": {
+          "full_name": "dash"
+        }
       },
       "numi": {
-        "version": "3.23.639"
+        "version": "3.23.639",
+        "options": {
+          "full_name": "numi"
+        }
       },
       "spotify": {
-        "version": "latest"
+        "version": "latest",
+        "options": {
+          "full_name": "spotify"
+        }
       },
       "shiori": {
-        "version": "1.1.0"
+        "version": "1.1.0",
+        "options": {
+          "full_name": "shiori"
+        }
       },
       "caffeine": {
-        "version": "1.1.1"
+        "version": "1.1.1",
+        "options": {
+          "full_name": "caffeine"
+        }
       },
       "kitty": {
-        "version": "0.15.1"
+        "version": "0.16.0",
+        "options": {
+          "full_name": "kitty"
+        }
       },
       "dropbox": {
-        "version": "latest"
+        "version": "latest",
+        "options": {
+          "full_name": "dropbox"
+        }
       },
       "scroll-reverser": {
-        "version": "1.7.6"
+        "version": "1.7.6",
+        "options": {
+          "full_name": "scroll-reverser"
+        }
       },
       "sensiblesidebuttons": {
-        "version": "1.0.6"
+        "version": "1.0.6",
+        "options": {
+          "full_name": "sensiblesidebuttons"
+        }
       },
       "font-input": {
-        "version": "latest"
+        "version": "latest",
+        "options": {
+          "full_name": "font-input"
+        }
       }
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "d437ff8dd809d8aaf40de18e8948631553a54911"
+        "revision": "0750b0d95787f4af5987fbce807b420e774667d7"
       },
       "thoughtbot/formulae": {
         "revision": "edfc6ea49e3e394f5c1cafc59b48f480b1b9440d"
@@ -55,7 +97,7 @@
         "revision": "3dfb6d8ebb32338ef3f99fcb9362dfb4233b005c"
       },
       "d12frosted/emacs-plus": {
-        "revision": "2827fa7bcee705372a1eaa00c6aa229540a6c153"
+        "revision": "e4bc084f411b47e4b7e3ebab40310e7fc693eba0"
       }
     },
     "brew": {
@@ -127,22 +169,22 @@
         }
       },
       "git": {
-        "version": "2.25.0",
+        "version": "2.25.0_1",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.25.0.catalina.bottle.tar.gz",
-              "sha256": "8b55d36d8e8465ce563f6d0c969e3dec7b3b0092534596345b0d9450dee72729"
+              "url": "https://homebrew.bintray.com/bottles/git-2.25.0_1.catalina.bottle.tar.gz",
+              "sha256": "9ab68a09b14009dd3c28fcd3e6ef98213f675887615cab5c67d62a026ccc019b"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.25.0.mojave.bottle.tar.gz",
-              "sha256": "764785c78dbcb098b5673772503e01f2946fa37f97bebe257ee81ee416504879"
+              "url": "https://homebrew.bintray.com/bottles/git-2.25.0_1.mojave.bottle.tar.gz",
+              "sha256": "54508f6ad675b1a3964d8576b9123d1459f6edf4f8847e229b56ec76cf49014b"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/git-2.25.0.high_sierra.bottle.tar.gz",
-              "sha256": "3bcfa1937f04364e1590e6b5abe9c8cda3dc0e035690eeca6c57b6ce8cb981cc"
+              "url": "https://homebrew.bintray.com/bottles/git-2.25.0_1.high_sierra.bottle.tar.gz",
+              "sha256": "cac935cce4729d0cc61ce0b3cda18848d811c6e51a03498b6f44e6f3764b3b9e"
             }
           }
         }
@@ -244,26 +286,22 @@
         }
       },
       "direnv": {
-        "version": "2.20.1",
+        "version": "2.21.2",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/direnv-2.20.1.catalina.bottle.tar.gz",
-              "sha256": "63210cfbbd0febcb18f3c48b460a1a446f19ee9682566a78b7c44f3d289eed83"
+              "url": "https://homebrew.bintray.com/bottles/direnv-2.21.2.catalina.bottle.tar.gz",
+              "sha256": "31a7b6b1f16dd3e881ec693cb83e07757500f8d4810a5ebad3ab5986f7a6ef28"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/direnv-2.20.1.mojave.bottle.tar.gz",
-              "sha256": "548dc9aab0d941ce4bb15b5f5b0de0c70308cdebc2c6af8d54a644e57e71ffa5"
+              "url": "https://homebrew.bintray.com/bottles/direnv-2.21.2.mojave.bottle.tar.gz",
+              "sha256": "6a79378f41555b964e95c093c4a693fd2252c873bae453ebb309ec148eaeac7b"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/direnv-2.20.1.high_sierra.bottle.tar.gz",
-              "sha256": "eb6c47a8999d698a81032a4d5f60053ea898251575a79e95fcaeb35dcb15c6cb"
-            },
-            "sierra": {
-              "url": "https://homebrew.bintray.com/bottles/direnv-2.20.1.sierra.bottle.tar.gz",
-              "sha256": "6e5aea68152027b0117319dadf8ecdcc0183815073ea8dbfab10e7bf5967047c"
+              "url": "https://homebrew.bintray.com/bottles/direnv-2.21.2.high_sierra.bottle.tar.gz",
+              "sha256": "e490c0f7a242c35343e2f4d108b069380a9f73b2c7656d23db1c8940e549920b"
             }
           }
         }
@@ -315,22 +353,22 @@
         "bottle": false
       },
       "cmake": {
-        "version": "3.16.2",
+        "version": "3.16.3",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.2.catalina.bottle.tar.gz",
-              "sha256": "7b7d0cc5ceba524f0bea36285ab0cf5e23afc79b71633018ae504c22a32eaf0a"
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.3.catalina.bottle.tar.gz",
+              "sha256": "eb47fab78f567ef95be459336db2da86394e196ce544eee3cfdfa3fbb0861d2d"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.2.mojave.bottle.tar.gz",
-              "sha256": "58f068ef5e78c096258330bcc02855b3de3e36100e62802d70a471845575fc1c"
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.3.mojave.bottle.tar.gz",
+              "sha256": "4244d5f4624f0d16d2a2259b63246ac8c6bb0cf06f84231e65b4b6400a28bc42"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.2.high_sierra.bottle.tar.gz",
-              "sha256": "06a94d5dc873a08f122993a8fdbf6432798ff7c771754e932976a1a804d313e4"
+              "url": "https://homebrew.bintray.com/bottles/cmake-3.16.3.high_sierra.bottle.tar.gz",
+              "sha256": "7e3d416144b1962929b9f71ed469356b885ee827dd4216bbc78190a897bf6316"
             }
           }
         }
@@ -564,12 +602,12 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.2",
+        "HOMEBREW_VERSION": "2.2.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "5715bdbb8742d6441a4260440d59371b448d7f38",
-        "CLT": "11.3.1.0.1.1576735732",
+        "Homebrew/homebrew-core": "2da0dc898a663118daf535515a9d8eb4052e160f",
+        "CLT": "11.0.33.17",
         "Xcode": "11.3",
-        "macOS": "10.15.2"
+        "macOS": "10.15.3"
       }
     }
   }

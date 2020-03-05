@@ -1,0 +1,9 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.vimrc: vimrc
+    ~/Library/Application Support/Code/User/settings.json: Library/Application Support/Code/user/settings.json

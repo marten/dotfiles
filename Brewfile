@@ -10,7 +10,7 @@ cask "spotify"
 cask "shiori"
 cask "caffeine"
 cask "kitty"
-cask "dropbox"
+# cask "dropbox"
 cask "scroll-reverser"
 cask "sensiblesidebuttons"
 

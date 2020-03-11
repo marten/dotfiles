@@ -53,6 +53,10 @@ brew "autojump"
 brew "mr"
 # brew "postgresql"
 
+cask "karabiner-elements"
+tap "yqrashawn/goku"
+brew "goku"
+
 # brew "elixir"
 
 # brew "libyaml"

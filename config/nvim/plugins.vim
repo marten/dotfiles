@@ -38,6 +38,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': { -> coc#util#install()}}
 "Plug 'neoclide/coc-solargraph', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'prabirshrestha/async.vim'
 "Plug 'prabirshrestha/vim-lsp'
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Linting engine
 "Plug 'dense-analysis/ale'
@@ -126,6 +127,8 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 
 Plug 'scrooloose/nerdcommenter'
+
+Plug 'danro/rename.vim'
 
 " Initialize plugin system
 call plug#end()

@@ -1,0 +1,1 @@
+swiftc "activespace.swift" -import-objc-header "activespace.h" -O -o /Users/marten/bin/activespace

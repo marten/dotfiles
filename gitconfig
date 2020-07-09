@@ -140,3 +140,5 @@
   submodulesummary = 1
 [commit]
   verbose = true
+[gpg]
+	program = /usr/local/bin/gpg

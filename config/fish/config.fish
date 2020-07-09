@@ -1,5 +1,5 @@
 # AutoJump
-[ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
+#[ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
 
 if [ -d ~/bin ]
   set PATH $HOME/bin $PATH

@@ -1,0 +1,48 @@
+window_border_width 1
+window_padding_wdith 10.0
+single_window_margin_width# The modifier keys to press when clicking with the mouse on URLs to open the URL
+open_url_modifiers ctrl+shift
+
+# The program with which to open URLs that are clicked on. The special value "default" means to
+# use the operating system's default URL handler.
+open_url_with default
+
+# Choose whether to use the system implementation of wcwidth() (used to
+# control how many cells a character is rendered in).  If you use the system
+# implementation, then kitty and any programs running in it will agree. The
+# problem is that system implementations often are based on outdated unicode
+# standards and get the width of many characters, such as emoji, wrong. So if
+# you are using kitty with programs that have their own up-to-date wcwidth()
+# implementation, set this option to no.
+use_system_wcwidth yes
+
+# The value of the TERM environment variable to set
+term xterm-kitty
+
+# The width (in pts) of window borders. Will be rounded to the nearest number of pixels based on screen resolution.
+window_border_width 1
+
+# The window margin (in pts) (blank area outside the border)
+window_margin_width 0.0
+
+single_window_margin_width 10.0
+
+# The window padding (in pts) (blank area between the text and the window border)
+window_padding_width 10.0
+
+# The color for the border of the active window
+active_border_color #88c0d0
+
+# The color for the border of inactive windows
+inactive_border_color #f0f0f0
+
+# Tab-bar colors
+active_tab_foreground #fff
+active_tab_background #81a1c1
+inactive_tab_foreground #f0f0f0
+inactive_tab_background #94a3b3
+
+# OS specific tweaks
+
+# Hide the kitty window's title bar on macOS.
+macos_hide_titlebar yes

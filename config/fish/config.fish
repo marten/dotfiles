@@ -5,6 +5,10 @@ if [ -d ~/bin ]
   set PATH $HOME/bin $PATH
 end
 
+if [ -d $HOME/.cargo/bin ]
+  set PATH $HOME/.cargo/bin $PATH
+end
+
 if [ -d $HOME/.emacs.d/bin ]
   set PATH $HOME/.emacs.d/bin $PATH
 end

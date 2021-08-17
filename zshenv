@@ -44,3 +44,4 @@ if (( $+commands[java_home] )) ; then
 fi
 
 
+source "$HOME/.cargo/env"

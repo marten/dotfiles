@@ -1,7 +1,7 @@
 # /Users/marten/.config/tmuxinator/roqua.yml
 
-name: roqua
-root: ~/rgoc/roqua
+name: quby_admin
+root: ~/rgoc/quby_admin
 
 # Optional tmux socket
 # socket_name: foo

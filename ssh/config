@@ -10,10 +10,20 @@ Host roqua_imac_gateway
   Port 22
   User marten
 
+Host rdmz
+  ProxyJump roqua_imac_gateway
+
 Host w
   ProxyCommand ssh roqua_imac_gateway nc -w 1 172.16.100.100 22
   User marten
   ForwardAgent yes
+
+# RoQua
+Host prod-*
+  StrictHostKeyChecking no
+
+Host stag-*
+  StrictHostKeyChecking no
 
 # Zooniverse
 Host *.compute-1.amazonaws.com
@@ -95,9 +105,6 @@ Host x2gateway
   Port 995
   User vyatta
 
-Host backup
-  ProxyCommand ssh veldthuis@rsync.rgoc.nl nc -w 1 127.0.0.1 873
-
 Host x0repo
   ProxyCommand ssh x2gateway nc -w 1 10.10.42.100 22
   User root
@@ -111,8 +118,6 @@ Host gitlab
   ProxyCommand ssh rdmz nc -w 1 192.168.100.1 22
 Host dmz-redirect
   ProxyCommand ssh rdmz nc -w 1 192.168.90.11 22
-Host dmz-qubyadmin
-  ProxyCommand ssh rdmz nc -w 1 192.168.101.1 22
 
 # Hosted services
 

@@ -1,6 +1,6 @@
 [user]
-  name = Marten Veldthuis
-  email = marten@veldthuis.com
+	name = Marten Veldthuis
+	email = marten@veldthuis.com
   signingkey = 03C0DA07
 
 [branch]
@@ -65,7 +65,7 @@
   oauth-token-file = /Users/marten/.github-oauth-token
 
 [core]
-  excludesfile = ~/.gitignore_global
+	excludesfile = /Users/marten/.gitignore_global
   quotepath = false
   pager = less -S
 
@@ -93,8 +93,8 @@
   cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
   trustExitCode = true
 [mergetool "sourcetree"]
-  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
 
 [diff]
   tool = nvimdiff2
@@ -106,8 +106,8 @@
 [difftool "ksdiff"]
   cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [difftool "nvimdiff2"]
   cmd = nvim -d $LOCAL $REMOTE
 [difftool "kitty"]
@@ -140,5 +140,8 @@
   submodulesummary = 1
 [commit]
   verbose = true
+	template = /Users/marten/.stCommitMsg
 [gpg]
 	program = /usr/local/bin/gpg
+[init]
+	defaultBranch = main

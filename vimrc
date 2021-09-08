@@ -69,6 +69,7 @@ Plug 'jreybert/vimagit'
 Plug 'mhinz/vim-signify'
 
 Plug 'garbas/vim-snipmate'
+let g:snipMate = { 'snippet_version' : 1 }
 Plug 'scrooloose/snipmate-snippets'
 
 " " Ruby
@@ -79,6 +80,7 @@ Plug 'tpope/vim-haml'
 Plug 'kchmck/vim-coffee-script'
 Plug 'leafgarland/typescript-vim'
 Plug 'ryanolsonx/vim-lsp-typescript'
+Plug 'MaxMEllon/vim-jsx-pretty'
 
 " Clojure
 " Plug 'VimClojure'

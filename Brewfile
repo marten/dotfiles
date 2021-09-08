@@ -22,6 +22,10 @@ cask "font-input"
 tap "thoughtbot/formulae"
 brew "rcm"
 
+# Notes
+tap "xwmx/taps"
+brew "nb"
+
 
 # Window manager
 brew "koekeishiya/formulae/yabai"

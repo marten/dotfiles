@@ -75,7 +75,7 @@ source ~/.config/nvim/lang/ruby.vim
 " ============================================================================ "
 
 " Enable true color support
-set termguicolors
+" set termguicolors
 
 " Editor theme
 set background=dark

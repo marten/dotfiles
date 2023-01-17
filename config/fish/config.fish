@@ -15,3 +15,8 @@ end
 
 set -x LC_ALL en_US.UTF-8
 set LANG en_US
+
+# may be slow?
+source /usr/local/opt/asdf/libexec/asdf.fish
+
+starship init fish | source

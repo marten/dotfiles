@@ -4,14 +4,20 @@ Include ~/.ssh/roqua_autogen_config
 Host *
   AddKeysToAgent yes
   UseKeychain yes
+  PubkeyAcceptedAlgorithms +ssh-rsa
+  HostKeyAlgorithms +ssh-rsa,ssh-dss
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
 
 Host roqua_imac_gateway
   Hostname marten.rgoc.rug.nl
   Port 22
   User marten
 
-Host rdmz
-  ProxyJump roqua_imac_gateway
+  #Host rdmz
+  #ProxyJump roqua_imac_gateway
 
 Host w
   ProxyCommand ssh roqua_imac_gateway nc -w 1 172.16.100.100 22
@@ -53,13 +59,6 @@ Host erik
   User marten
 
 # RGOc
-
-Host hetzner1
-  Hostname 88.99.252.98
-  User root
-Host hetzner2
-  Hostname 188.40.113.102
-  User root
 
 Host x0
   Hostname 10.254.0.200

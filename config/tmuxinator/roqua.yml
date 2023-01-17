@@ -11,10 +11,10 @@ root: ~/rgoc/roqua
 
 # Project hooks
 # Runs on project start, always
-on_project_start:
-  - nvm use 12.10
-  - bundle install
-  - yarn install
+#on_project_start:
+#  - nvm use 12.10
+#  - bundle install
+#  - yarn install
 # Run on project start, the first time
 # on_project_first_start: command
 # Run on project start, after the first time
@@ -48,4 +48,12 @@ windows:
       panes:
         - bundle exec rails s
         - bin/webpack-dev-server
+  - epd:
+      root: ~/rgoc/roqua/frontend/packages/app-epd
+      panes:
+        - yarn dev
+  - manage:
+      root: ~/rgoc/roqua/frontend/packages/app-manage
+      panes:
+        - yarn dev
   - logs: tail -f log/development.log

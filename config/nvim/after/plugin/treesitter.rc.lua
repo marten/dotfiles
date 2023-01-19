@@ -18,7 +18,10 @@ ts.setup {
     "css",
     "html",
     "ruby",
-    "lua"
+    "lua", -- for vim
+    "vim", -- for vim
+    "c", -- for vim
+    "help" -- for vim
   },
   autotag = {
     enable = true,

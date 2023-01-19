@@ -40,6 +40,9 @@ vim.api.nvim_create_autocmd("InsertLeave", {
   command = "set nopaste"
 })
 
+vim.g.mapleader = ","
+vim.g.maplocalleader = ","
+
 -- Add asterisks in block comments
 vim.opt.formatoptions:append { 'r' }
 

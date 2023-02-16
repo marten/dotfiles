@@ -22,6 +22,16 @@ return require('packer').startup(function(use)
   }
 
   use {
+    'rmagatti/auto-session',
+    config = function()
+      require('auto-session').setup {
+        log_level = 'info'
+        -- auto_session_suppress_dirs = {'~/', '~/Projects'}
+      }
+    end
+  }
+
+  use {
     'VonHeikemen/lsp-zero.nvim',
     requires = {
       -- LSP Support
@@ -53,11 +63,34 @@ return require('packer').startup(function(use)
     -- or                            , branch = '0.1.x',
     requires = { 
       {'nvim-lua/plenary.nvim'},
-      {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+      {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' },
+      { "nvim-telescope/telescope-live-grep-args.nvim" }
     }
   }
 
+  use { "nvim-telescope/telescope-file-browser.nvim" }
+
+  use {
+    "AckslD/nvim-neoclip.lua",
+    requires = {
+      {'nvim-telescope/telescope.nvim'},
+    },
+    config = function()
+      require('neoclip').setup()
+    end,
+  }
+
   use { 'tpope/vim-commentary' }
+  use { 'tpope/vim-surround' }
+  use { 'AndrewRadev/splitjoin.vim' }
+  use {
+    'vim-test/vim-test',
+
+    requires = {
+      { 'tpope/vim-dispatch' },
+      { 'kassio/neoterm' }
+    }
+  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

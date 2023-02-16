@@ -5,6 +5,7 @@ vim.keymap.set('n', '<C-p>',     builtin.git_files,       { desc = 'Find [P]ath 
 
 vim.keymap.set('n', '<leader>f', builtin.live_grep,       { desc = '[F]ind (telescope)' })
 vim.keymap.set('n', '<C-f>',     builtin.live_grep,       { desc = '[F]ind (telescope)' })
+vim.keymap.set("n", "<leader>fg", ":lua require('telescope').extensions.live_grep_args.live_grep_args()<CR>")
 
 vim.keymap.set('n', '<leader>b', builtin.buffers,         { desc = '[B]uffers (telescope)' })
 vim.keymap.set('n', 'gb',        builtin.buffers,         { desc = '[B]uffers (telescope)' })
@@ -20,7 +21,10 @@ vim.keymap.set('n', '<leader>k', builtin.keymaps,         { desc = '[K]eymaps (t
 vim.keymap.set('n', '<leader>c', builtin.command_history, { desc = '[C]ommand history (telescope)',noremap = true })
 vim.keymap.set('n', 'gt',        builtin.tags,            { desc = '[G]o to C[T]ags (telescope)', noremap = true })
 
-require('telescope').setup {
+local telescope = require("telescope")
+
+
+telescope.setup {
   extensions = {
     fzf = {
       fuzzy = true,                    -- false will only do exact matching
@@ -33,6 +37,8 @@ require('telescope').setup {
 }
 
 -- Enable telescope fzf native, if installed
-require('telescope').load_extension('fzf')
+telescope.load_extension('fzf')
+telescope.load_extension("live_grep_args")
+telescope.load_extension("file_browser")
 
 

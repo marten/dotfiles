@@ -11,3 +11,4 @@ config/pgcli/history
 config/pgcli/log
 config/StardewValley
 config/nvim*/plugged/
+config/configstore/update-notifier-@docusaurus/core.json

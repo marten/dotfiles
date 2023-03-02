@@ -21,6 +21,14 @@ return {
         "vim",
         "yaml",
       },
+      highlight = {
+        enable = true,
+        disable = {},
+      },
+      indent = {
+        enable = true,
+        disable = { "ruby" },
+      },
       incremental_selection = {
         enable = true,
         keymaps = {

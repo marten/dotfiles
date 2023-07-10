@@ -1,3 +1,3 @@
-if (( $+commands[brew] )) ; then
-  source $(brew --prefix nvm)/nvm.sh
-fi
+# if (( $+commands[brew] )) ; then
+#   source $(brew --prefix nvm)/nvm.sh
+# fi

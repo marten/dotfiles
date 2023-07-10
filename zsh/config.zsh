@@ -1,11 +1,6 @@
 autoload -U colors
 colors
 
-setopt promptsubst
-autoload -U promptinit
-promptinit
-prompt gbt
-
 # Automatically pushd
 setopt autopushd
 
@@ -18,9 +13,6 @@ export EDITOR=vim
 if [ -f /usr/local/etc/autojump ]; then
     . /usr/local/etc/autojump
 fi
-
-# Setup nvm if we have it
-[[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
 
 # Setup my own bin as the first place to look
 #export PATH=$HOME/bin:$PATH

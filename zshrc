@@ -30,21 +30,12 @@ bindkey '^[[1;9D' backward-word
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Rustup
 [ -f $HOME/.cargo/env ] && source $HOME/.cargo/env
 
 export PATH=/anaconda2/bin:$PATH
-# added by travis gem
-[ -f /Users/marten/.travis/travis.sh ] && source /Users/marten/.travis/travis.sh
-
-# added by travis gem
-[ -f /home/marten/.travis/travis.sh ] && source /home/marten/.travis/travis.sh
-
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+eval "$(starship init zsh)"
+

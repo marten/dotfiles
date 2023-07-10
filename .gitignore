@@ -12,3 +12,4 @@ config/pgcli/log
 config/StardewValley
 config/nvim*/plugged/
 config/configstore/update-notifier-@docusaurus/core.json
+ssh/roqua_autogen_config

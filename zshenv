@@ -34,6 +34,11 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 export IDF_PATH=$HOME/dev/esp/esp-idf
 export ERL_AFLAGS="-kernel shell_history enabled"
 
+# https://stackoverflow.com/questions/52671926/rails-may-have-been-in-progress-in-another-thread-when-fork-was-called
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+export EDITOR=nvim
+
 if (( $+commands[java_home] )) ; then
   export JAVA_HOME="$(/usr/libexec/java_home)"
 fi

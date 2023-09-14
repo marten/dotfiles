@@ -37,7 +37,7 @@ alias vim='nvim'
 
 alias lg=lazygit
 
-
+alias pn=pnpm
 
 # Simulate OSX's pbcopy and pbpaste on other platforms
 if [ ! $(uname -s) = "Darwin" ]; then

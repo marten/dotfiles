@@ -35,7 +35,16 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 export PATH=/anaconda2/bin:$PATH
 
+eval "$(zoxide init zsh)"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(starship init zsh)"
 
+
+# bun completions
+[ -s "/Users/marten/.bun/_bun" ] && source "/Users/marten/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

@@ -9,3 +9,11 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
     vim.b.autoformat = false
   end,
 })
+
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  pattern = { "typescript", "typescriptreact" },
+  callback = function()
+    -- vim.cmd([[compiler tsc]])
+    vim.opt_local.makeprg = "yarn run tsc"
+  end,
+})

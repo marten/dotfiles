@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+pushd $HOME/rgoc/operations/ci-deployer
+bin/deployer rails console --application=roqua --environment=production
+popd

@@ -16,9 +16,6 @@ Host roqua_imac_gateway
   Port 22
   User marten
 
-  #Host rdmz
-  #ProxyJump roqua_imac_gateway
-
 Host w
   ProxyCommand ssh roqua_imac_gateway nc -w 1 172.16.100.100 22
   User marten
@@ -30,18 +27,6 @@ Host prod-*
 
 Host stag-*
   StrictHostKeyChecking no
-
-# Zooniverse
-Host *.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/zooniverse_1.pem
-  UserKnownHostsFile /dev/null
-  StrictHostKeyChecking=no
-
-Host heroku.com
- HostName heroku.com
-  IdentityFile ~/.ssh/id_rsa_heroku
-  User git
 
 # My workstations
 Host h

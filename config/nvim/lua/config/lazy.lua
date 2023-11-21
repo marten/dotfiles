@@ -48,4 +48,4 @@ require("lazy").setup({
   },
 })
 
-require("lazyvim.util").root_patterns = { ".git", "lua", ".editorconfig", ".vimroot" }
+vim.g.root_spec = { "cwd" }

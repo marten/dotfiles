@@ -2,16 +2,16 @@
 cask "alfred"
 cask "visual-studio-code"
 cask "discord"
-cask "msteams"
-cask "istat-menus"
+# cask "msteams"
+# cask "istat-menus"
 cask "dash" # code docs
 cask "paw" # preview http requests
 cask "numi" # calculator app
-cask "spotify" # musio
-cask "shiori" # pinboard app
-cask "caffeine" # don't sleep display
+# cask "spotify" # musio
+# cask "shiori" # pinboard app
+# cask "caffeine" # don't sleep display
 cask "kitty" # terminal
-cask "riot" # alternative work chat
+# cask "riot" # alternative work chat
 cask "the-unarchiver"
 
 # Fonts
@@ -26,25 +26,23 @@ brew "rcm"
 tap "xwmx/taps"
 brew "nb"
 
-
 # Window manager
-brew "koekeishiya/formulae/yabai"
-brew "koekeishiya/formulae/skhd"
+# brew "koekeishiya/formulae/yabai"
+# brew "koekeishiya/formulae/skhd"
 
 # To remap capslock to FN for window manager
-cask "karabiner-elements"
-tap "yqrashawn/goku"
-brew "goku"
+# cask "karabiner-elements"
+# tap "yqrashawn/goku"
+# brew "goku"
 
 # Hardware
-cask "bettertouchtool"
-cask "sensiblesidebuttons" # enable the use of back/forward button on external mice
-cask "scroll-reverser" # change scroll wheel direction on external mice only
+# cask "sensiblesidebuttons" # enable the use of back/forward button on external mice
+# cask "scroll-reverser" # change scroll wheel direction on external mice only
 
 # Editors
 brew "neovim"
-tap "d12frosted/emacs-plus"
-brew "emacs-plus", link: true
+# tap "d12frosted/emacs-plus"
+# brew "emacs-plus", link: true
 
 # CLI Utils
 brew "ripgrep"
@@ -62,6 +60,11 @@ brew "exa" # alternative for "ls"
 brew "ssh-audit"
 brew "rename"
 brew "watchexec"
+brew "ssh-copy-id"
+brew "the_silver_searcher"
+brew "sshuttle"
+brew "autojump"
+brew "mr"
 
 tap "jtyr/repo"
 brew "gbt"
@@ -72,13 +75,10 @@ brew "cmake"
 brew "htop"
 brew "httpie"
 
+# Languages
 brew "rbenv"
-brew "nvm"
-brew "ssh-copy-id"
-brew "the_silver_searcher"
-brew "sshuttle"
-brew "autojump"
-brew "mr"
+brew "fnm"
+
 # brew "postgresql"
 
 

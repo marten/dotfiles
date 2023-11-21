@@ -41,6 +41,9 @@ eval "$(zoxide init zsh)"
 
 eval "$(starship init zsh)"
 
+# add --use-on-cd if you want it to switch automatically
+eval "$(fnm env)"
+
 
 # bun completions
 [ -s "/Users/marten/.bun/_bun" ] && source "/Users/marten/.bun/_bun"

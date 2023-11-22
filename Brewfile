@@ -2,25 +2,14 @@
 cask "alfred"
 cask "visual-studio-code"
 cask "discord"
-# cask "msteams"
-# cask "istat-menus"
-cask "dash" # code docs
-cask "paw" # preview http requests
 cask "numi" # calculator app
-# cask "spotify" # musio
-# cask "shiori" # pinboard app
-# cask "caffeine" # don't sleep display
 cask "kitty" # terminal
-# cask "riot" # alternative work chat
 cask "the-unarchiver"
 
 # Fonts
 tap "homebrew/cask-fonts"
 cask "font-input"
-
-# Dotfiles management
-tap "thoughtbot/formulae"
-brew "rcm"
+cask "font-dejavu-sans-mono-nerd-font"
 
 # Notes
 tap "xwmx/taps"
@@ -65,20 +54,16 @@ brew "the_silver_searcher"
 brew "sshuttle"
 brew "autojump"
 brew "mr"
-
-tap "jtyr/repo"
-brew "gbt"
-
-brew "cmake"
-
-
-brew "htop"
-brew "httpie"
+brew "lazygit"
+brew "tree-sitter"
 
 # Languages
 brew "rbenv"
 brew "fnm"
+brew "pnpm"
 
+# Dev stuff
+#
 # brew "postgresql"
 
 
@@ -91,4 +76,3 @@ brew "fnm"
 # brew "openssl"
 # brew "openssl-osx-ca"
 # brew "vim"
-# brew "postgresql"

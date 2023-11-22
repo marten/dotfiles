@@ -1,9 +1,21 @@
 - defaults:
     link:
       relink: true
+      create: true
 
 - clean: ['~']
 
 - link:
-    ~/.vimrc: vimrc
-    ~/Library/Application Support/Code/User/settings.json: Library/Application Support/Code/user/settings.json
+    ~/.gitconfig: gitconfig
+    ~/.mrconfig: mrconfig
+    ~/.ssh: ssh
+    ~/.zshrc:
+      path: zshrc
+      force: true
+
+    ~/.config/kitty:
+      path: config/kitty
+      force: true
+    ~/.config/nvim:
+      path: config/nvim
+

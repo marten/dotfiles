@@ -1,8 +1,4 @@
 #!/bin/bash
 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew bundle
-
-cd $HOME
-rcup -d $HOME/dotfiles
-cd -
+op document get rluxtqym3zcgnbakp34splkwhi >~/.ssh/id_rsa
+op document get n6hm34v5azgavgzzj3x4mxea3e >~/.ssh/id_rsa.pub

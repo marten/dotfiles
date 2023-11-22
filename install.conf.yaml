@@ -12,6 +12,7 @@
     ~/.zshrc:
       path: zshrc
       force: true
+    ~/.zshenv: zshenv
 
     ~/.config/kitty:
       path: config/kitty

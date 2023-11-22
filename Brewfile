@@ -5,6 +5,8 @@ cask "discord"
 cask "numi" # calculator app
 cask "kitty" # terminal
 cask "the-unarchiver"
+cask "firefox"
+cask "fork"
 
 # Fonts
 tap "homebrew/cask-fonts"

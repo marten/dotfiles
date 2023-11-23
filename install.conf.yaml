@@ -6,18 +6,25 @@
 - clean: ["~"]
 
 - link:
+    ~/.ackrc: ackrc
+    ~/.config/fish: config/fish
+    ~/.config/git: config/git
+    ~/.config/htop: config/htop
+    ~/.config/kitty:
+      path: config/kitty
+      force: true
+    ~/.config/nvim: config/nvim
+    ~/.config/pgcli/config: config/pgcli/config
+    ~/.config/starship.toml: config/starship.toml
+    ~/.doom.d: doom.d
+    ~/.gemrc: gemrc
     ~/.gitconfig: gitconfig
+    ~/.gitignore_global:
+    ~/.irbrc: irbrc
     ~/.mrconfig: mrconfig
     ~/.ssh: ssh
+    ~/.tmux.conf: .tmux.conf
     ~/.zshrc:
       path: zshrc
       force: true
     ~/.zshenv: zshenv
-    ~/.tmux.conf: .tmux.conf
-    ~/.doom.d: doom.d
-
-    ~/.config/kitty:
-      path: config/kitty
-      force: true
-    ~/.config/nvim:
-      path: config/nvim

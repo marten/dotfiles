@@ -33,18 +33,12 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 # System Preferences > Keyboard >
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
-# Disable “natural” (Lion-style) scrolling
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
-
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
-# Check for software updates daily, not just once per week
-defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-
 # Enable subpixel font rendering on non-Apple LCDs
-defaults write NSGlobalDomain AppleFontSmoothing -int 2
+# defaults write NSGlobalDomain AppleFontSmoothing -int 2
 
 # Increase sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
@@ -53,7 +47,6 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-
 
 # System Preferences > Dock > Size:
 defaults write com.apple.dock tilesize -int 36
@@ -88,8 +81,6 @@ defaults write com.apple.finder EmptyTrashSecurely -bool true
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
-
-
 
 ### Other
 
@@ -126,7 +117,6 @@ defaults write com.apple.terminal StringEncodings -array 4
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
-
 # Show the main window when launching Activity Monitor
 defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
 
@@ -160,17 +150,13 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # Disable continuous spell checking
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
-
-
-
-chsh -s /usr/local/bin/fish
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 # Kill affected apps
 for app in "Dock" "Finder"; do
-  killall "${app}" > /dev/null 2>&1
+	killall "${app}" >/dev/null 2>&1
 done
 
 # Done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+

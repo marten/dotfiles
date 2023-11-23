@@ -126,11 +126,17 @@
         "options": {
           "full_name": "fork"
         }
+      },
+      "telegram": {
+        "version": "10.2.4,255298",
+        "options": {
+          "full_name": "telegram"
+        }
       }
     },
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "27ed44b353f6d95ba47f12ef7d6e631726392340"
+        "revision": "075f386d2aed99a3eb6ff6fefb80af0679f31918"
       },
       "thoughtbot/formulae": {
         "revision": "233415f7abd004b73702e4ecccf916e480b38ec7"
@@ -1702,7 +1708,7 @@
         "Homebrew/homebrew-core": "api",
         "CLT": "15.0.0.0.1.1694021235",
         "Xcode": "15.0",
-        "macOS": "14.1"
+        "macOS": "14.1.1"
       }
     }
   }

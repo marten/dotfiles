@@ -7,6 +7,7 @@ cask "kitty" # terminal
 cask "the-unarchiver"
 cask "firefox"
 cask "fork"
+cask "telegram"
 
 # Fonts
 tap "homebrew/cask-fonts"

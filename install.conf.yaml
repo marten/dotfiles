@@ -3,7 +3,7 @@
       relink: true
       create: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     ~/.gitconfig: gitconfig
@@ -13,10 +13,11 @@
       path: zshrc
       force: true
     ~/.zshenv: zshenv
+    ~/.tmux.conf: .tmux.conf
+    ~/.emacs.d: .emacs.d
 
     ~/.config/kitty:
       path: config/kitty
       force: true
     ~/.config/nvim:
       path: config/nvim
-

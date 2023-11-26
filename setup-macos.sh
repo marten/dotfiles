@@ -29,7 +29,7 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
 # System Preferences > Keyboard >
-defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain KeyRepeat -int 1
 # System Preferences > Keyboard >
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
@@ -159,4 +159,3 @@ done
 
 # Done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
-

@@ -19,10 +19,11 @@
     ~/.doom.d: doom.d
     ~/.gemrc: gemrc
     ~/.gitconfig: gitconfig
-    ~/.gitignore_global:
+    ~/.gitignore_global: .gitignore_global
     ~/.irbrc: irbrc
     ~/.mrconfig: mrconfig
-    ~/.ssh: ssh
+    ~/.ssh/config: ssh/config
+    ~/.ssh/authorized_keys: ssh/authorized_keys
     ~/.tmux.conf: .tmux.conf
     ~/.zshrc:
       path: zshrc

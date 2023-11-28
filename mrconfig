@@ -10,8 +10,6 @@ checkout = git clone 'git@gitlab.roqua.nl:roqua/docker-base-images.git' 'docker-
 checkout = git clone 'git@gitlab.roqua.nl:roqua/rq.git' 'rq'
 [rgoc/documentation]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/documentation.git' 'deployer'
-[rgoc/deployer]
-checkout = git clone 'git@gitlab.roqua.nl:roqua/deployer.git' 'deployer'
 [rgoc/roqua]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/roqua.git' 'roqua'
 [rgoc/quby]
@@ -22,10 +20,6 @@ checkout = git clone 'git@gitlab.roqua.nl:roqua/core.git' 'core'
 checkout = git clone 'git@gitlab.roqua.nl:roqua/questionnaires.git' 'questionnaires'
 [rgoc/quby_admin]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/quby_admin.git' 'quby_admin'
-[rgoc/sysop]
-checkout = git clone 'git@gitlab.roqua.nl:roqua/sysop.git' 'sysop'
-[rgoc/chef]
-checkout = git clone 'git@gitlab.roqua.nl:roqua/chef.git' 'chef'
 [rgoc/roqua-support]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/roqua-support.git' 'roqua-support'
 [rgoc/authmac]
@@ -36,9 +30,18 @@ checkout = git clone 'git@gitlab.roqua.nl:roqua/medo.git' 'medo'
 checkout = git clone 'git@gitlab.roqua.nl:roqua/healthy.git' 'healthy'
 [rgoc/status]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/status.git' 'status'
-[rgoc/gitlab-automator]
-checkout = git clone 'git@gitlab.roqua.nl:roqua/gitlab_automator.git' 'gitlab-automator'
 [rgoc/documentation]
 checkout = git clone 'git@gitlab.roqua.nl:pages/documentation.git' 'documentation'
 [rgoc/grip]
 checkout = git clone 'git@gitlab.roqua.nl:roqua/grip.git' grip
+
+[rgoc/operations/gitlab-automator]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/gitlab_automator.git' 'gitlab-automator'
+[rgoc/operations/chef]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/chef.git' 'chef'
+[rgoc/operations/ci-deployer]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/operations/ci-deployer.git' 'ci-deployer'
+[rgoc/operations/ci-deployment-scripts]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/operations/ci-deployment-scripts.git' 'ci-deployment-scripts'
+[rgoc/operations/deployer]
+checkout = git clone 'git@gitlab.roqua.nl:roqua/deployer.git' 'deployer'

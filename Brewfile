@@ -11,7 +11,9 @@ cask "telegram"
 
 # Fonts
 tap "homebrew/cask-fonts"
+cask "font-symbols-only-nerd-font" # This lets kitty pull NERD symbols for any font
 cask "font-input"
+cask "font-source-code-pro"
 cask "font-dejavu-sans-mono-nerd-font"
 
 # Notes

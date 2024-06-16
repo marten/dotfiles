@@ -2,6 +2,8 @@ fpath=($HOME/.zsh/functions $HOME/.zsh/completions $fpath)
 typeset -U fpath
 
 # Setup PATH
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
 export PATH=/usr/local/Cellar/macvim/7.3-64/MacVim.app/Contents/MacOS:$PATH
 export PATH=/usr/local/share/python:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH

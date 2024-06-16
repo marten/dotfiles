@@ -10,7 +10,6 @@ cask "fork"
 cask "telegram"
 
 # Fonts
-tap "homebrew/cask-fonts"
 cask "font-symbols-only-nerd-font" # This lets kitty pull NERD symbols for any font
 cask "font-input"
 cask "font-source-code-pro"
@@ -44,13 +43,14 @@ brew "fd"
 brew "fzf" # used by vim
 brew "git"
 brew "zsh"
+brew "starship"
 brew "fish"
 brew "gnupg"
 brew "bench"
 brew "direnv"
 brew "tmux"
 brew "tmuxinator"
-brew "exa" # alternative for "ls"
+brew "eza" # alternative for "ls"
 brew "ssh-audit"
 brew "rename"
 brew "watchexec"
@@ -81,3 +81,4 @@ brew "pnpm"
 # brew "openssl"
 # brew "openssl-osx-ca"
 # brew "vim"
+
